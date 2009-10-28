@@ -1,0 +1,1 @@
+<?php $_SERVER['DOCUMENT_ROOT'] = substr($_SERVER['SCRIPT_FILENAME'], 0, -9); ?>
