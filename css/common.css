@@ -1,0 +1,46 @@
+/* CSS */
+
+/* Reset default positioning values */
+@import "reset.css";
+
+/*************** Layout */
+
+
+/*************** Generic Classes */
+
+.floatLeft      { float: left; display: inline; }
+.floatRight     { float: right; display: inline; }
+.centered       { text-align: center; }
+.center         { margin: 0 auto; }
+.alignRight     { text-align: right; }
+
+img.border      { }
+
+.noMargin       { margin: 0px; }
+.marginRight    { margin-right: 8px; }
+.marginLeft     { margin-left: 8px; }
+.marginTop      { margin-top: 8px; }
+.marginBottom   { margin-bottom: 8px; }
+
+.tiny           { font-size: 10px; line-height: 14px; }
+.small          { font-size: 11px; line-height: 16px; }
+.normal         { font-size: 12px; line-height: 18px; }
+.medium         { font-size: 14px; line-height: 20px; }
+.big            { font-size: 16px; line-height: 22px; }
+.huge           { font-size: 20px; letter-spacing: -1px; line-height: 24px; }
+
+.italic         { font-style: italic; }
+.bold           { font-weight: bold; }
+.nobold         { font-weight: normal; }
+
+.grey           { color: #999999; }
+.blue           { color: #307abf; }
+.green          { color: #339933; }
+.red            { color: #993333; }
+.black          { color: #111111; }
+.lightgrey      { color: #eeeeee; }
+.white          { color: #ffffff; }
+.gold           { color: #c58b01; }
+.purple         { color: #113366; }
+
+.hidden         { display: none; }
