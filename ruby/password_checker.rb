@@ -52,7 +52,7 @@ print "Enter a password to test: "
 pass = gets
 
 if (pass.length >= MIN_LENGTH)
-  @base = 50 
+  @base = 25
   @total = analyze(pass.chomp)
 end
 
@@ -66,6 +66,16 @@ puts "\n" <<
      'Symbols bonus: ' << (@types['symbols'] * @bonus['symbols']).to_s << ' [' << @types['symbols'].to_s << ' x ' << @bonus['symbols'].to_s << ']' << "\n" <<
      'Combo (mix of letters, numbers, symbols): ' << @bonus['combo'].to_s << "\n" <<
      'Penalty (lowercase only or numbers-only): ' << @bonus['penalty'].to_s << "\n" <<
-     'Total: ' << @total.to_s << "\n" <<
-     '=================' << "\n" <<
+     'Total: ' << @total.to_s << "\n"
+     case @total
+     when 0..30
+       puts 'Strength: Weak' << "\n"
+     when 31..60
+       puts 'Strength: Decent' << "\n"
+     when 61..90
+       puts 'Strength: Strong' << "\n"
+     else
+       puts 'Strength: Extreme' << "\n"
+     end
+puts '=================' << "\n" <<
      "\n"
