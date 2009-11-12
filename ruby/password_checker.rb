@@ -22,7 +22,7 @@ def analyze(pass)
     @types['upper'] += 1 if char.match(/[A-Z]/)
     @types['numbers'] += 1 if char.match(/[0-9]/)
     @types['symbols'] += 1 if char.match(/[^\w\d]/)
-    @types['excess'] = pass.length - MIN_LENGTH if pass.length >= MIN_LENGTH
+    @types['excess'] = pass.length - MIN_LENGTH
   }
   
   # Assign a combo bonus for combinations of uppercase, numbers
