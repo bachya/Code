@@ -54,6 +54,7 @@ pass = gets
 if (pass.length >= MIN_LENGTH)
   @base = 25
   @total = analyze(pass.chomp)
+  @total = 0 if @total < 0
 end
 
 puts "\n" <<
