@@ -1,6 +1,6 @@
 package com.example.it1;
 
-import android.app.Activity;
+import android.app.Activity;     
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -25,7 +25,7 @@ public class InterfaceTest1 extends Activity
   @Override
   public void onCreate(Bundle savedInstanceState)
   {
-    super.onCreate(savedInstanceState);
+    super.onCreate(savedInstanceState);  
     setContentView(R.layout.buttons);
 
     //|
@@ -81,23 +81,23 @@ public class InterfaceTest1 extends Activity
       @Override
       public void onClick(View v)
       {
-        Context context = getApplicationContext();
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        AlertDialog.Builder builder = new AlertDialog.Builder(InterfaceTest1.this);
         builder.setMessage("Are you sure you want to exit?")
                .setCancelable(false)
                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                 public void onClick(DialogInterface dialog, int id) {
-                   finish();
-                 }
+                   public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
+                   }
                })
                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                 public void onClick(DialogInterface dialog, int id) {
-                   dialog.cancel();
-                 }
+                   public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                   }
                });
-               AlertDialog alert = builder.create();
+        AlertDialog alert = builder.create();
+        alert.show();
       }
-    });
+    });   
   }
   
 }
