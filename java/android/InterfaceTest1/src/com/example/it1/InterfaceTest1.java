@@ -33,7 +33,6 @@ public class InterfaceTest1 extends Activity
     //|
     this.toast_button = (Button) this.findViewById(R.id.toast_button);
     this.toast_button.setOnClickListener(new OnClickListener() {
-      @Override
       public void onClick(View v)
       {
         Context context = getApplicationContext();
@@ -49,7 +48,6 @@ public class InterfaceTest1 extends Activity
     //|
     this.notification_button = (Button) this.findViewById(R.id.notification_button);
     this.notification_button.setOnClickListener(new OnClickListener() {
-      @Override
       public void onClick(View v)
       {
         String ns = Context.NOTIFICATION_SERVICE;
@@ -78,7 +76,6 @@ public class InterfaceTest1 extends Activity
     //|
     this.dialog_button = (Button) this.findViewById(R.id.dialog_button);
     this.dialog_button.setOnClickListener(new OnClickListener() {
-      @Override
       public void onClick(View v)
       {
         AlertDialog.Builder builder = new AlertDialog.Builder(InterfaceTest1.this);
