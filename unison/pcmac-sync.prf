@@ -3,27 +3,14 @@ include common
 
 # Roots for synchronization
 root = /Users/bachya
-root = ssh://localhost:9999//home/bachya
+root = ssh://aaron@localhost:9999//home/aaron
 
 # Paths for synchronization
 path = Documents
-path = Code
 path = .ssh
 
-# Specific things to ignore
-ignore = Name Parallels
+# Names to ignore
 ignore = Name Microsoft User Data
-ignore = Name RECYCLER
-ignore = Name .parallels-vm-directory
-ignore = Name desktop.ini
+ignore = Name MD.md*
 ignore = Name known_hosts
-ignore = Name *.lnk
-ignore = Name authorized_keys2
-ignore = Name known_hosts
-ignore = Path Code/autohotkey
-ignore = Path Code/git-repositories
-ignore = Path Code/textmate
-ignore = Path .ssh/config
-
-# Symlinks
-#follow = Path Documents/Web
+ignore = Name authorized_keys*
