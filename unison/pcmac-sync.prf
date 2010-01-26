@@ -11,6 +11,8 @@ path = .ssh
 
 # Names to ignore
 ignore = Name Microsoft User Data
-ignore = Name MD.md*
 ignore = Name known_hosts
 ignore = Name authorized_keys*
+
+# Paths to ignore
+ignore = Path Documents/Personal/Financial/Moneydance
