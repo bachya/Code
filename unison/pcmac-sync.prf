@@ -10,9 +10,11 @@ path = Documents
 path = .ssh
 
 # Names to ignore
-ignore = Name Microsoft User Data
 ignore = Name known_hosts
 ignore = Name authorized_keys*
+ignore = Name *.pages
+ignore = Name *.numbers
+ignore = Name *.keynote
 
 # Paths to ignore
 ignore = Path Documents/Personal/Financial/Moneydance

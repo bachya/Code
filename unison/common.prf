@@ -21,3 +21,4 @@ ignore = Name .DS_Store
 ignore = Name .localized
 ignore = Name Icon?
 ignore = Name *.old
+ignore = Name .*
