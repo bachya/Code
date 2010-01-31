@@ -7,15 +7,15 @@ use Switch;
 my @args = @ARGV;
 
 #|
-#|  SSH/SFTP argument style.  Should support:
+#|  SSH/SFTP argument style.  Should support these examples:
 #|    s [--ssh --sftp] user@host
 #|    s [--ssh --sftp] user@host:port
 #|
 my $sshRegex = "^([a-z0-9]+)@([^\\d:\\s]+)(:(\\d+))?\$";
 
 #|
-#|  SCP argument style.  Should support:
-#|    s --scp *.txt user@host:port
+#|  SCP argument style.  Should support these examples:
+#|    s --scp ~/.tmp/*.txt user@host:port
 #|    s --scp user@host:port:/home/user/*.txt /some/path
 #|
 my $scpRegex = "^([a-z0-9]+)@([^\\d:\\s]+)(:(\\d+))?:([a-z0-9\\\\\/*\\.~]+)\\s([a-z0-9\\\\\/*\\.~]+)|([a-z0-9\\\\\/*\\.~]+)\\s([a-z0-9]+)@([^\\d:\\s]+)(:(\\d+))?:([a-z0-9\\\\\/*\\.~]+)?\$";
