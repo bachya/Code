@@ -87,7 +87,14 @@ sub parseAndRun
 #|
 #|  Prints the usage message.
 #|
-sub printUsageMessage { print "Usage: s [--ssh --scp --ftp]\n"; }
+sub printUsageMessage 
+{ 
+  print "Usage:
+  psh.pl --ssh user\@host[:port]
+  psh.pl --sftp user\@host[:port]
+  psh.pl --scp /path/to/file user\@host[:port]:[/remote/path]
+  psh.pl --scp user\@host[:port]:/remote/path/to/file /local/path\n";
+}
 
 
 #--------------- MAIN PROGRAM ---------------#
