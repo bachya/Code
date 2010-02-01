@@ -110,15 +110,15 @@ sub printUsageMessage
 #|  option is passed, the usage message is printed.
 #|
 my ($ssh, $sftp) = '', my @scp;
-GetOptions('ssh=s' => \$ssh, 'scp=s{2}' => \@scp, 'sftp=s' => \$sftp);
+GetOptions('ssh=s' => \$ssh, 'sftp=s' => \$sftp, 'scp=s{2}' => \@scp);
 
 if    ($ssh)  { parseAndRun('ssh', $ssh, "^$userHostRegex\$"); }
 elsif ($sftp) { parseAndRun('sftp', $sftp, "^$userHostRegex\$"); }
 elsif (@scp)
 {
   # Since scp really has two arguments - a user/host combo and
-  # a path - we need to assemble it into one string so that
-  # parseAndRun can accept it.
+  # a path - we need to assemble it into one string that
+  # parseAndRun can accept.
   my $scpString = '';
   foreach (@scp) { $scpString .= $_ . ' '; }
   $scpString =~ s/\s+$//;
