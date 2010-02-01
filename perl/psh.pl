@@ -1,31 +1,36 @@
 #!/usr/bin/env perl
-#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------
 #  psh.pl
 #  A wrapper for ssh, sftp, and scp that looks innoculous enough at first 
 #  glance:
-#    psh.pl --ssh user@host => ssh user@host
-#    psh.pl --sftp user@host => sftp user@host
+#
+#    psh.pl --ssh user@host                => ssh user@host
+#    psh.pl --sftp user@host               => sftp user@host
 #    psh.pl --scp /home/file.txt user@host => scp /home/file.txt user@host
 #  
 #  However, psh.pl has an added advantage: to specify a different port,
 #  all one has to do is append :{port-number} to the end of the string:
-#    psh.pl --ssh user@host:2321 => ssh -p 2321 user@host
-#    psh.pl --sftp user@host:2321 => sftp -oPort=2321 user@host
+#
+#    psh.pl --ssh user@host:2321                => ssh -p 2321 user@host
+#    psh.pl --sftp user@host:2321               => sftp -oPort=2321 user@host
 #    psh.pl --scp /home/file.txt user@host:2321 => scp -oPort=2321 /home/file.txt user@host
 #
 #  Again, perhaps not *the* most exciting thing in the world.  But what if it were combined 
 #  with user/host combinations stored in environment variables?  Imagine these:
+#
 #    export host1=user@host1
 #    export host2=user@host2:8872
 #
 #  Instead of having to type out long, complicated ssh/sftp/scp strings, psh.pl allows you
 #  to do the following:
-#    psh.pl --ssh $host1 => ssh user@host1
-#    psh.pl --sftp $host1 => sftp user@host1
-#    psh.pl --scp $host2:/home/file.txt . => scp -oPort=8872 user@host2:/home/file.txt .
+#
+#    psh.pl --ssh $host1                             => ssh user@host1
+#    psh.pl --sftp $host1                            => sftp user@host1
+#    psh.pl --scp $host2:/home/file.txt .            => scp -oPort=8872 user@host2:/home/file.txt .
+#    psh.pl --scp ~/other_file.pdf $host2:/home/user => scp -oPort=8872 ~/other_file.pdf user@host2:/home/user
 #
 #  Cool!
-#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------
 use warnings;
 use strict;
 use Getopt::Long;
