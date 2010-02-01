@@ -18,14 +18,14 @@
 #  Again, perhaps not *the* most exciting thing in the world.  But what if it were combined 
 #  with user/host combinations stored in environment variables?  Imagine these:
 #
-#    export host1=user@host1
+#    export host1=user@host1:22981
 #    export host2=user@host2:8872
 #
 #  Instead of having to type out long, complicated ssh/sftp/scp strings, psh.pl allows you
 #  to do the following:
 #
-#    psh.pl --ssh $host1                             => ssh user@host1
-#    psh.pl --sftp $host1                            => sftp user@host1
+#    psh.pl --ssh $host1                             => ssh -p 22981 user@host1
+#    psh.pl --sftp $host1                            => sftp -oPort=22981 user@host1
 #    psh.pl --scp $host2:/home/file.txt .            => scp -oPort=8872 user@host2:/home/file.txt .
 #    psh.pl --scp ~/other_file.pdf $host2:/home/user => scp -oPort=8872 ~/other_file.pdf user@host2:/home/user
 #
