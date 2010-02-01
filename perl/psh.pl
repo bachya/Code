@@ -44,7 +44,7 @@ my $pathRegex = '(~?[\w/\\\.\\s\-*]+)';
 
 #|
 #|  Regex to define scp combinations; since
-#|  these is such a unique beast, we have to
+#|  these are such a unique beast, we have to
 #|  form a regex special to them.
 #|
 my $scpRegex = "($pathRegex\\s$userHostRegex:($pathRegex:)?|$userHostRegex:$pathRegex\\s$pathRegex)";
