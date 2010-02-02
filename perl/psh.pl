@@ -102,7 +102,7 @@ sub printUsageMessage
 }
 
 
-#--------------- MAIN PROGRAM ---------------#
+#---------------------- MAIN PROGRAM ----------------------#
 
 #|
 #|  Pull options from the command line.  If more than one
