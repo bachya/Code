@@ -18,14 +18,14 @@
 #  Again, perhaps not *the* most exciting thing in the world.  But what if it were combined 
 #  with user/host combinations stored in environment variables?  Imagine these:
 #
-#    export host1=user@host1
+#    export host1=user@host1:22981
 #    export host2=user@host2:8872
 #
 #  Instead of having to type out long, complicated ssh/sftp/scp strings, psh.pl allows you
 #  to do the following:
 #
-#    psh.pl --ssh $host1                             => ssh user@host1
-#    psh.pl --sftp $host1                            => sftp user@host1
+#    psh.pl --ssh $host1                             => ssh -p 22981 user@host1
+#    psh.pl --sftp $host1                            => sftp -oPort=22981 user@host1
 #    psh.pl --scp $host2:/home/file.txt .            => scp -oPort=8872 user@host2:/home/file.txt .
 #    psh.pl --scp ~/other_file.pdf $host2:/home/user => scp -oPort=8872 ~/other_file.pdf user@host2:/home/user
 #
@@ -110,15 +110,15 @@ sub printUsageMessage
 #|  option is passed, the usage message is printed.
 #|
 my ($ssh, $sftp) = '', my @scp;
-GetOptions('ssh=s' => \$ssh, 'scp=s{2}' => \@scp, 'sftp=s' => \$sftp);
+GetOptions('ssh=s' => \$ssh, 'sftp=s' => \$sftp, 'scp=s{2}' => \@scp);
 
 if    ($ssh)  { parseAndRun('ssh', $ssh, "^$userHostRegex\$"); }
 elsif ($sftp) { parseAndRun('sftp', $sftp, "^$userHostRegex\$"); }
 elsif (@scp)
 {
   # Since scp really has two arguments - a user/host combo and
-  # a path - we need to assemble it into one string so that
-  # parseAndRun can accept it.
+  # a path - we need to assemble it into one string that
+  # parseAndRun can accept.
   my $scpString = '';
   foreach (@scp) { $scpString .= $_ . ' '; }
   $scpString =~ s/\s+$//;
