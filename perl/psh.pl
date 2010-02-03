@@ -38,7 +38,7 @@ use Switch;
 
 #|
 #|  Regex to define user/host combos in the
-#|  form user@host
+#|  form user@host:port
 #|
 my $userHostRegex = '(\w+)@([^\\s:]+)(:(\d+))?';
 
@@ -49,8 +49,8 @@ my $pathRegex = '(~?[\w/\\\.\\s\-*]+)';
 
 #|
 #|  Regex to define scp combinations; since
-#|  these are such a unique beast, we have to
-#|  form a regex special to them.
+#|  these are such unique beasts, we have to
+#|  form a special regex just for them.
 #|
 my $scpRegex = "($pathRegex\\s$userHostRegex:($pathRegex:)?|$userHostRegex:$pathRegex\\s$pathRegex)";
 
