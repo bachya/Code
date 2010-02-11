@@ -1,0 +1,173 @@
+########################################################
+#--------------- GIT FUNCTIONS TEMPLATE ---------------#
+########################################################
+
+#--------------------------------------------------
+#    Returns an icon indicating a Git repo's
+#    commit status - ( X ) for unclean, ( - ) for
+#    clean
+#--------------------------------------------------
+__git_commit_status_icon()
+{
+  local branch_prompt=$(__git_ps1 "%s")
+  if [ -n "$branch_prompt" ]; then
+    local current_status=$(git status | grep "nothing to commit" 2> /dev/null)
+    if [ -z "$current_status" ] && [ -n "$__git_status_dirty" ]; then
+      echo -ne "$__git_status_dirty"
+    fi
+    if [ -n "$current_status" ] && [ -n "$__git_status_clean" ]; then
+      echo -ne "$__git_status_clean"
+    fi
+  fi
+}
+
+#--------------------------------------------------
+#    Generic function that gives gpp, gull, etc.
+#    the ability to specify branch, directory, etc.
+#--------------------------------------------------
+__git_exec_file_move()
+{
+  local remote=""
+  local branch=$(__git_ps1 "%s")
+  local command=$1
+  shift
+  
+  if [ -z "$branch" ]; then
+    return 1
+  fi
+  
+  while [ "$1" != "" ]; do
+      case $1 in
+          -b | --branch )         branch=$2
+                                  shift
+                                  ;;
+          -h | --help )           echo "Usage: git ${command} [[-b branch ] | [-h]]"
+                                  return
+                                  ;;
+          * )                     ;;
+      esac
+      shift
+  done
+  
+  if [ -z "$branch" ]; then
+    echo "You provided the -b flag, but did not specify a branch"
+    return
+  fi
+  
+  remote=$(git config branch.${branch}.remote)
+  if [ -z "$remote" ]; then
+    echo "There is no matching remote for branch '${branch}' in your .git/config file.  Defaulting to remote 'origin'."
+    remote="origin"
+  fi
+  
+  git $command $remote $branch
+}
+
+#--------------------------------------------------
+#    Checks all Git repositories to see if
+#    anything needs to be commited
+#--------------------------------------------------
+geck()
+{
+  if [ "$#" -gt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "Usage: geck [path/to/git/repositories]" >&2
+    return 1
+  fi
+  
+  local path=${1:-"$HOME/Code/git-repositories"}
+  local status=""
+  for folder in $(ls $path)
+  do
+    status=$(git --git-dir=$path/$folder/.git --work-tree=$path/$folder status | grep "nothing to commit" 2> /dev/null)
+    stash=$(git --git-dir=$path/$folder/.git --work-tree=$path/$folder stash list 2> /dev/null)
+    if [ -z "$status" ]; then
+      echo -e "$path/$folder: \033[00;31mNeeds a commit\033[00m"
+    else
+      if [ -n "$stash" ]; then
+        echo -e "$path/$folder: \033[00;31mStuff has been stashed\033[00m"
+      else
+        echo -e "$path/$folder: \033[00;32mNothing to do\033[00m"
+      fi
+    fi
+  done
+}
+
+#--------------------------------------------------
+#    Defines a "branch" block in a .git/config file
+#--------------------------------------------------
+gconfbr()
+{
+  if [ "$#" -ne 2 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "Usage: gconfbr [remote] [branch]" >&2
+    return 1
+  fi
+  
+  local is_git=$(__git_ps1 "%s")
+  if [ -n "$is_git" ]; then
+    cat >> .git/config <<BLOCK
+[branch "${2}"]
+        remote = ${1}
+        merge = refs/heads/${2}
+BLOCK
+  fi
+}
+
+#--------------------------------------------------
+#    Fetches, diffs, and prompts user to merge
+#    (using current branch and it's associated 
+#    remote, if present)
+#--------------------------------------------------
+getch()
+{
+  __git_exec_file_move fetch "$@"
+  git diff -R FETCH_HEAD
+  
+  local needs_merge=$(git diff -R FETCH_HEAD | grep diff 2> /dev/null)
+  if [ -n "$needs_merge" ]; then
+    echo -n 'Do you want to merge? (y/n) [n]: '
+    read -e merge_option
+    if [ "$merge_option" == "y" ]; then
+      git merge FETCH_HEAD
+    fi
+  fi
+}
+
+#--------------------------------------------------
+#    Easy wrapper for git clone
+#--------------------------------------------------
+glone()
+{
+  if [ "$#" -ne 2 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "Usage: glone [host] [repo-name]" >&2
+    return 1
+  fi
+ 
+  git clone git@${1}:${2}
+}
+
+#--------------------------------------------------
+#    Does a git pp on the current branch (using
+#    it's associated remote, if present)
+#--------------------------------------------------
+gpp()
+{
+  __git_exec_file_move pp "$@"
+}
+
+#--------------------------------------------------
+#    Does a git pull on the current branch (using
+#    it's associated remote, if present)
+#--------------------------------------------------
+gull()
+{
+  __git_exec_file_move pull "$@"
+}
+
+#--------------------------------------------------
+#    Does a git push on the current branch (using
+#    it's associated remote, if present)
+#--------------------------------------------------
+gush()
+{
+  __git_exec_file_move push "$@"
+}

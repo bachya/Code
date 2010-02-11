@@ -1,0 +1,19 @@
+########################################################
+#----------------- GIT CONFIG TEMPLATE ----------------#
+########################################################
+
+[alias]
+  bleach = !git ls-files --other --exclude-standard | xargs rm -rf
+	ci = commit
+	co = checkout
+	mg = merge
+	pp = !git pull -- && git push --
+	st = status
+	unstage = reset HEAD --
+	who = shortlog -s --
+	rmdel = !git ls-files --deleted -z | xargs -0 git rm
+	undo = !git reset --hard && git rmdel && git bleach
+[push]
+	default = matching
+[color]
+	ui = true

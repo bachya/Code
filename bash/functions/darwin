@@ -1,0 +1,148 @@
+#/**
+# * rm() moves stuff to Trash, instead of deleting it
+# * 
+# * @author    Unknown
+# */
+function rm()
+{
+  local path
+  for path in "$@"; do
+    # ignore any arguments
+    if [[ "$path" = -* ]]; then :
+    else
+      local dst=${path##*/}
+      # append the time if necessary
+      while [ -e ~/.Trash/"$dst" ]; do
+        dst="${dst} "$(date +%H-%M-%S)
+      done
+      mv "$path" ~/.Trash/"${dst}"
+    fi
+  done
+}
+
+#/**
+# * Easy wrapper for starting, stopping, and restarting BIND
+# * 
+# * @author    Aaron Bach <aaron@bachyaproductions.com>
+# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
+# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
+# * @link      http://www.bachyaproductions.com
+# */
+function bindctl()
+{
+  if [ "$#" -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "Usage: bindctl [start|stop|restart]" >&2
+    return 1
+  fi
+  
+  case "$1" in
+    start)
+      sudo launchctl load /System/Library/LaunchDaemons/org.isc.named.plist
+      echo "* Bind loaded"
+      ;;
+    stop)
+      sudo launchctl unload /System/Library/LaunchDaemons/org.isc.named.plist
+      echo "* Bind unloaded"
+      ;;
+    restart)
+      sudo launchctl unload /System/Library/LaunchDaemons/org.isc.named.plist
+      sudo launchctl load /System/Library/LaunchDaemons/org.isc.named.plist
+      echo "* Bind restarted"
+      ;;
+    *)
+      echo "Usage: bindctl [start|stop|restart]" >&2
+      ;;
+  esac
+}
+
+#/**
+# * Changes Mac OS X login background
+# * 
+# * @author    Aaron Bach <aaron@bachyaproductions.com>
+# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
+# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
+# * @link      http://www.bachyaproductions.com
+# */
+function loginbg()
+{
+  if [ "$#" -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "Usage: loginbg [path/to/image]" >&2
+    return 1
+  fi
+  
+  echo "* Assigning ${1} to the login screen..." 
+  sudo cp /System/Library/CoreServices/DefaultDesktop.jpg /System/Library/CoreServices/DefaultDesktop.jpg.bak
+  sudo cp $1 /System/Library/CoreServices/DefaultDesktop.jpg
+  echo "* Completed!" 
+}
+
+#/**
+# * Installs SSH Keys remotely
+# * 
+# * @author    Kevin van Zonneveld <kevin@vanzonneveld.net>
+# * @copyright 2007 Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
+# * @version   SVN: Release: $Id$
+# * @link      http://kevin.vanzonneveld.net/
+# *
+# * @param string REMOTE_HOST The host to install the key at
+# * @param string REMOTE_USER The user to install the key under
+# * @param string OPTIONS      Options like: NOASK
+# */
+ 
+function sshKeyInstall {
+    if [ -n "${1}" ]; then
+        REMOTE_HOST="${1}"
+    else
+        log "1st argument should be the remote hostname." "EMERG"
+    fi
+    
+    if [ -n "${2}" ]; then
+        REMOTE_USER="${2}"
+    else
+        REMOTE_USER="$(whoami)"
+    fi
+    
+    if [ -n "${3}" ]; then
+        OPTIONS="${3}"
+    else
+        OPTIONS=""
+    fi
+    
+    [ -d "~/.ssh" ] || mkdir -p ~/.ssh
+    if [ ! -f ~/.ssh/id_dsa.pub ];then
+        echo "Local SSH key does not exist. Creating..."
+        echo "JUST PRESS ENTER WHEN ssh-keygen ASKS FOR A PASSPHRASE!"
+        echo ""
+        ssh-keygen -t dsa -f ~/.ssh/id_dsa
+        
+        [ $? -eq 0 ] || log "ssh-keygen returned errors!" "EMERG"
+    fi
+    
+    [ -f ~/.ssh/id_dsa.pub ] || log "unable to create a local SSH key!" "EMERG"
+    
+    while true; do
+        if [ "${OPTIONS}" = "NOASK" ];then
+            yn="Y"
+        else
+            echo -n "Install my local SSH key at ${REMOTE_HOST} (Y/n) "
+            read yn
+        fi
+        
+        case $yn in
+            "y" | "Y" | "" )
+                echo "Local SSH key present, installing remotely..."
+                cat ~/.ssh/id_dsa.pub | ssh ${REMOTE_USER}@${REMOTE_HOST} "if [ ! -d ~${REMOTE_USER}/.ssh ];then mkdir -p ~${REMOTE_USER}/.ssh ; fi && if [ ! -f ~${REMOTE_USER}/.ssh/authorized_keys2 ];then touch ~${REMOTE_USER}/.ssh/authorized_keys2 ; fi &&  sh -c 'cat - >> ~${REMOTE_USER}/.ssh/authorized_keys2 && chmod 600 ~${REMOTE_USER}/.ssh/authorized_keys2'"
+                [ $? -eq 0 ] || log "ssh returned errors!" "EMERG"
+                break 
+                ;;
+            "n" | "N" ) 
+                echo -n ""
+                break 
+                ;;
+            * ) 
+                echo "unknown response.  Asking again"
+                ;;
+        esac
+    done
+}

@@ -1,0 +1,59 @@
+########################################################
+#--------------- BASH ALIASES TEMPLATE ----------------#
+########################################################
+
+#-------------------------------------------------------
+#    Add colors to ls and grep tools if dircolors exists
+#-------------------------------------------------------
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+#--------------------------------------------------
+#    Bash command aliases
+#--------------------------------------------------
+alias ls='ls -h'
+alias ll='ls -al'
+alias rf='rm -rf'
+alias df='df -H'
+alias cl='clear'
+
+#--------------------------------------------------
+#    Bash FBMVC aliases
+#--------------------------------------------------
+alias fbmvc='./fbmvc'
+alias ifb='./fbmvc ifb'
+alias gut='git'
+
+#--------------------------------------------------
+#    Bash ssh aliases
+#--------------------------------------------------
+alias bap='ssh bachya@bachyaproductions.com'
+alias brep='ssh brepadmin@bachpartners.com'
+alias wk='ssh -p 9999 aaron@localhost'
+alias bstar='ssh -p 33077 root@bachya.dnsdojo.com'
+
+#--------------------------------------------------
+#    Bash ssh aliases (Fusionbox)
+#--------------------------------------------------
+alias fb='ssh aaronbach@fusionboxtesting.com'
+alias buggy='ssh aaron@buggy.fusionbox.com'
+alias fbcom='ssh -p 2222 agroth@74.52.107.50'
+alias ft='ssh fitnesst@corp.fitnesstogether.com'
+alias elements='ssh corptoe@corp.touchofelements.com'
+alias luminate='ssh luminate@luminatellc.com'
+alias mvoy='ssh musicvoy@musicvoyager.com'
+alias cims='ssh fusionbox@69.1.104.68'
+alias dg='ssh fusionbox@dreamgarage.com'
+
+
+#--------------------------------------------------
+#    Source OS-specific aliases
+#--------------------------------------------------
+if [ -f "${configsDir}/bash/${os}/aliases" ]; then
+  source ${configsDir}/bash/${os}/aliases
+fi

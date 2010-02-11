@@ -1,0 +1,4 @@
+#--------------------------------------------------
+#  Linux-specific exports    
+#--------------------------------------------------
+export PATH=/home/aaron/Code/android-sdk-linux_86/tools:$PATH
