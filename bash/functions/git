@@ -9,7 +9,12 @@
 #--------------------------------------------------
 __git_commit_status_icon()
 {
-  local branch_prompt=$(__git_ps1 "%s")
+  fn_exists __git_ps1
+  if [ $? -eq 0 ]; then
+    local branch_prompt=$(__git_ps1 "%s")
+  else
+    local branch_prompt=$(__git_ps1_zsh "%s")
+  fi
   if [ -n "$branch_prompt" ]; then
     local current_status=$(git status | grep "nothing to commit" 2> /dev/null)
     if [ -z "$current_status" ] && [ -n "$__git_status_dirty" ]; then
@@ -28,7 +33,12 @@ __git_commit_status_icon()
 __git_exec_file_move()
 {
   local remote=""
-  local branch=$(__git_ps1 "%s")
+  fn_exists __git_ps1
+  if [ $? -eq 0 ]; then
+    local branch=$(__git_ps1 "%s")
+  else
+    local branch=$(__git_ps1_zsh "%s")
+  fi
   local command=$1
   shift
   
@@ -102,7 +112,12 @@ gconfbr()
     return 1
   fi
   
-  local is_git=$(__git_ps1 "%s")
+  fn_exists __git_ps1
+  if [ $? -eq 0 ]; then
+    local is_git=$(__git_ps1 "%s")
+  else
+    local is_git=$(__git_ps1_zsh "%s")
+  fi
   if [ -n "$is_git" ]; then
     cat >> .git/config <<BLOCK
 [branch "${2}"]

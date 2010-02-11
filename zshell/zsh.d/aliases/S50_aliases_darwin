@@ -1,0 +1,6 @@
+#--------------------------------------------------
+#    OSX-specific aliases
+#--------------------------------------------------
+alias dnsflush='dscacheutil -flushcache'
+alias portup='sudo port selfupdate && sudo port upgrade outdated'
+alias sync='unison sync'

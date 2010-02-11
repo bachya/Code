@@ -1,0 +1,28 @@
+#!/bin/zsh
+########################################################
+#------------------- EXPORTS TEMPLATE -----------------#
+########################################################
+
+#--------------------------------------------------
+#    Exported parameters
+#--------------------------------------------------
+export DISPLAY=:0
+export TZ="America/Denver"
+export PAGER='less'
+export EDITOR='nano'
+
+#--------------------------------------------------
+#    Language parameters
+#--------------------------------------------------
+export LC_ALL='en_US.UTF-8'
+export LANG='en_US.UTF-8'
+export LC_CTYPE=C
+
+#--------------------------------------------------
+#    OS-specific parameters
+#--------------------------------------------------
+os=${OSTYPE//[0-9.]/}
+dir=$(dirname $0)
+if [ -f "${dir}/environment/S20_environment_${os}" ]; then
+  source ${dir}/environment/S20_environment_${os}
+fi

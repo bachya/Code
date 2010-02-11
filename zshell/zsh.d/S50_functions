@@ -131,10 +131,10 @@ fn_exists()
 }
 
 #--------------------------------------------------
-#    OS-specific parameters
+#    OS-specific functions
 #--------------------------------------------------
 os=${OSTYPE//[0-9.]/}
-baseDir=$(dirname $(readlink $0))
-if [ -f "${baseDir}/${os}" ]; then
-  source ${baseDir}/${os}
+dir=$(dirname $0)
+if [ -f "${dir}/functions/S50_functions_${os}" ]; then
+  source ${dir}/functions/S50_functions_${os}
 fi
