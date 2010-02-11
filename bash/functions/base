@@ -126,8 +126,10 @@ up()
 }
 
 #--------------------------------------------------
-#    Export OS-specific parameters
+#    OS-specific parameters
 #--------------------------------------------------
-if [ -f "${configsDir}/bash/${os}/functions" ]; then
-  source ${configsDir}/bash/${os}/functions
+os=${OSTYPE//[0-9.]/}
+baseDir=$(dirname $(readlink $0))
+if [ -f "${baseDir}/${os}" ]; then
+  source ${baseDir}/${os}
 fi
