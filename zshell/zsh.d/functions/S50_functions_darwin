@@ -1,26 +1,4 @@
 #/**
-# * rm() moves stuff to Trash, instead of deleting it
-# * 
-# * @author    Unknown
-# */
-function rm()
-{
-  local path
-  for path in "$@"; do
-    # ignore any arguments
-    if [[ "$path" = -* ]]; then :
-    else
-      local dst=${path##*/}
-      # append the time if necessary
-      while [ -e ~/.Trash/"$dst" ]; do
-        dst="${dst} "$(date +%H-%M-%S)
-      done
-      mv "$path" ~/.Trash/"${dst}"
-    fi
-  done
-}
-
-#/**
 # * Easy wrapper for starting, stopping, and restarting BIND
 # * 
 # * @author    Aaron Bach <aaron@bachyaproductions.com>
