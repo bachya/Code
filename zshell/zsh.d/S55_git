@@ -118,9 +118,9 @@ get_git_prompt_info() {
   def='%p %b %s'
   fmt=$@
   res=${fmt:-$def}
-  res=${res//\%P/$__ZSH_GIT_FULL_DIR }
-  res=${res//\%p/$__ZSH_GIT_DIR }
-  res=${res//\%b/$__ZSH_GIT_BRANCH }
+  res=${res//\%P/$__ZSH_GIT_FULL_DIR}
+  res=${res//\%p/$__ZSH_GIT_DIR}
+  res=${res//\%b/$__ZSH_GIT_BRANCH}
 
   local state="$__ZSH_GIT_STATE"
   if [[ -n "$state" ]] ; then
