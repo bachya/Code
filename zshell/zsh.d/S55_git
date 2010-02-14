@@ -39,7 +39,8 @@ new_parse_git_branch() {
     return
   fi
 
-  local new_stamp=$(stat -f '%m' "$git_dir/HEAD")
+  #local new_stamp=$(stat -f '%m' "$git_dir/HEAD")
+  local new_stamp=$(stat --printf='%Y' "$git_dir/HEAD")
   [[ "$force" == "0" && "$__ZSH_GIT_TS" == "$new_stamp" ]] && return
 
   # rewritten by Thomas Ritz <thomas(at)galaxy-ritz(dot)de>
@@ -69,7 +70,8 @@ new_parse_git_branch() {
       branch="$(cut -c1-7 "$git_dir/HEAD")..."
   fi                                              
 
-  __ZSH_GIT_FULL_DIR=$(realpath ${git_dir:h})
+  #__ZSH_GIT_FULL_DIR=$(realpath ${git_dir:h})
+  __ZSH_GIT_FULL_DIR=$(readlink -f ${git_dir:h})
   __ZSH_GIT_DIR="${__ZSH_GIT_FULL_DIR/$HOME/~}"
   __ZSH_GIT_BRANCH="${branch#refs/heads/}"
 

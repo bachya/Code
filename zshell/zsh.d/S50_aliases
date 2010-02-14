@@ -3,6 +3,15 @@
 #------------------ ALIASES TEMPLATE ------------------#
 ########################################################
 
+#--------------------------------------------------
+#    OS-specific aliases
+#--------------------------------------------------
+os=${OSTYPE//[0-9.]/}
+dir=$(dirname $0)
+if [ -f "${dir}/aliases/${os}" ]; then
+  source ${dir}/aliases/${os}
+fi
+
 #-------------------------------------------------------
 #    Add colors to ls and grep tools if dircolors exists
 #-------------------------------------------------------
@@ -51,12 +60,3 @@ alias luminate='ssh luminate@luminatellc.com'
 alias mvoy='ssh musicvoy@musicvoyager.com'
 alias cims='ssh fusionbox@69.1.104.68'
 alias dg='ssh fusionbox@dreamgarage.com'
-
-#--------------------------------------------------
-#    OS-specific parameters
-#--------------------------------------------------
-os=${OSTYPE//[0-9.]/}
-dir=$(dirname $0)
-if [ -f "${dir}/aliases/S50_aliases_${os}" ]; then
-  source ${dir}/aliases/S50_aliases_${os}
-fi

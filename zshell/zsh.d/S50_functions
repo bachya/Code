@@ -2,6 +2,15 @@
 #-------------- BASH FUNCTIONS TEMPLATE ---------------#
 ########################################################
 
+#--------------------------------------------------
+#    OS-specific functions
+#--------------------------------------------------
+os=${OSTYPE//[0-9.]/}
+dir=$(dirname $0)
+if [ -f "${dir}/functions/${os}" ]; then
+  source ${dir}/functions/${os}
+fi
+
 #-------------------------------------------------------
 #    Bash function definitions
 #-------------------------------------------------------
@@ -125,16 +134,15 @@ up()
   cd $dir >&/dev/null
 }
 
+#/**
+# * Determines whether a function is recognized by the shell
+# * 
+# * @author    Aaron Bach <aaron@bachyaproductions.com>
+# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
+# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
+# * @link      http://www.bachyaproductions.com
+# */
 fn_exists()
 {
   type $1 | grep -q 'shell'
 }
-
-#--------------------------------------------------
-#    OS-specific functions
-#--------------------------------------------------
-os=${OSTYPE//[0-9.]/}
-dir=$(dirname $0)
-if [ -f "${dir}/functions/S50_functions_${os}" ]; then
-  source ${dir}/functions/S50_functions_${os}
-fi
