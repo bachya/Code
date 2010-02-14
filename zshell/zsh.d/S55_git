@@ -1,13 +1,5 @@
 #!/bin/zsh
 # ----------------------------------------------------------------------
-# various git scripts
-
-gitize() {
-  git init \
-  && git add . \
-  && git commit -m"initial commit" \
-  && git gc
-}
 
 # ----------------------------------------------------------------------
 # The following implements a caching mechanism for git information.
@@ -39,8 +31,12 @@ new_parse_git_branch() {
     return
   fi
 
-  #local new_stamp=$(stat -f '%m' "$git_dir/HEAD")
-  local new_stamp=$(stat --printf='%Y' "$git_dir/HEAD")
+  if [[ "$os" == "linux-gnu" ]]; then
+    local new_stamp=$(stat --printf='%Y' "$git_dir/HEAD")
+  else
+    local new_stamp=$(stat -f '%m' "$git_dir/HEAD")
+  fi
+
   [[ "$force" == "0" && "$__ZSH_GIT_TS" == "$new_stamp" ]] && return
 
   # rewritten by Thomas Ritz <thomas(at)galaxy-ritz(dot)de>
@@ -70,11 +66,14 @@ new_parse_git_branch() {
       branch="$(cut -c1-7 "$git_dir/HEAD")..."
   fi                                              
 
-  #__ZSH_GIT_FULL_DIR=$(realpath ${git_dir:h})
-  __ZSH_GIT_FULL_DIR=$(readlink -f ${git_dir:h})
+  if [[ "$os" == "linux-gnu" ]]; then
+    __ZSH_GIT_FULL_DIR=$(readlink -f ${git_dir:h})
+  else
+    __ZSH_GIT_FULL_DIR=$(realpath ${git_dir:h})
+  fi
+  
   __ZSH_GIT_DIR="${__ZSH_GIT_FULL_DIR/$HOME/~}"
   __ZSH_GIT_BRANCH="${branch#refs/heads/}"
-
   __ZSH_GIT_TS=$new_stamp
 }
 
@@ -137,10 +136,9 @@ get_git_prompt_info() {
 #elif ! git diff --quiet ; then
 #        state="dirty "
   fi
+  
   res=${res//\%s/$state}
-
   res=${res//\%%/%}
-
   echo -n "${res}"
 }
 
@@ -163,37 +161,41 @@ __git_exec_file_move()
   else
     local branch=$(get_git_prompt_info "%b")
   fi
+
   local command=$1
   shift
-  
+
   if [ -z "$branch" ]; then
     return 1
   fi
-  
+
   while [ "$1" != "" ]; do
-      case $1 in
-          -b | --branch )         branch=$2
-                                  shift
-                                  ;;
-          -h | --help )           echo "Usage: git ${command} [[-b branch ] | [-h]]"
-                                  return
-                                  ;;
-          * )                     ;;
-      esac
-      shift
+    case $1 in
+      -b | --branch )         
+        branch=$2
+        shift
+        ;;
+      -h | --help )
+        echo "Usage: git ${command} [[-b branch ] | [-h]]"
+        return
+        ;;
+      * )                     
+        ;;
+    esac
+    shift
   done
-  
+
   if [ -z "$branch" ]; then
     echo "You provided the -b flag, but did not specify a branch"
     return
   fi
-  
+
   remote=$(git config branch.${branch}.remote)
   if [ -z "$remote" ]; then
     echo "There is no matching remote for branch '${branch}' in your .git/config file.  Defaulting to remote 'origin'."
     remote="origin"
   fi
-  
+
   git $command $remote $branch
 }
 

@@ -6,7 +6,6 @@
 #--------------------------------------------------
 #    OS-specific parameters
 #--------------------------------------------------
-os=${OSTYPE//[0-9.]/}
 dir=$(dirname $0)
 if [ -f "${dir}/environment/${os}" ]; then
   source ${dir}/environment/${os}
