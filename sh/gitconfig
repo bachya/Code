@@ -3,6 +3,7 @@
 ########################################################
 
 [alias]
+  all = add -A
 	ci = commit
 	co = checkout
 	mg = merge
@@ -10,8 +11,8 @@
 	st = status
 	unstage = reset HEAD --
 	who = shortlog -s --
-	rmdel = !git ls-files --deleted | xargs git rm --ignore-unmatch
-	undo = !git reset --hard && git rmdel && git clean -f -q
+	rmdel = !git ls-files -d | xargs git rm --ignore-unmatch
+	undo = !git reset --hard && git rmdel && git clean -fq
 [push]
 	default = matching
 [color]
