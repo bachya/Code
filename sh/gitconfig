@@ -3,7 +3,6 @@
 ########################################################
 
 [alias]
-  bleach = !git ls-files --other --exclude-standard | xargs --no-run-if-empty rm -rf
 	ci = commit
 	co = checkout
 	mg = merge
@@ -11,8 +10,8 @@
 	st = status
 	unstage = reset HEAD --
 	who = shortlog -s --
-	rmdel = !git ls-files --deleted -z | xargs --no-run-if-empty -0 git rm
-	undo = !git reset --hard && git rmdel && git bleach
+	rmdel = !git rm $(git ls-files --deleted)
+	undo = !git reset --hard && git rmdel && git clean -f
 [push]
 	default = matching
 [color]
