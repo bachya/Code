@@ -10,7 +10,7 @@
 	st = status
 	unstage = reset HEAD --
 	who = shortlog -s --
-	rmdel = !git rm $(git ls-files --deleted)
+	rmdel = !git ls-files --deleted | xargs git rm --ignore-unmatch
 	undo = !git reset --hard && git rmdel && git clean -f
 [push]
 	default = matching
