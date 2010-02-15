@@ -18,8 +18,12 @@ for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
   (( count = $count + 1 ))
 done
 
-git_branch='($PR_GREEN$(get_git_prompt_info "%b")$PR_RED$(get_git_prompt_info "%s")$PR_NO_COLOR)'
+if [[ -z "$(get_git_prompt_info)" ]]; then
+  r_prompt='($PR_GREEN%D{%m/%d/%Y %r}$PR_NO_COLOR)'
+else
+  r_prompt='($PR_GREEN$(get_git_prompt_info "%b")$PR_RED$(get_git_prompt_info "%s")$PR_NO_COLOR)'
+fi
 
 PR_NO_COLOR="%{$terminfo[sgr0]%}"
 PS1="[$PR_BLUE%n$PR_NO_COLOR@$PR_GREEN%U%m%u$PR_NO_COLOR:$PR_RED%2c$PR_NO_COLOR]%(!.#.$) "
-RPS1="$git_branch"
+RPS1="$r_prompt"
