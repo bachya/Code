@@ -17,6 +17,9 @@ fi
 alias rf='rm -rf'
 alias df='df -H'
 alias cl='clear'
+alias mv='nocorrect mv'
+alias cp='nocorrect cp'
+alias mkdir='nocorrect mkdir'
 alias rsrc='source ~/.zshrc'
 
 #--------------------------------------------------
