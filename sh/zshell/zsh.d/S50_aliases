@@ -36,6 +36,7 @@ alias bap='ssh bachya@bachyaproductions.com'
 alias brep='ssh brepadmin@bachpartners.com'
 alias wk='ssh -p 9999 aaron@localhost'
 alias bstar='ssh -p 33077 root@bachya.dnsdojo.com'
+alias harmonic='ssh aaron@harmonic.cs.colorado.edu'
 
 #--------------------------------------------------
 #    Bash ssh aliases (Fusionbox)
