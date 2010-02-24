@@ -91,9 +91,9 @@ new_parse_git_branch() {
     return
   fi
 
-  # Linux-GNU OS setups use a different stat than OS X
-  # or Cygwin.  Unfortunately, we have to check for both
-  # to ensure cross-platform compatibility.
+  # Linux-GNU OS setups use different stat options than 
+  # OS X or Cygwin.  Unfortunately, we have to check for
+  # both to ensure cross-platform compatibility.
   if [[ "$os" == "linux-gnu" ]]; then
     local new_stamp=$(stat --printf='%Y' "$git_dir/HEAD")
   else
@@ -134,7 +134,7 @@ new_parse_git_branch() {
   else
     __ZSH_GIT_FULL_DIR=$(realpath ${git_dir:h})
   fi
-  
+
   __ZSH_GIT_DIR="${__ZSH_GIT_FULL_DIR/$HOME/~}"
   __ZSH_GIT_BRANCH="${branch#refs/heads/}"
   __ZSH_GIT_TS=$new_stamp
@@ -199,6 +199,7 @@ zsh_git_preexec_update_vars() {
 preexec_functions+='zsh_git_preexec_update_vars'
 chpwd_functions+='zsh_git_chpwd_update_vars'
 
+
 #-------------------------------------------------------
 #   Compute the git vars for the first time (when zsh
 #   loads)
@@ -262,25 +263,7 @@ __git_exec_file_move()
 #--------------------------------------------------
 geck()
 {
-  if [ "$#" -gt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-    echo "Usage: geck [path/to/git/repositories]" >&2
-    return 1
-  fi
-  
-  for folder in ~/Code/git-repositories/*
-  do
-    status=$(git --git-dir=$path/$folder/.git --work-tree=$path/$folder status | grep "nothing to commit" 2> /dev/null)
-    stash=$(git --git-dir=$path/$folder/.git --work-tree=$path/$folder stash list 2> /dev/null)
-    if [ -z "$status" ]; then
-      echo -e "$path/$folder: \033[00;31mNeeds a commit\033[00m"
-    else
-      if [ -n "$stash" ]; then
-        echo -e "$path/$folder: \033[00;31mStuff has been stashed\033[00m"
-      else
-        echo -e "$path/$folder: \033[00;32mNothing to do\033[00m"
-      fi
-    fi
-  done
+
 }
 
 #--------------------------------------------------
