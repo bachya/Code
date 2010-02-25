@@ -9,7 +9,7 @@ export EVENT_NOKQUEUE=1
 #  OSX-specific path exports    
 #--------------------------------------------------
 USR_LOCAL_BIN_PATH=/usr/local/bin
-export PATH=${PATH}:${USR_LOCAL_BIN_PATH}
+export PATH=${USR_LOCAL_BIN_PATH}:${PATH}
 
 MAMP_PATH=/Applications/MAMP/bin/apache2/bin:/Applications/MAMP/bin/php5/bin
 export PATH=${MAMP_PATH}:${PATH}
