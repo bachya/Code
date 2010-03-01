@@ -26,10 +26,3 @@ export PATH=${PATH}:${ANDROID_PATH}
 if [ -e "/tmp/${UID}/SSHKeychain.socket" ]; then
   export SSH_AUTH_SOCK=/tmp/${UID}/SSHKeychain.socket
 fi
-
-#--------------------------------------------------
-#  Bash completion stuff for OS X
-#--------------------------------------------------
-#if [ -f /opt/local/etc/bash_completion ]; then
-#    . /opt/local/etc/bash_completion
-#fi
