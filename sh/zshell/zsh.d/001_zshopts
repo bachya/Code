@@ -9,58 +9,74 @@ fi
 autoload -U is-at-least
 
 #[ a ]##########################################################################
-setopt aliases              # expand aliases
-setopt all_export           # define = export
-setopt always_to_end        # always go to end of word after completion
-setopt append_history       # append to history, dont truncate it
-setopt auto_cd              # do cd path if only 'path' is given as command
-setopt auto_continue        # send SIGCONT to jobs disowned
-setopt auto_list            # list choice on ambiguous command
-setopt auto_menu            # show menu for completion
-setopt no_autoname_dirs     # after foo=/absolute/path, ~foo may expand to
+setopt aliases              # Expand aliases.
+setopt all_export           # All parameters subsequently defined are automatically 
+														# exported.
+setopt always_to_end        # The cursor is moved to the end of the word if either
+														# a single match is inserted or menu completion is 
+														# performed.
+setopt append_history       # zsh sessions will append their history list to the 
+														# history file, rather than overwrite it.
+setopt auto_cd              # Do cd path if only 'path' is given as command.
+setopt auto_continue        # Send SIGCONT to disowned jobs.
+setopt auto_list            # Automatically list choices on an ambiguous completion.
+setopt auto_menu            # Show menu for completion.
+setopt no_autoname_dirs     # After foo=/absolute/path, ~foo may expand to
                             # /absolute/path, but `%~' in prompt won't give
-                            # `~foo' until `~foo' has been used (rtfm closely)
-setopt auto_param_keys      # remove trailing spaces after completion if needed
-setopt auto_param_slash     # add slash for directories
-setopt auto_pushd           # cd = pushd
-setopt auto_remove_slash    # remove slash on dirs if word separator added
-setopt auto_resume          # simgle word resume if possible
+                            # `~foo' until `~foo' has been used (RTFM closely).
+setopt auto_param_keys      # Remove trailing spaces after completion (if needed).
+setopt auto_param_slash     # Auto add slash for directories.
+setopt auto_pushd           # Make cd push the old dir onto the dir stack.
+setopt auto_remove_slash    # Remove slash on dirs if word separator added.
+setopt auto_resume          # Treat single word simple commands without redirection 
+														# as candidates for resumption of an existing job.
 
 #[ b ]##########################################################################
-setopt bad_pattern          # warn on bad file patterns
-setopt bang_hist            # yeah ! expansion
-setopt bare_glob_qual       # () is quaifier list
-setopt no_bash_auto_list    # auto_list is sufficient, i want it on first tab
-setopt beep                 # beep me o yeah
-setopt no_bg_nice           # don't renice jobs in bg
-setopt brace_ccl            # expand of {adasd}
-setopt no_bsd_echo          # dont want BSD echo compat
+setopt bad_pattern          # Error if a pattern for filename generation is badly 
+														# formed.
+setopt bang_hist            # Perform textual history expansion, csh-style,
+														# treating the character `!' specially.
+setopt bare_glob_qual       # In a glob pattern, treat a trailing set of parentheses
+														# as a qualifier list, if it contains no `|', `(' or 
+														# (if special) `~' characters.
+setopt no_bash_auto_list    # Auto_list is sufficient (I want it on first tab).
+setopt no_bg_nice           # Don't run all background jobs at a lower priority.
+setopt brace_ccl            # Expand expressions in braces which would not otherwise
+														# undergo brace expansion to a lexically ordered list of
+														# all the characters.
+setopt no_bsd_echo          # BSD-compatible echo not needed.
 
 #[ c ]##########################################################################
-setopt case_glob            # case sensitive globbing
-setopt c_bases              # understand 12#120 as 120 in base 12
-setopt no_cdable_vars       # dont add ~ automagically
-setopt no_chase_dots        # foo/bar/.. is foo/ even if bar is a symlink
-setopt chase_links          # cd to a symlink is in fact cd to the true dir
-setopt check_jobs           # check jobs on exit
-setopt clobber              # redirection can create files
-setopt complete_aliases     # dont replace alias before completion
-setopt complete_in_word     # we want completion to be done from cursor in word
-setopt correct              # try to correct command line
-setopt no_correct_all       # don't coorect args
-setopt no_csh_junkiehistory # csh sucks
-setopt no_csh_junkie_loops  # want do /list/; done
-setopt no_csh_junkie_quotes # csh quote rules sucks too
-setopt no_csh_nullcmd       # want to keep my (READ)?NULLCMD settings
-setopt no_csh_null_glob     # don't erase not matched globs silently
+setopt case_glob            # Make globbing (filename generation) sensitive to case.
+setopt c_bases              # Output hexadecimal numbers in the standard C format, 
+														# for example `0xFF' instead of the usual `16#FF'.
+setopt no_cdable_vars       # Don't automagically add ~ to paths w/o a starting /.
+setopt no_chase_dots        # foo/bar/.. is foo/ even if bar is a symlink.
+setopt chase_links          # cd to a symlink = cd to the true dir.
+setopt check_jobs           # Report the status of background and suspended jobs 
+														# before exiting a shell with job control.
+setopt clobber              # Allows `>' redirection to truncate existing files, 
+														# and `>>' to create files.
+setopt complete_aliases     # Prevents aliases on the command line from being 
+														# internally substituted before completion is attempted
+setopt complete_in_word     # Start completion from current cursor location.
+setopt correct              # Try to correct the spelling of commands.
+setopt no_correct_all       # Don't try to correct the spelling of all arguments in a line.
+setopt no_csh_junkiehistory # Don't want this.
+setopt no_csh_junkie_loops  # Stick with `do list; done'.
+setopt no_csh_junkie_quotes # Don't rewire quote rules to match csh.
+setopt no_csh_nullcmd       # We want to keep my (READ)?NULLCMD settings.
+setopt no_csh_null_glob     # Don't silently erase unmatched globs.
 
 #[ d-g ]########################################################################
-setopt no_dvorak            # use only regular (qw|az)erty
-setopt no_emacs             # use rather bindkeys that builtin
-setopt equals               # perform = file expansions
-setopt no_err_exit          # don't weant to see exit status even if nonzero
-setopt no_err_return        # no return from a function with non 0 ending cmds
-setopt exec                 # sure we want to exec commands
+setopt no_dvorak            # Don't use the Dvorak keyboard layout.
+setopt no_emacs             # Use bindkeys rather than this deprecated feature.
+setopt equals               # Perform = filename expansion.
+setopt no_err_exit          # Don't want to see exit status (even if non-zero).
+setopt no_err_return        # Don't immediately return from the enclosed function
+														# if a command has a non-zero exit status).
+setopt exec                 # We actually want to execute commands (and not just
+														# check them for correctness).
 setopt extended_glob        # #,~,^ expansion
 setopt no_extended_history  # regular history
 setopt no_flow_control      # ignore ^S/^Q
@@ -152,13 +168,8 @@ setopt no_xtrace            # do not debug by default
 setopt zle                  # use zsh le
 
 is-at-least 4.3.0 && {
-    unsetopt hist_save_by_copy
+	unsetopt hist_save_by_copy
 }
-
-# http://xanana.ucsc.edu/~wgscott/wordpress_new/wordpress/?p=12
-typeset -ga preexec_functions
-typeset -ga precmd_functions
-typeset -ga chpwd_functions
 
 HISTFILE=~/.histfile
 HISTSIZE=10000              # size of history
