@@ -1,5 +1,12 @@
 #!/bin/zsh
+#-------------------------------------------------------
+#   001_zshopts - Overview
+#-------------------------------------------------------
+#   This file sets a multitude of zsh options (in fact,
+#   nearly all of them are listed here because they're
+#   so useful).
 
+# If dircolors exist, let's utilize them
 if test -x dircolors; then
     eval "`dircolors`"
     export LS_COLORS="*.ogm=01;35:${LS_COLORS}"
@@ -105,73 +112,90 @@ setopt hist_find_no_dups    # Do not display duplicates of a line previously fou
 setopt hist_ignore_all_dups # Older command is removed from the list.
 setopt no_hist_ignore_space # Hold onto commands in the history that start with spaces.
 setopt hist_no_functions    # Remove function definitions from the history list.
-setopt hist_no_store        # remove hists access cmds from hist
-setopt hist_reduce_blanks   # remove superfluous blanks
-setopt hist_save_no_dups    # no dups on history saving
-setopt hist_verify          # some expansion gadget
-setopt no_hup               # don't SIGHUP bg cmds on logout
-setopt no_ignore_braces     # do braces expansion
-setopt no_ignore_eof        # don't ignore ^D
-setopt no_inc_appendhistory # dont' append incrementally
-setopt interactive_comments # allow comments in interactive shell
+setopt hist_no_store        # Remove the history (fc -l) command from the history list when invoked.
+setopt hist_reduce_blanks   # Remove superfluous blanks.
+setopt hist_save_no_dups    # When writing out the history file, older commands that duplicate 
+                            # newer ones are omitted.
+setopt hist_verify          # Whenever the user enters a line with history expansion, don't 
+                            # execute the line directly; instead, perform history expansion and
+                            # reload the line into the editing buffer.
+setopt no_hup               # Don't send the HUP signal to running jobs when the shell exits.
+setopt no_ignore_braces     # Perform brace expansion.
+setopt no_ignore_eof        # Don't ignore ^D when trying to quit the shell.
+setopt no_inc_appendhistory # Don't append incrementally to the history.
+setopt interactive_comments # Allow comments in interactive shells.
 
 #[ k-o ]######################################################################################
-setopt no_ksh_arrays        # don't emulate ksh arrays
-setopt no_ksh_autoload      # don't do some dark autoload on function call
-setopt no_ksh_glob          # ignore @ before ()
-setopt ksh_option_print     # modify setopt output
-setopt no_ksh_typeset       # use zsh typeset
-setopt list_ambiguous       # unambiguous prefix completion is done silently
-setopt no_list_beep         # don't beep for completion
-setopt list_packed          # different width for completion
-setopt no_list_rows_first   # sort by colums
-setopt list_types           # show types of listing files
-setopt long_list_jobs       # list jobs in long format
-setopt magic_equal_subst    # foo= is file expanded
-setopt no_mail_warning      # auto-explained
-setopt mark_dirs            # adds / on dirs in filename completion
-setopt no_menu_complete     # don't show menu on ambiguous completion
-setopt monitor              # job control
-setopt multios              # multi redirection allowed
-setopt nomatch              # print error on non matched patterns
-setopt notify               # notify immediately, not on next prompt
-setopt no_null_glob         # don't delete not matched globs
-setopt numeric_glob_sort    # sort in numeric order rather than lexicographic
-setopt no_octal_zeroes      # 010 = 9 sucks
-setopt no_overstrike        # dont start le in overstrike mode
+setopt no_ksh_arrays        # Don't emulate ksh arrays.
+setopt no_ksh_autoload      # Don't emulate ksh autoloading.
+setopt no_ksh_glob          # Ignore `@', `*', `+', `?' and `!' before ().
+setopt ksh_option_print     # All options are shown, marked `on' if they are in the non-default 
+                            # state, `off' otherwise.
+setopt no_ksh_typeset       # Use zsh typeset.
+setopt list_ambiguous       # Unambiguous prefix completion is done silently.
+setopt no_list_beep         # Don't beep for ambiguous completion.
+setopt list_packed          # Try to make the completion list smaller (occupying less lines) by
+                            # printing the matches in columns with different widths.
+setopt no_list_rows_first   # Sort matches by column (vertically) rather than by row (horizontally).
+setopt list_types           # When listing files that are possible completions, show the type of 
+                            # each file with a trailing identifying mark.
+setopt long_list_jobs       # List jobs in the long format by default.
+setopt magic_equal_subst    # All unquoted arguments of the form `anything=expression' appearing 
+                            # after the command name have filename expansion (that is, where 
+                            # expression has a leading `~' or `=') performed on expression as if 
+                            # it were a parameter assignment.
+setopt no_mail_warning      # Don't print a warning message if a mail file has been accessed 
+                            # since the shell last checked.
+setopt mark_dirs            # Add / onto the end of dirs in filename completion.
+setopt no_menu_complete     # Don't show menu on ambiguous completion.
+setopt monitor              # Allow job control.
+setopt multios              # Perform implicit tees or cats when multiple redirections are attempted.
+setopt nomatch              # Print error on non-matched patterns.
+setopt notify               # Report the status of background jobs immediately, rather than waiting 
+                            # until just before printing a prompt.
+setopt no_null_glob         # Don't delete non-matched globs.
+setopt numeric_glob_sort    # Sort in numeric order rather than lexicographically.
+setopt no_octal_zeroes      # 010 = 9 sucks (?).
+setopt no_overstrike        # Don't start line editor in overstrike mode.
 
 #[ p-r ]######################################################################################
-setopt path_dirs            # search in path even if cmd has '/' in it
-setopt no_posix_builtins    # yeah don't like posix, i'm a rebel
-setopt print_eight_bit      # just to be sure
-setopt no_prompt_bang       # dont perform history expansion in prompt
-setopt no_prompt_cr         # don'tprint <cr> before prompt ---> see precmd !
-setopt prompt_percent       # expand % escapes in prompt
-setopt prompt_subst         # subts in prompt
-setopt pushd_ignore_dups    # ignore dups in pushd
-setopt pushd_silent         # don't print stack after push/pop
-setopt pushd_to_home        # pushd == pushd $HOME
-setopt rc_expand_param      # some expansion trick for arrays in params
-setopt rc_quotes            # '' == ' in 'quoted exprs
-setopt rcs                  # source all /etc rcs
-setopt no_rec_exact         # recognize exact match even if ambiguous
-setopt no_rm_star_silent    # ask user before rm foo/*
-setopt no_rm_star_wait      # dont't idle 10 seconds
+setopt path_dirs            # Perform a path search even on command names with slashes in them.
+setopt no_posix_builtins    # Don't allow `command' builtin to execute shell builtin commands.
+setopt print_eight_bit      # Print eight bit characters literally in completion lists, etc.
+setopt no_prompt_bang       # Don't perform history expansion when ! is given.
+setopt no_prompt_cr         # Don't print a carriage return just before printing a prompt in
+                            # the line editor.
+setopt prompt_percent       # Expand % in prompt (treated specially).
+setopt prompt_subst         # Allow parameter, command, and arithmetic expansion.
+setopt pushd_ignore_dups    # Don't push multiple copies of the same directory onto the directory
+                            # stack.
+setopt pushd_silent         # Do not print the directory stack after pushd or popd.
+setopt pushd_to_home        # Have pushd with no arguments act like `pushd $HOME'.
+setopt rc_expand_param      # Array expansions of the form `foo${xx}bar', where the parameter xx 
+                            # is set to (a b c), are substituted with `fooabar foobbar foocbar' 
+                            # instead of the default `fooa b cbar'.
+setopt rc_quotes            # Allow the character sequence `"' to signify a single quote within
+                            # singly quoted strings.
+setopt rcs                  # Source all /etc rc files.
+setopt no_rec_exact         # Don't recognize exact match in completion, even if ambiguous.
+setopt rm_star_silent       # Do not query the user before executing `rm *' or `rm path/*'.
+setopt no_rm_star_wait      # Dont't idle 10 seconds during `rm *' or `rm path/*'.
 
 #[ s-z ]######################################################################################
-setopt no_share_history     # traditional bash-history
-setopt no_sh_file_expansion # dont expand filnames first
-setopt no_sh_glob           # allow globbing with [(|)<]
-setopt no_sh_nullcmd        # use my NULLCMD
-setopt sh_option_letters    # interprete single option letters a la ksh
-setopt short_loops          # short loops
-setopt no_sh_word_split     # `s="a b"; a=($s)' => array of length 1, not 2
-setopt no_single_line_zle   # use multiline editor
-setopt no_sun_keyboard_hack # i don't use sun kb
-setopt transient_rprompt    # better for cut/paste
-setopt vi                   # use bindkeys
-setopt no_xtrace            # do not debug by default
-setopt zle                  # use zsh le
+setopt no_share_history     # Traditional bash history.
+setopt no_sh_file_expansion # Don't expand filenames before paramters, commands, or arithmetic.
+setopt no_sh_glob           # Allow globbing with [(|)<].
+setopt no_sh_nullcmd        # Use the values of NULLCMD and READNULLCMD when doing redirections.
+setopt sh_option_letters    # Interprete single option letters like ksh does.
+setopt short_loops          # Allow the short forms of for, repeat, select, if, and function constructs.
+setopt no_sh_word_split     # `s="a b"; a=($s)' => array of length 1, not 2.
+setopt no_single_line_zle   # Use multiline editor.
+setopt no_sun_keyboard_hack # I don't use a Sun keyboard.
+setopt transient_rprompt    # Remove any right prompt from display when accepting a command line.
+                            # This may be useful with terminals with other cut/paste methods.
+setopt vi                   # Use Vi-style bindkeys.
+setopt no_xtrace            # Don't print commands and their arguments as they are executed.
+setopt zle                  # Use zsh line editor.
 
 is-at-least 4.3.0 && {
 	unsetopt hist_save_by_copy

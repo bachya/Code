@@ -1,5 +1,8 @@
 #!/bin/zsh
+#-------------------------------------------------------
+#   Overview
+#-------------------------------------------------------
+#   This file does one thing: it sets up the help file
+#   so we can get help at any time.
 
-### Aliasing "run-help"
 autoload run-help
-

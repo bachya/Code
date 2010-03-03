@@ -1,6 +1,6 @@
 #!/bin/zsh
 #-------------------------------------------------------
-#   Overview
+#   009_git - Overview
 #-------------------------------------------------------
 #   This file serves two main purposes:
 #     1. Implements git branch output in the zsh prompt.
