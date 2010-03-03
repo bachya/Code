@@ -8,7 +8,7 @@ fi
 
 autoload -U is-at-least
 
-#[ a ]##########################################################################
+#[ a ]########################################################################################
 setopt aliases              # Expand aliases.
 setopt all_export           # All parameters subsequently defined are automatically 
 														# exported.
@@ -31,7 +31,7 @@ setopt auto_remove_slash    # Remove slash on dirs if word separator added.
 setopt auto_resume          # Treat single word simple commands without redirection 
 														# as candidates for resumption of an existing job.
 
-#[ b ]##########################################################################
+#[ b ]########################################################################################
 setopt bad_pattern          # Error if a pattern for filename generation is badly 
 														# formed.
 setopt bang_hist            # Perform textual history expansion, csh-style,
@@ -46,7 +46,7 @@ setopt brace_ccl            # Expand expressions in braces which would not other
 														# all the characters.
 setopt no_bsd_echo          # BSD-compatible echo not needed.
 
-#[ c ]##########################################################################
+#[ c ]########################################################################################
 setopt case_glob            # Make globbing (filename generation) sensitive to case.
 setopt c_bases              # Output hexadecimal numbers in the standard C format, 
 														# for example `0xFF' instead of the usual `16#FF'.
@@ -68,7 +68,7 @@ setopt no_csh_junkie_quotes # Don't rewire quote rules to match csh.
 setopt no_csh_nullcmd       # We want to keep my (READ)?NULLCMD settings.
 setopt no_csh_null_glob     # Don't silently erase unmatched globs.
 
-#[ d-g ]########################################################################
+#[ d-g ]######################################################################################
 setopt no_dvorak            # Don't use the Dvorak keyboard layout.
 setopt no_emacs             # Use bindkeys rather than this deprecated feature.
 setopt equals               # Perform = filename expansion.
@@ -77,28 +77,34 @@ setopt no_err_return        # Don't immediately return from the enclosed functio
 														# if a command has a non-zero exit status).
 setopt exec                 # We actually want to execute commands (and not just
 														# check them for correctness).
-setopt extended_glob        # #,~,^ expansion
-setopt no_extended_history  # regular history
-setopt no_flow_control      # ignore ^S/^Q
-setopt function_argzero     # $0 == name of script
-setopt glob                 # sure i want globbing
-setopt no_global_export     # local vars are not globals one
-setopt global_rcs           # use global rcs
-setopt no_glob_assign       # no globbing on foo=*, use foo=(*)
-setopt no_glob_complete     # don't generate matches and cycle through them
-setopt no_glob_dots         # not require . in filename to be match explicitely
-setopt no_glob_subst        # no recursive expansion
+setopt extended_glob        # Treat the `#', `~' and `^' characters as part of 
+                            # patterns for filename generation, etc.
+setopt no_extended_history  # Regular history (don't save beginning timestamp).
+setopt no_flow_control      # Ignore/Disable ^S/^Q.
+setopt function_argzero     # When executing a shell function or sourcing a script,
+                            # set $0 temporarily to the name of the function/script.
+setopt glob                 # Perform filename generation (globbing).
+setopt no_global_export     # Local vars are not made global.
+setopt global_rcs           # The startup files /etc/zprofile, /etc/zshrc, /etc/zlogin 
+                            # and /etc/zlogout will not be run.
+setopt no_glob_assign       # No globbing on foo=* - use foo=(*).
+setopt no_glob_complete     # Don't generate glob matches and cycle through them.
+setopt no_glob_dots         # Do not require a leading `.' in a filename to be matched explicitly.
+setopt no_glob_subst        # No recursive expansion.
 
-#[ h-j ]########################################################################
-setopt hash_cmds            # do not always search through path, hash cmds
-setopt hash_dirs            # hash directories holding commands too
-setopt hash_list_all        # verify path hash on completion
-setopt hist_allow_clobber   # add | to redirections in history
-setopt no_hist_beep         # don't beep on history expansion errors
-setopt hist_find_no_dups    # don't show dups even if not contiguous
-setopt hist_ignore_all_dups # ignore all -- even non contiguous -- dups
-setopt no_hist_ignore_space # historify commands with spaces too
-setopt hist_no_functions    # don't save functions defs in history
+#[ h-j ]######################################################################################
+setopt hash_cmds            # Note the location of each command the first time it is executed
+                            # (don't have to do a path search each time - basically command
+                            # caching).
+setopt hash_dirs            # Hash directories, too.
+setopt hash_list_all        # Whenever a command completion is attempted, make sure the entire 
+                            # command path is hashed first. This makes the first completion slower.
+setopt hist_allow_clobber   # Add `|' to output redirections in the history.
+setopt no_hist_beep         # Beep when an attempt is made to access a history entry which isn't there.
+setopt hist_find_no_dups    # Do not display duplicates of a line previously found.
+setopt hist_ignore_all_dups # Older command is removed from the list.
+setopt no_hist_ignore_space # Hold onto commands in the history that start with spaces.
+setopt hist_no_functions    # Remove function definitions from the history list.
 setopt hist_no_store        # remove hists access cmds from hist
 setopt hist_reduce_blanks   # remove superfluous blanks
 setopt hist_save_no_dups    # no dups on history saving
@@ -109,7 +115,7 @@ setopt no_ignore_eof        # don't ignore ^D
 setopt no_inc_appendhistory # dont' append incrementally
 setopt interactive_comments # allow comments in interactive shell
 
-#[ k-o ]########################################################################
+#[ k-o ]######################################################################################
 setopt no_ksh_arrays        # don't emulate ksh arrays
 setopt no_ksh_autoload      # don't do some dark autoload on function call
 setopt no_ksh_glob          # ignore @ before ()
@@ -134,7 +140,7 @@ setopt numeric_glob_sort    # sort in numeric order rather than lexicographic
 setopt no_octal_zeroes      # 010 = 9 sucks
 setopt no_overstrike        # dont start le in overstrike mode
 
-#[ p-r ]########################################################################
+#[ p-r ]######################################################################################
 setopt path_dirs            # search in path even if cmd has '/' in it
 setopt no_posix_builtins    # yeah don't like posix, i'm a rebel
 setopt print_eight_bit      # just to be sure
@@ -152,7 +158,7 @@ setopt no_rec_exact         # recognize exact match even if ambiguous
 setopt no_rm_star_silent    # ask user before rm foo/*
 setopt no_rm_star_wait      # dont't idle 10 seconds
 
-#[ s-z ]########################################################################
+#[ s-z ]######################################################################################
 setopt no_share_history     # traditional bash-history
 setopt no_sh_file_expansion # dont expand filnames first
 setopt no_sh_glob           # allow globbing with [(|)<]
