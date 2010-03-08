@@ -258,15 +258,6 @@ __git_exec_file_move()
 }
 
 #--------------------------------------------------
-#    Checks all Git repositories to see if
-#    anything needs to be commited
-#--------------------------------------------------
-geck()
-{
-
-}
-
-#--------------------------------------------------
 #    Defines a "branch" block in a .git/config file
 #--------------------------------------------------
 gconfbr()
@@ -275,13 +266,8 @@ gconfbr()
     echo "Usage: gconfbr [remote] [branch]" >&2
     return 1
   fi
-  
-  fn_exists __git_ps1
-  if [ $? -eq 0 ]; then
-    local is_git=$(__git_ps1 "%s")
-  else
-    local is_git=$(get_git_prompt_info "%b")
-  fi
+
+  local is_git=$(get_git_prompt_info "%b")
   if [ -n "$is_git" ]; then
     cat >> .git/config <<BLOCK
 [branch "${2}"]
