@@ -67,7 +67,7 @@ setopt clobber              # Allows `>' redirection to truncate existing files,
 setopt complete_aliases     # Prevents aliases on the command line from being 
 														# internally substituted before completion is attempted
 setopt complete_in_word     # Start completion from current cursor location.
-setopt correct              # Try to correct the spelling of commands.
+setopt no_correct           # Don't try to correct the spelling of commands.
 setopt no_correct_all       # Don't try to correct the spelling of all arguments in a line.
 setopt no_csh_junkiehistory # Don't want this.
 setopt no_csh_junkie_loops  # Stick with `do list; done'.
