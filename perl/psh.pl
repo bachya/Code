@@ -52,7 +52,7 @@ my $pathRegex = '(~?[\w/\\\.\\s\-*]+)';
 #|  these are such unique beasts, we have to
 #|  form a special regex just for them.
 #|
-my $scpRegex = "($pathRegex\\s$userHostRegex:($pathRegex:)?|$userHostRegex:$pathRegex\\s$pathRegex)";
+my $scpRegex = "($pathRegex\\s$userHostRegex:($pathRegex)?|$userHostRegex:$pathRegex\\s$pathRegex)";
 
 #|
 #|  Assembles a ssh/sftp/scp command and

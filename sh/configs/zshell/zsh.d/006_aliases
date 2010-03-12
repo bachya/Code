@@ -21,6 +21,8 @@ alias mv='nocorrect mv'
 alias cp='nocorrect cp'
 alias mkdir='nocorrect mkdir'
 alias rsrc='source ~/.zshrc'
+alias pscp='psh --scp'
+alias psftp='psh --sftp'
 
 #--------------------------------------------------
 #    Bash FBMVC aliases
@@ -32,22 +34,22 @@ alias gut='git'
 #--------------------------------------------------
 #    Bash ssh aliases
 #--------------------------------------------------
-#alias bap='ssh bachya@bachyaproductions.com'
-#alias brep='ssh brepadmin@bachpartners.com'
-#alias wk='ssh -p 9999 aaron@localhost'
-#alias bstar='ssh -p 33077 root@bachya.dnsdojo.com'
-#alias harmonic='ssh aaron@harmonic.cs.colorado.edu'
+alias bap='psh --ssh $bap'
+alias brep='psh --ssh $brep'
+alias wk='psh --ssh $wk'
+alias bstar='psh --ssh $bstar'
+alias harmonic='psh --ssh $harmonic'
 
 #--------------------------------------------------
 #    Bash ssh aliases (Fusionbox)
 #--------------------------------------------------
-#alias fb='ssh aaronbach@fusionboxtesting.com'
-#alias buggy='ssh aaron@buggy.fusionbox.com'
-#alias fbcom='ssh -p 2222 agroth@74.52.107.50'
-#alias ft='ssh fitnesst@corp.fitnesstogether.com'
-#alias elements='ssh corptoe@corp.touchofelements.com'
-#alias luminate='ssh luminate@luminatellc.com'
-#alias mvoy='ssh musicvoy@musicvoyager.com'
-#alias cims='ssh fusionbox@69.1.104.68'
-#alias dg='ssh fusionbox@dreamgarage.com'
-#alias nord='ssh nordsted@69.1.104.161'
+alias fbt='psh --ssh $fbt'
+alias buggy='psh --ssh $buggy'
+alias fbcom='psh --ssh $fbcom'
+alias ft='psh --ssh $ft'
+alias elements='psh --ssh $elements'
+alias luminate='psh --ssh $luminate'
+alias mvoy='psh --ssh $mvoy'
+alias cims='psh --ssh $cims'
+alias dg='psh --ssh $dg'
+alias nord='psh --ssh $nordsted'
