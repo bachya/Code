@@ -1,6 +1,6 @@
-#!/bin/zsh
+  #!/bin/zsh
 #-------------------------------------------------------
-#   009_git - Overview
+#   Overview
 #-------------------------------------------------------
 #   This file serves two main purposes:
 #     1. Implements git branch output in the zsh prompt.
@@ -129,6 +129,10 @@ new_parse_git_branch() {
       branch="$(cut -c1-7 "$git_dir/HEAD")..."
   fi                                              
 
+  # OS X and Cygwin don't have the equivalent of
+  # Linux-GNU's readlink -f command.  Therefore,
+  # in spectacularly crappy fashion, we use a
+  # Python script to accomplish the same thing.
   if [[ "$os" == "linux-gnu" ]]; then
     __ZSH_GIT_FULL_DIR=$(readlink -f ${git_dir:h})
   else

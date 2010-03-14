@@ -1,27 +1,21 @@
-########################################################
-#-------------- BASH FUNCTIONS TEMPLATE ---------------#
-########################################################
+#!/bin/zsh
+#-------------------------------------------------------
+#   Overview
+#-------------------------------------------------------
+#   Custom functions (generic and OS-specific) are
+#   defined here.
 
 #--------------------------------------------------
 #    OS-specific functions
 #--------------------------------------------------
 dir=$(dirname $0)
-if [ -f "${dir}/functions/${os}" ]; then
-  source ${dir}/functions/${os}
+if [ -f "${dir}/functions.d/${os}" ]; then
+  source ${dir}/functions.d/${os}
 fi
 
 #-------------------------------------------------------
-#    Bash function definitions
+#    Create an archive from a set of files
 #-------------------------------------------------------
-
-#/**
-# * Archive a set of files
-# * 
-# * @author    Aaron Bach <aaron@bachyaproductions.com>
-# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
-# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
-# * @link      http://www.bachyaproductions.com
-# */
 archive()
 {
   if [ "$#" -ne 2 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -43,14 +37,9 @@ archive()
   fi
 }
 
-#/**
-# * Unarchive many different archive types
-# * 
-# * @author    Aaron Bach <aaron@bachyaproductions.com>
-# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
-# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
-# * @link      http://www.bachyaproductions.com
-# */
+#-------------------------------------------------------
+#    Extract files from an archive
+#-------------------------------------------------------
 extract() 
 {
   if [ "$#" -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -77,11 +66,10 @@ extract()
   fi
 }
 
-#/**
-# * Looks for a process (and removes the grep line)
-# * 
-# * @author    Unknown
-# */
+#-------------------------------------------------------
+#    Wrapper for ps auwxx that removes the 'grep'
+#    result
+#-------------------------------------------------------
 process() 
 {
   if [ "$#" -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -89,17 +77,12 @@ process()
     return 1
   fi
   
-  ps aux | grep -i "$1" | grep -v grep
+  ps auwxx | grep -i "$1" | grep -v grep
 }
 
-#/**
-# * Switches the filenames of two files
-# * 
-# * @author    Aaron Bach <aaron@bachyaproductions.com>
-# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
-# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
-# * @link      http://www.bachyaproductions.com
-# */
+#-------------------------------------------------------
+#    Switches the names of two files
+#-------------------------------------------------------
 switch() 
 {
   if [ "$#" -ne 2 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -112,11 +95,9 @@ switch()
   echo "* Files switched!"
 }
 
-#/**
-# * Does cd ../ a given amount of times
-# * 
-# * @author    Unknown
-# */
+#-------------------------------------------------------
+#    Performs a 'cd ../' n times (where n is given)
+#-------------------------------------------------------
 up()
 {
   if [ "$#" -gt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
@@ -133,14 +114,10 @@ up()
   cd $dir >&/dev/null
 }
 
-#/**
-# * Determines whether a function is recognized by the shell
-# * 
-# * @author    Aaron Bach <aaron@bachyaproductions.com>
-# * @copyright 2009 Aaron Bach (http://www.bachyaproductions.com)
-# * @license   http://www.opensource.org/licenses/bsd-license.php New BSD Licence
-# * @link      http://www.bachyaproductions.com
-# */
+#-------------------------------------------------------
+#    Determines whether a function is recognized by
+#    the shell
+#-------------------------------------------------------
 fn_exists()
 {
   type $1 | grep -q 'shell'

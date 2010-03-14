@@ -66,20 +66,20 @@ sub parseAndRun
   my ($option, $command, $regex) = @_;
   if ($command =~ m/$regex/i)
   {
-    my $newCommand = "$option ";
+    my $newCommand = "$option";
     if ($& =~ m/:(\d+)/)
     {
       my $portString = '';
       $command =~ s/:(\d+)//;
       switch ($option)
       {
-        case ('ssh')      { $portString = "-p $1 "; }
-        case (/sftp|scp/) { $portString = "-oPort=$1 "; }
+        case ('ssh')      { $portString = "-p $1"; }
+        case (/sftp|scp/) { $portString = "-oPort=$1"; }
       }      
-      $newCommand .= "$portString";
+      $newCommand .= " $portString";
     }
 
-    $newCommand .= "$command";
+    $newCommand .= " $command";
     system($newCommand);
   }
   else

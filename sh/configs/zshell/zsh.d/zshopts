@@ -1,6 +1,6 @@
 #!/bin/zsh
 #-------------------------------------------------------
-#   001_zshopts - Overview
+#   Overview
 #-------------------------------------------------------
 #   This file sets a multitude of zsh options (in fact,
 #   nearly all of them are listed here because they're
