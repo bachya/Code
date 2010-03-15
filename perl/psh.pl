@@ -40,19 +40,19 @@ use Switch;
 #|  Regex to define user/host combos in the
 #|  form user@host:port
 #|
-my $userHostRegex = '(\w+)@([^\\s:]+)(:(\d+))?';
+my $userHostRegex = '\w+@[.\w\d-]+(?::\d+)?';
 
 #|
 #|  Regex to define *nix paths.
 #|
-my $pathRegex = '(~?[\w/\\\.\\s\-*]+)';
+my $pathRegex = '~?[*\w/\\\.\\s-]+';
 
 #|
 #|  Regex to define scp combinations; since
 #|  these are such unique beasts, we have to
 #|  form a special regex just for them.
 #|
-my $scpRegex = "($pathRegex\\s$userHostRegex:($pathRegex)?|$userHostRegex:$pathRegex\\s$pathRegex)";
+my $scpRegex = "($pathRegex\\s$userHostRegex:(?:$pathRegex)?|$userHostRegex:$pathRegex\\s$pathRegex)";
 
 #|
 #|  Assembles a ssh/sftp/scp command and
@@ -84,7 +84,7 @@ sub parseAndRun
   }
   else
   {
-    print "Bad specification for option [$option]: $command\n";
+    print "Bad match for $command (using $regex)\n";
     return 1;
   }
 }
