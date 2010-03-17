@@ -2,7 +2,7 @@
 require 'solitaire.rb'
 
 if ARGV.length < 1 or ARGV.length > 2
-  print 'Usage: ./test.rb -e [filename]' << "\n" << '       ./test.rb -d [filename]' << "\n"
+  print 'Usage: ./test.rb -encrypt [filename]' << "\n" << '       ./test.rb -decrypt [filename]' << "\n"
   exit
 end
 
