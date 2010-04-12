@@ -34,8 +34,6 @@ class Deck
   	return card
   end
   
-  # Step #1
-  # -------
   # Initializes a deck object and creates a variable with
   # 1, 2, 3 ... 51, 52, :A, :B (where :A is "Joker #1" and
   # :B is "Joker #2").
@@ -43,22 +41,6 @@ class Deck
     @deck = (1..52).to_a + [:A, :B]
   end
   
-  # Step #2
-  # -------
-  # Moves Joker #1 down 1 spot from its initial location.
-  def moveJokerA
-  	moveDown(:A, 1)
-  end
-  
-  # Step #3
-  # -------
-  # Moves Joker #2 down 2 spots from its initial location.
-  def moveJokerB
-  	moveDown(:B, 2)
-  end
-  
-  # Step #4
-  # -------
   # Performs a "triple cut," wherein all cards above Joker #1
   # move below Joker #2 and vice versa.
   def tripleCut
@@ -66,9 +48,7 @@ class Deck
   	top, bottom = joker_indices.min, joker_indices.max
   	@deck = @deck[(bottom + 1)..53] + @deck[top..bottom] + @deck[0..(top - 1)]
   end
-  
-  # Step #5
-  # -------
+
   # Performs a "count cut," wherein x number of cards are removed
   # from the top of the deck and placed just above the bottom card.
   # x is determined by the value of bottom card.
@@ -77,8 +57,6 @@ class Deck
   	@deck = @deck[(cards_to_cut...53)] + @deck[(0...cards_to_cut)] + [cards_to_cut]
   end
   
-  # Step #6
-  # -------
   # Picks a letter for the keystream - the value is chosen from a
   # card x cards down from the top of the deck. x is chosen by
   # selecting the top card's value. Jokers are ignored.
@@ -90,8 +68,6 @@ class Deck
       end
   end
   
-  # Step #7
-  # -------
   # Generates a keystream with a given length. Basically performs
   # steps #1 - #6 until the keystream length matches the length
   # parameter. Finally, the keystream is split into blocks of 5
@@ -100,7 +76,8 @@ class Deck
   def generateKeystream(length)
 	  keystream = ''
 	  while keystream.length < length
-  		moveJokerA
+  		moveDown(:A, 1)
+  		moveDown(:B, 2)
   		moveJokerB
   		tripleCut
   		countCut
