@@ -69,17 +69,18 @@ sub array_contains {
 }
 
 #|
-#|  Assembles a ssh/sftp/scp command and
-#|  executes it.  It expects 3 parameters:
+#|  Assembles a ssh/sftp/scp command with
+#|  expects 3 parameters:
 #|    1. $option  - ssh|sftp|scp
 #|    2. $command - basically whatever comes after #1
 #|    3. $regex   - the regex to test the command against
 #|
-sub parseAndRun
+sub createCommand
 {
   my $newCommand = '';
   my ($command, $optionString, $regex) = @_;
-  if ($optionString =~ m/$regex/g)
+  
+  if ($optionString =~ m/$regex/i)
   {
     $newCommand = "$command";
     if ($& =~ m/:(\d+)/i)
@@ -96,13 +97,24 @@ sub parseAndRun
     }
     
     $newCommand .= " $optionString";
-    print "$newCommand\n";
+    return "$newCommand\n";
   }
   else
   {
     print "Bad match for $command (using $regex)\n";
     return 1;
   }
+}
+
+sub execute
+{
+  my $newCommand = '';
+  my $optionString = '';
+  my ($args, $command, $regex) = @_;
+
+  foreach (@{$args}) { if ( $_ ne "--$command" ) { $optionString .= $_ . ' '; } }
+  $newCommand = createCommand($command, $optionString, $regex);
+  print $newCommand;
 }
 
 #|
@@ -125,23 +137,7 @@ sub printUsageMessage
 #|  is specified, the first one will be run.  If no valid
 #|  option is passed, the usage message is printed.
 #|
-my $optionString = '';
-if (array_contains(\@ARGV, '--ssh'))
-{
-  foreach (@ARGV) { if ( $_ ne "--ssh" ) { $optionString .= $_ . ' '; } }
-  parseAndRun('ssh', $optionString, $userHostRegex);
-}
-elsif (array_contains(\@ARGV, '--scp'))
-{
-  foreach (@ARGV) { if ( $_ ne "--scp" ) { $optionString .= $_ . ' '; } }
-  parseAndRun('scp', $optionString, $scpRegex);
-}
-elsif (array_contains(\@ARGV, '--sftp'))
-{
-  foreach (@ARGV) { if ( $_ ne "--sftp" ) { $optionString .= $_ . ' '; } }
-  parseAndRun('sftp', $optionString, $userHostRegex);
-}
-else
-{
-  printUsageMessage();
-}
+if (array_contains(\@ARGV, '--ssh'))     { execute(\@ARGV, 'ssh', $userHostRegex); }
+elsif (array_contains(\@ARGV, '--scp'))  { execute(\@ARGV, 'scp', $scpRegex) ; }
+elsif (array_contains(\@ARGV, '--sftp')) { execute(\@ARGV, 'sftp', $userHostRegex); }
+else { printUsageMessage(); }
