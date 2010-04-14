@@ -77,12 +77,11 @@ sub array_contains {
 #|
 sub createCommand
 {
-  my $newCommand = '';
   my ($command, $optionString, $regex) = @_;
   
   if ($optionString =~ m/$regex/i)
   {
-    $newCommand = "$command";
+    my $newCommand = "$command";
     if ($& =~ m/:(\d+)/i)
     {
       my $portString = '';
@@ -106,19 +105,21 @@ sub createCommand
   }
 }
 
+#|
+#|  Takes a raw string of ssh/scp/sftp options and assembles
+#|  them into an executable command
+#|
 sub execute
 {
-  my $newCommand = '';
   my $optionString = '';
   my ($args, $command, $regex) = @_;
 
   foreach (@{$args}) { if ( $_ ne "--$command" ) { $optionString .= $_ . ' '; } }
-  $newCommand = createCommand($command, $optionString, $regex);
-  print $newCommand;
+  system(createCommand($command, $optionString, $regex));
 }
 
 #|
-#|  Prints the usage message.
+#|  Prints the usage message
 #|
 sub printUsageMessage 
 { 
