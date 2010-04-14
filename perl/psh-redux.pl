@@ -1,42 +1,107 @@
 #!/usr/bin/env perl
+#-------------------------------------------------------------------------------------------------------------
+#  psh.pl
+#  A wrapper for ssh, sftp, and scp that looks innoculous enough at first 
+#  glance:
+#
+#    psh.pl --ssh user@host                => ssh user@host
+#    psh.pl --sftp user@host               => sftp user@host
+#    psh.pl --scp /home/file.txt user@host => scp /home/file.txt user@host
+#  
+#  However, psh.pl has an added advantage: to specify a different port,
+#  all one has to do is append :{port-number} to the end of the string:
+#
+#    psh.pl --ssh user@host:2321                => ssh -p 2321 user@host
+#    psh.pl --sftp user@host:2321               => sftp -oPort=2321 user@host
+#    psh.pl --scp /home/file.txt user@host:2321 => scp -oPort=2321 /home/file.txt user@host
+#
+#  Again, perhaps not *the* most exciting thing in the world.  But what if it were combined 
+#  with user/host combinations stored in environment variables?  Imagine these:
+#
+#    export host1=user@host1:22981
+#    export host2=user@host2:8872
+#
+#  Instead of having to type out long, complicated ssh/sftp/scp strings, psh.pl allows you
+#  to do the following:
+#
+#    psh.pl --ssh $host1                             => ssh -p 22981 user@host1
+#    psh.pl --sftp $host1                            => sftp -oPort=22981 user@host1
+#    psh.pl --scp $host2:/home/file.txt .            => scp -oPort=8872 user@host2:/home/file.txt .
+#    psh.pl --scp ~/other_file.pdf $host2:/home/user => scp -oPort=8872 ~/other_file.pdf user@host2:/home/user
+#
+#  Cool!
+#-------------------------------------------------------------------------------------------------------------
 use warnings;
 use strict;
-use Getopt::Long;
 use Switch;
 
-my $wee = 'psh --ssl -N -L 9999:whiteknight:22 root@bachya.dnsdojo.com';
-my $userHostPort = '[\w\d_.-]+@[\w\d_.-]+(:(\d+))?';
+my $userRegex = '(?:[a-z0-9+!*(),;?&=\$_.-]+(?::[a-z0-9+!*(),;?&=\$_.-]+)?@)?';
+my $hostRegex = '[a-z0-9-.]*\.[a-z]{2,3}';
+my $portRegex = '(?::[0-9]{2,5})?';
+my $pathRegex = '~?[*\w/\\\.\\s-]+';
 
+#|
+#|  Regex to define user/host combos in the
+#|  form user@host:port
+#|
+my $userHostRegex = "$userRegex$hostRegex$portRegex";
+
+#|
+#|  Regex to define scp combinations; since
+#|  these are such unique beasts, we have to
+#|  form a special regex just for them
+#|
+my $scpRegex = "($pathRegex\\s$userHostRegex:(?:$pathRegex)?|$userHostRegex:$pathRegex\\s$pathRegex)";
+
+#|
+#|  Simple function to determine whether a
+#|  key exists in an array
+#|
+sub array_contains {
+	my $array = shift;
+	my $key = shift;
+
+	my $contains = 0;
+	foreach(@$array) {
+		$contains = 1 if ($_ eq $key);
+	}
+	return $contains;
+}
+
+#|
+#|  Assembles a ssh/sftp/scp command and
+#|  executes it.  It expects 3 parameters:
+#|    1. $option  - ssh|sftp|scp
+#|    2. $command - basically whatever comes after #1
+#|    3. $regex   - the regex to test the command against
+#|
 sub parseAndRun
 {
-  my $command = $_[0];
-  if ($command =~ m/--(\w+)/i)
+  my $newCommand = '';
+  my ($command, $optionString, $regex) = @_;
+  if ($optionString =~ m/$regex/g)
   {
-    my $option = $1;
-    if ($command =~ m/$userHostPort/i)
+    $newCommand = "$command";
+    if ($& =~ m/:(\d+)/i)
     {
-      if ($& =~ m/:(\d+)/i)
+      my $portString = '';
+      switch ($command)
       {
-        my $portString = '';
-        switch ($option)
-        {
-          case ('ssh')      { $portString = "-p $1"; }
-          case (/sftp|scp/) { $portString = "-oPort=$1"; }
-        }
-        $command =~ s/$&//;
-        $command =~ s/psh --$option/$option $portString/;
-        print "$command\n";
+        case ('ssh')      { $portString = "-p $1"; }
+        case (/sftp|scp/) { $portString = "-oPort=$1"; }
       }
-      else
-      {
-        $command =~ s/psh --$option/$option/;
-        print "$command\n";
-      }
+      
+      $optionString =~ s/$&//;
+      $newCommand .= " $portString";
     }
+    
+    $newCommand .= " $optionString";
+    print "$newCommand\n";
   }
   else
   {
-    printUsageMessage();
+    print "Bad match for $command (using $regex)\n";
+    return 1;
   }
 }
 
@@ -52,4 +117,31 @@ sub printUsageMessage
   psh.pl --scp user\@host[:port]:/remote/path/to/file /local/path\n";
 }
 
-parseAndRun $wee
+
+#---------------------- MAIN PROGRAM ----------------------#
+
+#|
+#|  Pull options from the command line.  If more than one
+#|  is specified, the first one will be run.  If no valid
+#|  option is passed, the usage message is printed.
+#|
+my $optionString = '';
+if (array_contains(\@ARGV, '--ssh'))
+{
+  foreach (@ARGV) { if ( $_ ne "--ssh" ) { $optionString .= $_ . ' '; } }
+  parseAndRun('ssh', $optionString, $userHostRegex);
+}
+elsif (array_contains(\@ARGV, '--scp'))
+{
+  foreach (@ARGV) { if ( $_ ne "--scp" ) { $optionString .= $_ . ' '; } }
+  parseAndRun('scp', $optionString, $scpRegex);
+}
+elsif (array_contains(\@ARGV, '--sftp'))
+{
+  foreach (@ARGV) { if ( $_ ne "--sftp" ) { $optionString .= $_ . ' '; } }
+  parseAndRun('sftp', $optionString, $userHostRegex);
+}
+else
+{
+  printUsageMessage();
+}
