@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <title>Cool Clock</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <style type="text/css">
+      div#wrapper {
+        margin: 100px auto;
+        width: auto;
+      }
+      
+      div#wrapper div {
+        padding: 0px 20px;
+        text-align: justify;
+      }
+      
+      div#wrapper div p {
+        color: #cccccc;
+        font-size: 4em;
+        line-height: 1.25em;
+        margin: -20px 0;
+        text-align: center;
+      }
+      
+      span.active {
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="item-1">
+        <p><span class="active permanent" id="it_is">IT IS</span> <span id="half_prefix">HALF</span> <span id="ten_prefix">TEN</span></p>
+      </div>
+      <div id="item-2">
+        <p><span id="quarter_prefix">QUARTER</span> <span id="twenty_prefix">TWENTY</span></p>
+      </div>
+      <div id="item-3">
+        <p><span id="five_prefix">FIVE</span> <span class="active" id="minutes">MINUTES</span> <span id="to">TO</span></p>
+      </div>
+      <div id="item-4">
+        <p><span id="past">PAST</span> <span id="one_suffix">ONE</span> <span id="three_suffix">THREE</span></p>
+      </div>
+      <div id="item-5">
+        <p><span id="two_suffix">TWO</span> <span id="four_suffix">FOUR</span> <span id="five_suffix">FIVE</span></p>
+      </div>
+      <div id="item-6">
+        <p><span id="six_suffix">SIX</span> <span id="seven_suffix">SEVEN</span> <span id="eight_suffix">EIGHT</span></p>
+      </div>
+      <div id="item-7">
+        <p><span id="nine_suffix">NINE</span> <span id="ten_suffix">TEN</span> <span id="eleven_suffix">ELEVEN</span></p>
+      </div>
+      <div id="item-8">
+        <p><span id="twelve_suffix">TWELVE</span> <span class="active permanent" id="oclock">O'CLOCK</span></p>
+      </div>
+    </div>
+    <script type="text/javascript">//<![CDATA[
+      $(document).ready(function() {
+
+        generateTime();
+        setInterval(generateTime, 1000);
+    
+      });
+      
+      var hoursArray = ['one_suffix', 'two_suffix', 'three_suffix', 'four_suffix', 'five_suffix', 'six_suffix', 'seven_suffix', 'eight_suffix'];
+    
+      function generateTime() {
+        var date           = new Date();
+        var hours          = date.getHours();
+        var minutes        = date.getMinutes();
+        
+        var keyword = '';
+        var minuteSelector = [];
+        var hoursCalc = '';
+        var hourSelector = ''
+        
+        switch (true) {
+          case ((minutes >= 0) && (minutes < 5)):
+            hourSelector = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            $('span#minutes').removeClass('active');
+            break;
+          case (((minutes >= 5) && (minutes < 10)) || ((minutes >= 55) && (minutes <= 59))):
+            minuteSelector.push('five_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
+            keyword = (minutes < 30 ? 'past' : 'to');
+            $('span#minutes').addClass('active');
+            break;
+          case (((minutes >= 10) && (minutes < 15)) || ((minutes >= 50) && (minutes < 55))):
+            minuteSelector.push('ten_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
+            keyword = (minutes < 30 ? 'past' : 'to');
+            $('span#minutes').addClass('active');
+            break;
+          case (((minutes >= 15) && (minutes < 20)) || ((minutes >= 45) && (minutes < 50))):
+            minuteSelector.push('quarter_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
+            keyword = (minutes < 30 ? 'past' : 'to');
+            $('span#minutes').removeClass('active');
+            break;
+          case (((minutes >= 20) && (minutes < 25)) || ((minutes >= 40) && (minutes < 45))):
+            minuteSelector.push('twenty_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
+            keyword = (minutes < 30 ? 'past' : 'to');
+            $('span#minutes').addClass('active');
+            break;
+          case (((minutes >= 25) && (minutes < 30)) || ((minutes >= 35) && (minutes < 40))):
+            minuteSelector.push('twenty_prefix');
+            minuteSelector.push('five_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
+            keyword = (minutes < 30 ? 'past' : 'to');
+            $('span#minutes').addClass('active');
+            break;
+          case ((minutes >= 30) && (minutes < 35)):
+            minuteSelector.push('half_prefix');
+            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
+            hourSelector = hoursCalc;
+            keyword = 'past';
+            $('span#minutes').removeClass('active');
+            break;
+        }
+        
+        // Remove active class from non-permanent spans
+        $('span:not(.permanent, #minutes)').removeClass('active');
+        
+        // Activate the correct hour
+        $('span#' + hoursArray[hourSelector]).addClass('active');
+
+        // Activate the correct minutes
+        for (var i = 0; i < minuteSelector.length; i++) {
+          $('span#' + minuteSelector[i]).addClass('active');
+        }
+        
+        // Activate the correct keyword
+        $('span#' + keyword).addClass('active');
+      }
+
+    //]]></script>
+  </body>
+</html>
