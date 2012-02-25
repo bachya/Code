@@ -56,70 +56,85 @@
     <script type="text/javascript">//<![CDATA[
       $(document).ready(function() {
 
+        // Call the function to generate the clock once, then call it
+        // again every minute.
         generateTime();
-        setInterval(generateTime, 1000);
+        setInterval(generateTime, 60000);
     
       });
       
-      var hoursArray = ['one_suffix', 'two_suffix', 'three_suffix', 'four_suffix', 'five_suffix', 'six_suffix', 'seven_suffix', 'eight_suffix'];
-    
-      function generateTime() {
-        var date           = new Date();
-        var hours          = date.getHours();
-        var minutes        = date.getMinutes();
+      // Span IDs for the hours
+      var hoursArray = [
+        'one_suffix', 
+        'two_suffix', 
+        'three_suffix', 
+        'four_suffix', 
+        'five_suffix', 
+        'six_suffix', 
+        'seven_suffix', 
+        'eight_suffix', 
+        'nine_suffix', 
+        'ten_suffix', 
+        'eleven_suffix', 
+        'twelve_suffix'
+      ];
+      
+      // Calculates the correct items to light up
+      function calculateTimePieces(hour, minutes, minuteSelectors) {
+        var hourSelector = ''
+        var minuteSelector = [];
         
         var keyword = '';
-        var minuteSelector = [];
-        var hoursCalc = '';
-        var hourSelector = ''
+        var hoursEval = '';
+        
+        for (var i = 0; i < minuteSelectors.length; i++) {
+          minuteSelector.push(minuteSelectors[i]);
+        }
+        
+        hoursEval = (hour > 12 ? eval(hour - 13) : eval(hour - 1));
+        hourSelector = (minutes < 30 ? hoursEval : eval(hoursEval + 1));
+        keyword = (minutes < 30 ? 'past' : 'to');
+      
+        return [minuteSelector, hourSelector, keyword];
+      }
+    
+      // Generates the clock
+      function generateTime() {
+        var date            = new Date();
+        var hours           = date.getHours();
+        var minutes         = date.getMinutes();
+        var results         = [];
+        var includeMinLabel = '';
         
         switch (true) {
           case ((minutes >= 0) && (minutes < 5)):
             hourSelector = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
             $('span#minutes').removeClass('active');
+            includeMinLabel = false;
             break;
           case (((minutes >= 5) && (minutes < 10)) || ((minutes >= 55) && (minutes <= 59))):
-            minuteSelector.push('five_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
-            keyword = (minutes < 30 ? 'past' : 'to');
-            $('span#minutes').addClass('active');
+            results = calculateTimePieces(hours, minutes, ['five_prefix']);
+            includeMinLabel = true;
             break;
           case (((minutes >= 10) && (minutes < 15)) || ((minutes >= 50) && (minutes < 55))):
-            minuteSelector.push('ten_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
-            keyword = (minutes < 30 ? 'past' : 'to');
-            $('span#minutes').addClass('active');
+            results = calculateTimePieces(hours, minutes, ['ten_prefix']);
+            includeMinLabel = true;
             break;
           case (((minutes >= 15) && (minutes < 20)) || ((minutes >= 45) && (minutes < 50))):
-            minuteSelector.push('quarter_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
-            keyword = (minutes < 30 ? 'past' : 'to');
-            $('span#minutes').removeClass('active');
+            results = calculateTimePieces(hours, minutes, ['quarter_prefix']);
+            includeMinLabel = false;
             break;
           case (((minutes >= 20) && (minutes < 25)) || ((minutes >= 40) && (minutes < 45))):
-            minuteSelector.push('twenty_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
-            keyword = (minutes < 30 ? 'past' : 'to');
-            $('span#minutes').addClass('active');
+            results = calculateTimePieces(hours, minutes, ['twenty_prefix']);
+            includeMinLabel = true;
             break;
           case (((minutes >= 25) && (minutes < 30)) || ((minutes >= 35) && (minutes < 40))):
-            minuteSelector.push('twenty_prefix');
-            minuteSelector.push('five_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = (minutes < 30 ? hoursCalc : eval(hoursCalc + 1));
-            keyword = (minutes < 30 ? 'past' : 'to');
-            $('span#minutes').addClass('active');
+            results = calculateTimePieces(hours, minutes, ['twenty_prefix', 'five_prefix']);
+            includeMinLabel = true;
             break;
           case ((minutes >= 30) && (minutes < 35)):
-            minuteSelector.push('half_prefix');
-            hoursCalc = (hours > 12 ? eval(hours - 13) : eval(hours - 1));
-            hourSelector = hoursCalc;
-            keyword = 'past';
-            $('span#minutes').removeClass('active');
+            results = calculateTimePieces(hours, minutes, ['half_prefix']);
+            includeMinLabel = false;
             break;
         }
         
@@ -127,15 +142,18 @@
         $('span:not(.permanent, #minutes)').removeClass('active');
         
         // Activate the correct hour
-        $('span#' + hoursArray[hourSelector]).addClass('active');
+        $('span#' + hoursArray[results[1]]).addClass('active');
 
         // Activate the correct minutes
-        for (var i = 0; i < minuteSelector.length; i++) {
-          $('span#' + minuteSelector[i]).addClass('active');
+        for (var i = 0; i < results[0].length; i++) {
+          $('span#' + results[0][i]).addClass('active');
         }
         
         // Activate the correct keyword
-        $('span#' + keyword).addClass('active');
+        $('span#' + results[2]).addClass('active');
+        
+        // Activate the 'minutes' label if necessary
+        includeMinLabel ? $('span#minutes').addClass('active') : $('span#minutes').removeClass('active')
       }
 
     //]]></script>
