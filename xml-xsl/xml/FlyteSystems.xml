@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FlyteChannel>
+  <Airport>
+    <AirportName>Washington ~ Reagan</AirportName>
+  </Airport>
+  <Flytes>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3434</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Burlington, VT</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:31:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3839</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Greer, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3928</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:22:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Buffalo, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1905</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Fort Lauderdale, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:35:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5910</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:26:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>334</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:29:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>31</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2028</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:23:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3083</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Columbus, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:20:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3105</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>West Palm Beach, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>662</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Phoenix, AZ</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Orange County, CA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:26:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5111</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>St. Louis, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:32:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>17</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3041</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ Kennedy</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:36:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>14</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1177</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T10:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charlotte, NC</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Jacksonville, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:33:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1169</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:56:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>28</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1249</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>St. Louis, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:52:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>30</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1239</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:55:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>21</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>2601</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New Orleans, LA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:54:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>15</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3977</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Columbus, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:56:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>20</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5519</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:06:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>17</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5746</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Cincinnati, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:50:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>16</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Frontier</AirlineName>
+      </Airline>
+      <Designator>1437</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Omaha, NE</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Denver, CO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:00:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2168</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4083</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charleston, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:49:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5809</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:08:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T10:58:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>18</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1745</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:04:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>19</Gate>
+      <Remark>departed</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>4891</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:13:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Newark, NJ</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:01:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Sun Country</AirlineName>
+      </Airline>
+      <Designator>266</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Lansing</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Minneapolis/St. Paul</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:15:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3583</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:15:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>437</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Miami, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:20:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>32</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3989</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Huntsville, AL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:20:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Air Canada</AirlineName>
+      </Airline>
+      <Designator>7653</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Montreal, Canada</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:35:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>At 11:35a</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5912</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Frontier</AirlineName>
+      </Airline>
+      <Designator>1321</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Milwaukee, WI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:30:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2030</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3336</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Bradley</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3277</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New Orleans, LA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:35:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>AirTran</AirlineName>
+      </Airline>
+      <Designator>262</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Milwaukee, WI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:40:00</Estimated>
+      <Terminal>A</Terminal>
+      <Gate>4</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>887</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Denver, CO</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>San Francisco, CA</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Los Angeles, CA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>29</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1963</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:50:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Minneapolis/St. Paul</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:50:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>14</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3740</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T11:55:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Philadelphia, PA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T11:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4457</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>33</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Jet Blue</AirlineName>
+      </Airline>
+      <Designator>682</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>151</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Lima, Peru</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>21</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2170</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3403</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Jacksonville, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4043</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>951</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1431</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:04:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Memphis, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:04:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>20</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4469</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Nashville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:05:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>33A</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2472</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>White Plains, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:05:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>1145</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Houston ~ Bush</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>San Antonio, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:10:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>11</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1677</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charlotte, NC</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Charleston, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:10:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4010</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Nashville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:47:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>At 12:47p</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>3509</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Moline, IL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>31</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>4210</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Jacksonville, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>15</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5914</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2032</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Air Canada</AirlineName>
+      </Airline>
+      <Designator>305</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Toronto, Canada</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:35:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>3898</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:40:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>34</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>AirTran</AirlineName>
+      </Airline>
+      <Designator>189</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:44:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:44:00</Estimated>
+      <Terminal>A</Terminal>
+      <Gate>4</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1990</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Miami, FL</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:45:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>28</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>629</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:45:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>18</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>4015</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T12:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charleston, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T12:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>19</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4544</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ Kennedy</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>33</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1439</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>16</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2172</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3071</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Columbus, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Frontier</AirlineName>
+      </Airline>
+      <Designator>727</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:22:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Denver, CO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:22:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Jet Blue</AirlineName>
+      </Airline>
+      <Designator>693</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:25:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3960</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Syracuse, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4514</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Nashville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>33A</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>2994</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>20</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3080</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Cincinnati, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>21</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5916</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2034</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3379</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3097</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Greensboro/High Pt</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:35:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3046</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Miami, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:40:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>17</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2553</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Knoxville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:40:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3361</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Kansas City, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:40:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3490</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Philadelphia, PA</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Montreal, Canada</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:53:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>At 1:53p</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3889</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:40:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1711</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charlotte, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2527</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:50:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chattanooga, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:50:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3237</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:50:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New Orleans, LA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:50:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3708</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:50:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Pittsburgh, PA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:50:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>AirTran</AirlineName>
+      </Airline>
+      <Designator>264</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:51:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Milwaukee, WI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:51:00</Estimated>
+      <Terminal>A</Terminal>
+      <Gate>4</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>4871</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T13:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Cleveland, OH</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Baltimore/Washington</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T13:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1224</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Oklahoma City, OK</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>32</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>1603</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Houston ~ Bush</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Austin, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2174</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3082</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Indianapolis, IN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3395</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Louisville, KY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4023</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Columbia, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:05:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>593</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Phoenix, AZ</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:10:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>30</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>6035</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Bradley</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:15:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>16</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3265</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Jacksonville, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:15:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1763</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:19:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Minneapolis/St. Paul</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:19:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>18</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5789</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:25:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>15</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3224</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Providence, RI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Jet Blue</AirlineName>
+      </Airline>
+      <Designator>684</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:30:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5918</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2036</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>621</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:33:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Calgary/Banff,Can.</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:33:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>29</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>3837</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ Kennedy</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:35:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>34</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>4066</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Indianapolis, IN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:40:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>19</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1715</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Fort Lauderdale, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>AirTran</AirlineName>
+      </Airline>
+      <Designator>199</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:52:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:52:00</Estimated>
+      <Terminal>A</Terminal>
+      <Gate>4</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3144</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:55:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Bradley</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>4890</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Newark, NJ</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Portland, ME</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4767</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T14:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charleston, WV</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T14:59:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>985</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Miami, FL</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Managua, Nicaragua</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>2039</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>17</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5269</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>14</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2176</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3208</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Manchester, NH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3262</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Portland, ME</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3354</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1275</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:05:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1599</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:10:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>32</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3430</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Burlington, VT</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:10:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>718</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Philadelphia, PA</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Rome, Italy</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:15:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>1435</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Houston ~ Bush</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:20:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>11</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3435</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Albany, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:20:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1665</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charlotte, NC</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>St. Louis, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2489</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Nashville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5811</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:29:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Orlando, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:29:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>20</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3881</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Providence, RI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>21</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5309</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>St. Louis, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>18</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5920</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>343</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Mexico City</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>27</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2038</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>3701</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:35:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Jet Blue</AirlineName>
+      </Airline>
+      <Designator>686</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:55:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>At 4:55p</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>4084</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Syracuse, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:35:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>3008</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ Kennedy</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:40:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>14</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3330</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Rochester, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3842</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Greer, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3151</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:55:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Indianapolis, IN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3333</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:55:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Huntsville, AL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1993</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>St. Louis, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1880</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T15:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Buffalo, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T15:59:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1539</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>16</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5279</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>15</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2178</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3555</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Pittsburgh, PA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4481</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:15:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:15:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Frontier</AirlineName>
+      </Airline>
+      <Designator>1749</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:19:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Kansas City, MO</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:19:00</Estimated>
+      <Terminal>A</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>AirTran</AirlineName>
+      </Airline>
+      <Designator>193</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:29:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:29:00</Estimated>
+      <Terminal>A</Terminal>
+      <Gate>4</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1035</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+        <Airport>
+          <AirportName>Reno/Tahoe</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1163</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Miami, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Air Canada</AirlineName>
+      </Airline>
+      <Designator>7655</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Montreal, Canada</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5922</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:30:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>22</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2040</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:30:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Boston, MA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:30:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>United</AirlineName>
+      </Airline>
+      <Designator>625</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:34:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Chicago, IL ~ O&apos;Hare</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:34:00</Estimated>
+      <Terminal>C</Terminal>
+      <Gate>31</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>4432</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:35:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Nashville, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:35:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3085</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Raleigh/Durham, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:40:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3856</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:40:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>White Plains, NY</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:40:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3855</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:45:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:45:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2407</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:55:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dayton, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:55:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>2045</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Detroit, MI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>19</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>5688</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T16:59:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Tampa, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T16:59:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>16</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>4195</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Newark, NJ</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>2139</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Atlanta, GA</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>17</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>832</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Salt Lake City, UT</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>21</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>2180</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>New York ~ LaGuardia</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3410</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Providence, RI</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3935</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:00:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charleston, SC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:00:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>1631</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Memphis, TN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:05:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>15</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3234</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:05:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Columbus, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:05:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>043</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:10:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Phoenix, AZ</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:10:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>American</AirlineName>
+      </Airline>
+      <Designator>1539</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Dallas/Fort Worth, TX</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:20:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1777</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:20:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Charlotte, NC</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:20:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Continental</AirlineName>
+      </Airline>
+      <Designator>5231</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Cleveland, OH</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:25:00</Estimated>
+      <Terminal>B</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>Delta</AirlineName>
+      </Airline>
+      <Designator>4119</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Indianapolis, IN</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:25:00</Estimated>
+      <Terminal>B</Terminal>
+      <Gate>20</Gate>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>1649</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Tampa, FL</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+    <Flyte>
+      <Airline>
+        <AirlineName>US Airways</AirlineName>
+      </Airline>
+      <Designator>3774</Designator>
+      <Leg>D</Leg>
+      <Scheduled>2011-11-08T17:25:00</Scheduled>
+      <Airports>
+        <Airport>
+          <AirportName>Bradley</AirportName>
+        </Airport>
+      </Airports>
+      <Estimated>2011-11-08T17:25:00</Estimated>
+      <Terminal>C</Terminal>
+      <Remark>on time</Remark>
+    </Flyte>
+  </Flytes>
+</FlyteChannel>

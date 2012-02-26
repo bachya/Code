@@ -1,0 +1,2444 @@
+<yelp>
+  <message>
+    <text>OK</text>
+    <code>0</code>
+    <version>1.1.1</version>
+  </message>
+  <businesses>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>Nw8h8pc4TzHdVlPA3gsOlA</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-cream-puffs-san-francisco</mobile_url>
+      <review_count>829</review_count>
+      <zip>94103</zip>
+      <state>CA</state>
+      <latitude>37.785165</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>99 Yerba Buena Ln</address1>
+      <address2 />
+      <address3 />
+      <phone>4159789972</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=99+Yerba+Buena+Ln%2C+San+Francisco+94103</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/RxI8ZzW-LwmUMc4VzwawtA/ms</photo_url>
+      <distance>0.2104439</distance>
+      <name>Beard Papa's Cream Puffs</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=SOMA%2C+San+Francisco%2C+CA</url>
+          <name>SOMA</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/beard-papas-cream-puffs-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.403917</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=99+Yerba+Buena+Ln%2C+San+Francisco+94103</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/EXajMushtfEwiaDMHWbu1w/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=dmIi-DqwydCEtEYNI-WK8w</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-san-francisco#hrid:-DFSgE4m5E_9nQ93h3xZkg</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-san-francisco?full=True#hrid:-DFSgE4m5E_9nQ93h3xZkg</mobile_uri>
+          <text_excerpt>This place gets a 4 star because they
+          definitely keep me coming back for their delicious
+          vanilla cream puffs. ( The chocolate flavor is good too
+          but not my...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/EXajMushtfEwiaDMHWbu1w/ms</user_photo_url>
+          <date>2012-02-15</date>
+          <user_name>Julie C.</user_name>
+          <id>-DFSgE4m5E_9nQ93h3xZkg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/WL7fHG4qPb6lqfwxhz3twQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=2RCamTeUQfqWDW_7-W_tpw</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-san-francisco#hrid:AsWSsBCyZLhsbmbNDng0KA</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-san-francisco?full=True#hrid:AsWSsBCyZLhsbmbNDng0KA</mobile_uri>
+          <text_excerpt>Amazing puffs I have to stop when I'm in
+          the area</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/WL7fHG4qPb6lqfwxhz3twQ/ms</user_photo_url>
+          <date>2012-02-15</date>
+          <user_name>Sarah O.</user_name>
+          <id>AsWSsBCyZLhsbmbNDng0KA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/oO3b6cpgT41vD5XizXpacA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=-wJQh3KOuLRUvX2TlfugHQ</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-san-francisco#hrid:9fBfGLuNQNpKhU2hxp88ww</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-san-francisco?full=True#hrid:9fBfGLuNQNpKhU2hxp88ww</mobile_uri>
+          <text_excerpt>The Beard Papa closest to my house was
+          closed . At first I was annoyed, but I'm kind of glad it
+          did or else I will be chomping down on one every other
+          day....</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/oO3b6cpgT41vD5XizXpacA/ms</user_photo_url>
+          <date>2012-02-11</date>
+          <user_name>Tuan C.</user_name>
+          <id>9fBfGLuNQNpKhU2hxp88ww</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/RxI8ZzW-LwmUMc4VzwawtA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media3.ak.yelpcdn.com/static/201012161235323114/img/ico/stars/stars_3_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>SHeSra0w1scKj2kZTveyCg</id>
+      <is_closed>True</is_closed>
+      <city>Redwood City</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-cream-puffs-redwood-city-2</mobile_url>
+      <review_count>149</review_count>
+      <zip>94063</zip>
+      <state>CA</state>
+      <latitude>37.4860169</latitude>
+      <rating_img_url_small>
+      http://media3.ak.yelpcdn.com/static/201012163952475669/img/ico/stars/stars_small_3_half.png</rating_img_url_small>
+      <address1>835 Middlefield Rd</address1>
+      <address2 />
+      <address3 />
+      <phone>6503657272</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=835+Middlefield+Rd%2C+Redwood+City+94063</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/DMvYXySv2nWL8oUXhxjnKQ/ms</photo_url>
+      <distance>22.837353</distance>
+      <name>Beard Papa's Cream Puffs</name>
+      <neighborhoods />
+      <url>
+      http://www.yelp.com/biz/beard-papas-cream-puffs-redwood-city-2</url>
+      <country>USA</country>
+      <avg_rating>3.5</avg_rating>
+      <longitude>-122.2290928</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=835+Middlefield+Rd%2C+Redwood+City+94063</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/UAvO_c-2udQ3bAonONVKjQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=KJZQAMqGEb98bJ3S-5MFaA</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-redwood-city-2#hrid:JJjCjfAGHn38EdolvdByaA</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-redwood-city-2?full=True#hrid:JJjCjfAGHn38EdolvdByaA</mobile_uri>
+          <text_excerpt>Was sooo good. Sad that they closed
+          it.</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/UAvO_c-2udQ3bAonONVKjQ/ms</user_photo_url>
+          <date>2010-12-06</date>
+          <user_name>Terri C.</user_name>
+          <id>JJjCjfAGHn38EdolvdByaA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media2.ak.yelpcdn.com/static/201012162819681786/img/gfx/blank_user_extra_small.gif</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=85-q5vp5y9LRX7xt--g76Q</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-redwood-city-2#hrid:iLp46WSRS-VgMEZKuqfYNg</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-redwood-city-2?full=True#hrid:iLp46WSRS-VgMEZKuqfYNg</mobile_uri>
+          <text_excerpt>This location is closed!! No more Beard
+          Papas in RWC =(</text_excerpt>
+          <user_photo_url>
+          http://media3.ak.yelpcdn.com/static/201012161186834854/img/gfx/blank_user_small.gif</user_photo_url>
+          <date>2010-09-13</date>
+          <user_name>Simon T.</user_name>
+          <id>iLp46WSRS-VgMEZKuqfYNg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/FSn3yLXp52cor3U8fhQ17w/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=KMOCJWr94Xk0vgaujvyRhw</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cream-puffs-redwood-city-2#hrid:N71KU5BCiXq_0mBfbUWTzA</url>
+          <mobile_uri>
+          /biz/beard-papas-cream-puffs-redwood-city-2?full=True#hrid:N71KU5BCiXq_0mBfbUWTzA</mobile_uri>
+          <text_excerpt>Great cream puffs and tiramisu dishes, best
+          customer service in town. Unfortuantely Redood City
+          branch closed but a new one opened in San Mateo, 365
+          2nd...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/FSn3yLXp52cor3U8fhQ17w/ms</user_photo_url>
+          <date>2009-12-09</date>
+          <user_name>Luis M.</user_name>
+          <id>N71KU5BCiXq_0mBfbUWTzA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/DMvYXySv2nWL8oUXhxjnKQ/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>-6VcjD0CMrsxFr9g_y0QIA</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-san-francisco-2</mobile_url>
+      <review_count>808</review_count>
+      <zip>94103</zip>
+      <state>CA</state>
+      <latitude>37.784219</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>Westfield San Francisco Centre</address1>
+      <address2>845 Market St</address2>
+      <address3 />
+      <phone>4159789975</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=845+Market+St%2C+San+Francisco+94103</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=845+Market+St%2C+San+Francisco+94103</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/0ye0ZY78EEohZT2PYou7oQ/ms</photo_url>
+      <distance>0.3474393</distance>
+      <name>Beard Papa's</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Union+Square%2C+San+Francisco%2C+CA</url>
+          <name>Union Square</name>
+        </neighborhood>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=SOMA%2C+San+Francisco%2C+CA</url>
+          <name>SOMA</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/beard-papas-san-francisco-2</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.406176</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=845+Market+St%2C+San+Francisco+94103</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/5MWcTiIQCglyp_Rjo6Vy8g/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=-bmEz1zBhIz4-qHFEQxR0w</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-san-francisco-2#hrid:rR2SwEpEZzzYh5FQCSbfow</url>
+          <mobile_uri>
+          /biz/beard-papas-san-francisco-2?full=True#hrid:rR2SwEpEZzzYh5FQCSbfow</mobile_uri>
+          <text_excerpt>I am in creamy custard heaven. These cream
+          puffs are divine. Beard Papa's has a very good product. I
+          know it is a 1000 calories but really once in
+          awhile...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/5MWcTiIQCglyp_Rjo6Vy8g/ms</user_photo_url>
+          <date>2012-02-15</date>
+          <user_name>Nue B.</user_name>
+          <id>rR2SwEpEZzzYh5FQCSbfow</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/-oJf1f9n1yn0kFFyQU4Kew/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=h8pthOnqCxV94D8-JkZXCQ</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-san-francisco-2#hrid:pYNQ2wdlVHQQliLq_dm0eQ</url>
+          <mobile_uri>
+          /biz/beard-papas-san-francisco-2?full=True#hrid:pYNQ2wdlVHQQliLq_dm0eQ</mobile_uri>
+          <text_excerpt>VANILLA CREAM PUFF! I love everything about
+          it. The custard is perfectly sweet. I love the powdered
+          sugar. The flakiness of the puff is just
+          right....</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/-oJf1f9n1yn0kFFyQU4Kew/ms</user_photo_url>
+          <date>2012-02-13</date>
+          <user_name>Cecilia S.</user_name>
+          <id>pYNQ2wdlVHQQliLq_dm0eQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/8567oJ0mAfT3zzaso9Kw4Q/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=ibRTPCNETk1DIUku4Ccc8g</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-san-francisco-2#hrid:LAyuuqsRHciVl9CGXmRZmQ</url>
+          <mobile_uri>
+          /biz/beard-papas-san-francisco-2?full=True#hrid:LAyuuqsRHciVl9CGXmRZmQ</mobile_uri>
+          <text_excerpt>Stop it. Like now. These cream puffs?
+          BOMBIES. Only get the Strawberry Cream Cookie Puffs. It
+          is the biddddnesss. Light. Tasty. Gotta have it.
+          Promise.</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/8567oJ0mAfT3zzaso9Kw4Q/ms</user_photo_url>
+          <date>2012-02-10</date>
+          <user_name>Bananalisa B.</user_name>
+          <id>LAyuuqsRHciVl9CGXmRZmQ</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/0ye0ZY78EEohZT2PYou7oQ/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>aDQDILG-G6nyl3l_ehBmGQ</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/pacific-puffs-san-francisco</mobile_url>
+      <review_count>279</review_count>
+      <zip>94123</zip>
+      <state>CA</state>
+      <latitude>37.796917</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1>2201 Union St</address1>
+      <address2 />
+      <address3 />
+      <phone>4154407833</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>catering</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=catering&amp;find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</search_url>
+          <name>Caterers</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media2.ak.yelpcdn.com/bpthumb/x3K4Cz-8NhXr4IVr_gCmpg/ms</photo_url>
+      <distance>2.0082493</distance>
+      <name>Pacific Puffs</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Marina%2FCow+Hollow%2C+San+Francisco%2C+CA</url>
+          <name>Marina/Cow Hollow</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/pacific-puffs-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-122.435688</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/FCPfoHUiqkPeKhdGbYCyIQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=MUEUIYias4_h7nw09OYoCg</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-san-francisco#hrid:qvZiJOCFWhk0l9vqIb-Y2g</url>
+          <mobile_uri>
+          /biz/pacific-puffs-san-francisco?full=True#hrid:qvZiJOCFWhk0l9vqIb-Y2g</mobile_uri>
+          <text_excerpt>Stumbled upon this place after my latest
+          venture to Umami Burger. Friend was craving dessert so we
+          decided to get our sugar fix here. A small and
+          simply...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/FCPfoHUiqkPeKhdGbYCyIQ/ms</user_photo_url>
+          <date>2012-02-11</date>
+          <user_name>Loriel L.</user_name>
+          <id>qvZiJOCFWhk0l9vqIb-Y2g</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/_aEXuT7qLEvIMobdAB823g/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=xa9gnlePFUCW6s5TTn_Dug</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-san-francisco#hrid:Y5-vaDfWfpEL1gtWn54jPw</url>
+          <mobile_uri>
+          /biz/pacific-puffs-san-francisco?full=True#hrid:Y5-vaDfWfpEL1gtWn54jPw</mobile_uri>
+          <text_excerpt>Wow!!! Coming from someone who doesn't even
+          like cream or puffs (lol), these were like little bits of
+          heaven in my mouth. Just happened to walk by
+          after...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/_aEXuT7qLEvIMobdAB823g/ms</user_photo_url>
+          <date>2012-02-11</date>
+          <user_name>Nicole K.</user_name>
+          <id>Y5-vaDfWfpEL1gtWn54jPw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/OByEXMg5pcYr7RaxizLwzw/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=eu7idMFk4YRP2PfGGz8JUQ</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-san-francisco#hrid:eP2wtSYzwCCv7gLeGZVbbw</url>
+          <mobile_uri>
+          /biz/pacific-puffs-san-francisco?full=True#hrid:eP2wtSYzwCCv7gLeGZVbbw</mobile_uri>
+          <text_excerpt>Crackkkkkkkkk! Beard who?!??!?! So good...
+          craving it, needing it, feining (urbandictinoary.com) for
+          it ... there must be crack in it. But it's
+          ok...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/OByEXMg5pcYr7RaxizLwzw/ms</user_photo_url>
+          <date>2012-02-09</date>
+          <user_name>Jessica L.</user_name>
+          <id>eP2wtSYzwCCv7gLeGZVbbw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media2.ak.yelpcdn.com/bpthumb/x3K4Cz-8NhXr4IVr_gCmpg/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>UIx5Tlk4WYeydPayNHOn4w</id>
+      <is_closed>False</is_closed>
+      <city>Cupertino</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-cupertino</mobile_url>
+      <review_count>442</review_count>
+      <zip>95014</zip>
+      <state>CA</state>
+      <latitude>37.322847</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>19748 Stevens Creek Blvd</address1>
+      <address2 />
+      <address3 />
+      <phone>4089962300</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=19748+Stevens+Creek+Blvd%2C+Cupertino+95014</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/vIRcgRYROu3MwElzE9hLkA/ms</photo_url>
+      <distance>38.322353</distance>
+      <name>Beard Papa's</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/beard-papas-cupertino</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.018426</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=19748+Stevens+Creek+Blvd%2C+Cupertino+95014</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/bq0f3cixGGfmXjmKKcGN-g/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=w-pGm1MfyHRvbL1x5NxiMA</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cupertino#hrid:Ef-982O5Fr6w_cjvaN5GIQ</url>
+          <mobile_uri>
+          /biz/beard-papas-cupertino?full=True#hrid:Ef-982O5Fr6w_cjvaN5GIQ</mobile_uri>
+          <text_excerpt>Not so familiar with this stuff since I am
+          not a huge desert fan. Regardless, I saw a fresh batch
+          being made and bought two for myself and my gf. Not
+          much...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/bq0f3cixGGfmXjmKKcGN-g/ms</user_photo_url>
+          <date>2012-02-16</date>
+          <user_name>Jack T.</user_name>
+          <id>Ef-982O5Fr6w_cjvaN5GIQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/v-Edu-j8wP_AwbN1tihZkg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=bFuuxDdm9WwQMGrztQ-MPg</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cupertino#hrid:gT6JDYxaj2IKXoCFxIigjA</url>
+          <mobile_uri>
+          /biz/beard-papas-cupertino?full=True#hrid:gT6JDYxaj2IKXoCFxIigjA</mobile_uri>
+          <text_excerpt>best cream puffs ever!!! love all the
+          flavors.</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/v-Edu-j8wP_AwbN1tihZkg/ms</user_photo_url>
+          <date>2012-02-02</date>
+          <user_name>Stefanie D.</user_name>
+          <id>gT6JDYxaj2IKXoCFxIigjA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/b_U5D_YhjDbWFXM6Vpx9pg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=xiBGreimmO1XYqznZIwv1w</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-cupertino#hrid:4Kd-bb-EvR854JJwSen8xA</url>
+          <mobile_uri>
+          /biz/beard-papas-cupertino?full=True#hrid:4Kd-bb-EvR854JJwSen8xA</mobile_uri>
+          <text_excerpt>There was a time where I would go to Beard
+          Papa's anytime I could - this was before I had to watch
+          my moneys as a poor college student. Since then,
+          I...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/b_U5D_YhjDbWFXM6Vpx9pg/ms</user_photo_url>
+          <date>2012-02-02</date>
+          <user_name>Brandon Y.</user_name>
+          <id>4Kd-bb-EvR854JJwSen8xA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/vIRcgRYROu3MwElzE9hLkA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>QZiAtyDm6xiWKnMkibaRBQ</id>
+      <is_closed>False</is_closed>
+      <city>Los Altos</city>
+      <mobile_url>
+      http://m.yelp.com/biz/satura-cakes-los-altos</mobile_url>
+      <review_count>314</review_count>
+      <zip>94022</zip>
+      <state>CA</state>
+      <latitude>37.378846</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>200 Main St</address1>
+      <address2 />
+      <address3 />
+      <phone>6509483300</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=200+Main+St%2C+Los+Altos+94022</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=200+Main+St%2C+Los+Altos+94022</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/Q6-nrVkpuUeMqRxNRlZYHA/ms</photo_url>
+      <distance>32.252106</distance>
+      <name>Satura Cakes</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/satura-cakes-los-altos</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.115672</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=200+Main+St%2C+Los+Altos+94022</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/ghLrjE8TR3HM9zD971ewfw/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=XoKvlttBRZ3SS8mXE8zbag</user_url>
+          <url>
+          http://www.yelp.com/biz/satura-cakes-los-altos#hrid:qLuM3BnrSBMPnPbAU72miQ</url>
+          <mobile_uri>
+          /biz/satura-cakes-los-altos?full=True#hrid:qLuM3BnrSBMPnPbAU72miQ</mobile_uri>
+          <text_excerpt>Great Cakes, Great Service. We went to a
+          bunch of cake tastings but we chose this one, and had a
+          wonderful experience. Everything was top notch.
+          My...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/ghLrjE8TR3HM9zD971ewfw/ms</user_photo_url>
+          <date>2012-02-18</date>
+          <user_name>N Y.</user_name>
+          <id>qLuM3BnrSBMPnPbAU72miQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/hXWGHZd47JHojBXJqGY6xg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=r2TIBg2hYalsHPvqjIppqA</user_url>
+          <url>
+          http://www.yelp.com/biz/satura-cakes-los-altos#hrid:W8Cl4KZPCRav11vEjJ0blQ</url>
+          <mobile_uri>
+          /biz/satura-cakes-los-altos?full=True#hrid:W8Cl4KZPCRav11vEjJ0blQ</mobile_uri>
+          <text_excerpt>So there really is a gem in the heart of
+          downtown Los Altos and its name is SATURA CAKES! Though
+          price, it is worth it =] I've seen it but never
+          really...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/hXWGHZd47JHojBXJqGY6xg/ms</user_photo_url>
+          <date>2012-02-14</date>
+          <user_name>Shannon W.</user_name>
+          <id>W8Cl4KZPCRav11vEjJ0blQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/sjv9cZ4RXO4N5VpwdrAVwA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=9Lnp7zJ_1HmmicVbMIBP9A</user_url>
+          <url>
+          http://www.yelp.com/biz/satura-cakes-los-altos#hrid:ByLtX8N04aiBxC03A13wbw</url>
+          <mobile_uri>
+          /biz/satura-cakes-los-altos?full=True#hrid:ByLtX8N04aiBxC03A13wbw</mobile_uri>
+          <text_excerpt>A Japanese style pastry shop. They also
+          offer fruit tea and coffee. We had a cup of raspberry
+          green tea, chestnut cake, cheese cake and Tiramisu. They
+          were...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/sjv9cZ4RXO4N5VpwdrAVwA/ms</user_photo_url>
+          <date>2012-02-13</date>
+          <user_name>Christina C.</user_name>
+          <id>ByLtX8N04aiBxC03A13wbw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/Q6-nrVkpuUeMqRxNRlZYHA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>rN0rNPkavJ11zvIaSzHxvQ</id>
+      <is_closed>False</is_closed>
+      <city>San Mateo</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-sweets-cafe-san-mateo</mobile_url>
+      <review_count>138</review_count>
+      <zip>94401</zip>
+      <state>CA</state>
+      <latitude>37.5666901</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>365 2nd Ave</address1>
+      <address2 />
+      <address3 />
+      <phone>6503427272</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=365+2nd+Ave%2C+San+Mateo+94401</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/pg807IrlGJYIAvH12vMHjA/ms</photo_url>
+      <distance>15.8261175</distance>
+      <name>Beard Papa's Sweets Cafe</name>
+      <neighborhoods />
+      <url>
+      http://www.yelp.com/biz/beard-papas-sweets-cafe-san-mateo</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.3226838</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=365+2nd+Ave%2C+San+Mateo+94401</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media1.ak.yelpcdn.com/static/201012162337205794/img/ico/stars/stars_small_3.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/8dUFxXKFXao-ja_L2nGcag/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media1.ak.yelpcdn.com/static/201012161694360749/img/ico/stars/stars_3.png</rating_img_url>
+          <rating>3</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=UDeqWuSakBI7sNLg8iHVXg</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-sweets-cafe-san-mateo#hrid:28rlxw2hTThONhhoNPw7Cw</url>
+          <mobile_uri>
+          /biz/beard-papas-sweets-cafe-san-mateo?full=True#hrid:28rlxw2hTThONhhoNPw7Cw</mobile_uri>
+          <text_excerpt>this is a japanese creampuff place with a
+          fisherman as a mascot. IF HELLO KITTY WAS BAKED, SHE/IT
+          WOULD TASTE LIKE THE FILLING. lots of pudding
+          inside...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/8dUFxXKFXao-ja_L2nGcag/ms</user_photo_url>
+          <date>2012-02-12</date>
+          <user_name>Captain Obvious ..</user_name>
+          <id>28rlxw2hTThONhhoNPw7Cw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/o0ONmIjKvU8ZjDf39scswg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=EoWvfs7oWq3GZVDr7pghTA</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-sweets-cafe-san-mateo#hrid:CSIDXB4SVsDSX6e4yv9JzQ</url>
+          <mobile_uri>
+          /biz/beard-papas-sweets-cafe-san-mateo?full=True#hrid:CSIDXB4SVsDSX6e4yv9JzQ</mobile_uri>
+          <text_excerpt>My first ever cream puff was from this
+          location and every puff since then has come from here.
+          Now I haven't had a Beard Papa in several months.
+          Reason...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/o0ONmIjKvU8ZjDf39scswg/ms</user_photo_url>
+          <date>2012-02-08</date>
+          <user_name>Abigail D.</user_name>
+          <id>CSIDXB4SVsDSX6e4yv9JzQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/2b2tpld39nYdI9xl5LbuLg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=C1ccV5ednpSJSL5NKibCOw</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-sweets-cafe-san-mateo#hrid:yuPEVO1nhObScERfecuwaA</url>
+          <mobile_uri>
+          /biz/beard-papas-sweets-cafe-san-mateo?full=True#hrid:yuPEVO1nhObScERfecuwaA</mobile_uri>
+          <text_excerpt>* Cream Puffs Done Right! * This is the
+          only way to do cream puffs folks. The shell should be at
+          room temp so they don't get stale (vs the frig). And
+          the...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/2b2tpld39nYdI9xl5LbuLg/ms</user_photo_url>
+          <date>2012-01-29</date>
+          <user_name>John H.</user_name>
+          <id>yuPEVO1nhObScERfecuwaA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/pg807IrlGJYIAvH12vMHjA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>Wvy0j8UkTpA7jWmK7zP0eA</id>
+      <is_closed>False</is_closed>
+      <city>San Jose</city>
+      <mobile_url>
+      http://m.yelp.com/biz/hong-van-bakery-san-jose</mobile_url>
+      <review_count>50</review_count>
+      <zip>95122</zip>
+      <state>CA</state>
+      <latitude>37.319345</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>2559 S King Rd</address1>
+      <address2>Ste B11</address2>
+      <address3 />
+      <phone>4082238582</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=2559+S+King+Rd%2C+San+Jose+95122</search_url>
+          <name>Bakeries</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/784oDGRVSKQSPlph39PllA/ms</photo_url>
+      <distance>45.247875</distance>
+      <name>Hong-Van Bakery</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/hong-van-bakery-san-jose</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-121.8230399</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=2559+S+King+Rd%2C+San+Jose+95122</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/jMCBCM24K7-rKq4mfhNplA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=tYzp_iXqSZes7SgfhUDPHg</user_url>
+          <url>
+          http://www.yelp.com/biz/hong-van-bakery-san-jose#hrid:DmLhzVbg88D24tJmutWjrg</url>
+          <mobile_uri>
+          /biz/hong-van-bakery-san-jose?full=True#hrid:DmLhzVbg88D24tJmutWjrg</mobile_uri>
+          <text_excerpt>I tried 2 of the cream puffs here. The
+          regular custard was awesome not to sweet, nice and
+          fluffy. The durian cream puff not so much. Has a strange
+          flavor,...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/jMCBCM24K7-rKq4mfhNplA/ms</user_photo_url>
+          <date>2012-01-15</date>
+          <user_name>Lynette C.</user_name>
+          <id>DmLhzVbg88D24tJmutWjrg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/JygnbSqf_OX63Dxw7NyDnA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=_VMGbmIeK71rQGwOBWt_Kg</user_url>
+          <url>
+          http://www.yelp.com/biz/hong-van-bakery-san-jose#hrid:z11Wgsousk5O--HirijITg</url>
+          <mobile_uri>
+          /biz/hong-van-bakery-san-jose?full=True#hrid:z11Wgsousk5O--HirijITg</mobile_uri>
+          <text_excerpt>Pretty good mini pate chaud. Great crunchy
+          texture on the bread part. Filling could be a bit less
+          bland, however.</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/JygnbSqf_OX63Dxw7NyDnA/ms</user_photo_url>
+          <date>2011-12-30</date>
+          <user_name>Chris V.</user_name>
+          <id>z11Wgsousk5O--HirijITg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/J-xbDZs038ra1xLcdfCsyQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=J7duvaxtVGPguXs5rlhDLg</user_url>
+          <url>
+          http://www.yelp.com/biz/hong-van-bakery-san-jose#hrid:M6nl8wJNX9Wqx0KzAQqYWw</url>
+          <mobile_uri>
+          /biz/hong-van-bakery-san-jose?full=True#hrid:M6nl8wJNX9Wqx0KzAQqYWw</mobile_uri>
+          <text_excerpt>I must say... I AM IN LOVE!!! Yes, yes,
+          yes.. it's a forbidden love.. lots of people would
+          disagree but I could care less... I am deeply in love
+          with...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/J-xbDZs038ra1xLcdfCsyQ/ms</user_photo_url>
+          <date>2011-12-07</date>
+          <user_name>Yun C.</user_name>
+          <id>M6nl8wJNX9Wqx0KzAQqYWw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/784oDGRVSKQSPlph39PllA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>Az-ZIjP5yhgfStbaoSwufw</id>
+      <is_closed>False</is_closed>
+      <city>Milpitas</city>
+      <mobile_url>
+      http://m.yelp.com/biz/beard-papas-milpitas</mobile_url>
+      <review_count>56</review_count>
+      <zip>95035</zip>
+      <state>CA</state>
+      <latitude>37.416693</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>1535 Landess Ave</address1>
+      <address2 />
+      <address3 />
+      <phone>4089425577</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=1535+Landess+Ave%2C+Milpitas+95035</search_url>
+          <name>Desserts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/lBG55GPaARh-xDzbZR94pA/ms</photo_url>
+      <distance>38.444603</distance>
+      <name>Beard Papa's</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/beard-papas-milpitas</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-121.877076</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=1535+Landess+Ave%2C+Milpitas+95035</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/-VyR7xoHSHjHuF-_m5L3LQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=p4FsOflitbyFKseYi1610Q</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-milpitas#hrid:0Gess4esB800bJY3-eELBg</url>
+          <mobile_uri>
+          /biz/beard-papas-milpitas?full=True#hrid:0Gess4esB800bJY3-eELBg</mobile_uri>
+          <text_excerpt>A good day: ordered a cup of six mini-puffs
+          and got two on the house! The best thing Beard Papas ever
+          did was create the mini-puff - instead of eating
+          one...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/-VyR7xoHSHjHuF-_m5L3LQ/ms</user_photo_url>
+          <date>2012-01-29</date>
+          <user_name>Jan P.</user_name>
+          <id>0Gess4esB800bJY3-eELBg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/c7u8L7EyV38aQTRc0QtLug/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=4HIlXpCeoRlPCUvmLr1Qjw</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-milpitas#hrid:LyYbX9uA3OmAHH6qdbmhdg</url>
+          <mobile_uri>
+          /biz/beard-papas-milpitas?full=True#hrid:LyYbX9uA3OmAHH6qdbmhdg</mobile_uri>
+          <text_excerpt>I'm just happy we have a Bearded Papa
+          nearby. The puffs are like no other and you can only get
+          these type of puffs here. I do wish they had Strawberry
+          puffs...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/c7u8L7EyV38aQTRc0QtLug/ms</user_photo_url>
+          <date>2012-01-15</date>
+          <user_name>Aaron C.</user_name>
+          <id>LyYbX9uA3OmAHH6qdbmhdg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/oJBq4PLeTJ5y7t2gO86shg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=dWAhMF3PnJe9WiyZY3YnNw</user_url>
+          <url>
+          http://www.yelp.com/biz/beard-papas-milpitas#hrid:qOGA-dzDnzb3M-dfBepZXQ</url>
+          <mobile_uri>
+          /biz/beard-papas-milpitas?full=True#hrid:qOGA-dzDnzb3M-dfBepZXQ</mobile_uri>
+          <text_excerpt>I come here when my sweet tooth is acting
+          up. What's nice about their cream puffs is that it's not
+          too sweet but just right to fill your sweet needs
+          =)...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/oJBq4PLeTJ5y7t2gO86shg/ms</user_photo_url>
+          <date>2011-12-30</date>
+          <user_name>Tammy V.</user_name>
+          <id>qOGA-dzDnzb3M-dfBepZXQ</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/lBG55GPaARh-xDzbZR94pA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>Ars9Emv3AWMX0zOHfsoDQQ</id>
+      <is_closed>False</is_closed>
+      <city>Napa</city>
+      <mobile_url>http://m.yelp.com/biz/ca-momi-napa</mobile_url>
+      <review_count>97</review_count>
+      <zip>94559</zip>
+      <state>CA</state>
+      <latitude>38.301489</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>Oxbow Public Market</address1>
+      <address2>610 1st St</address2>
+      <address3 />
+      <phone>7072574992</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>pizza</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=pizza&amp;find_desc=&amp;find_loc=610+1st+St%2C+Napa+94559</search_url>
+          <name>Pizza</name>
+        </categorie>
+        <categorie>
+          <category_filter>italian</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=italian&amp;find_desc=&amp;find_loc=610+1st+St%2C+Napa+94559</search_url>
+          <name>Italian</name>
+        </categorie>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=610+1st+St%2C+Napa+94559</search_url>
+          <name>Bakeries</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/D6hBBTKQEZWLkjS3hlS8zA/ms</photo_url>
+      <distance>36.124546</distance>
+      <name>Ca' Momi</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/ca-momi-napa</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.281694</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=610+1st+St%2C+Napa+94559</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/_mBkNcy4LofABECJwKXfVQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=luJuzuWOpA7bF0V2b-OVuw</user_url>
+          <url>
+          http://www.yelp.com/biz/ca-momi-napa#hrid:iIZdzQjNjVN4ebxAqRTlig</url>
+          <mobile_uri>
+          /biz/ca-momi-napa?full=True#hrid:iIZdzQjNjVN4ebxAqRTlig</mobile_uri>
+          <text_excerpt>Had a great dinner last night. Enjoyed the
+          soup and dessert on the house!!! They know how to make
+          people happy when the place was busy!!! Great
+          service,...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/_mBkNcy4LofABECJwKXfVQ/ms</user_photo_url>
+          <date>2012-02-20</date>
+          <user_name>Mary B.</user_name>
+          <id>iIZdzQjNjVN4ebxAqRTlig</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media4.ak.yelpcdn.com/static/201012164278297776/img/ico/stars/stars_small_2.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/nJR-IWMdrOupK3gIlbyz9w/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media4.ak.yelpcdn.com/static/201012163489049252/img/ico/stars/stars_2.png</rating_img_url>
+          <rating>2</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=jDYih83rmQ9Td4jRgzGPOQ</user_url>
+          <url>
+          http://www.yelp.com/biz/ca-momi-napa#hrid:5zBDpzkK1Wq_8nwU0oZsTw</url>
+          <mobile_uri>
+          /biz/ca-momi-napa?full=True#hrid:5zBDpzkK1Wq_8nwU0oZsTw</mobile_uri>
+          <text_excerpt>When first opened the food was very good,
+          however some time later the quililty of the food and the
+          preperation of the food has fallen flat. The
+          margherita...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/nJR-IWMdrOupK3gIlbyz9w/ms</user_photo_url>
+          <date>2012-02-16</date>
+          <user_name>Torie K.</user_name>
+          <id>5zBDpzkK1Wq_8nwU0oZsTw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media4.ak.yelpcdn.com/static/201012164278297776/img/ico/stars/stars_small_2.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/QxScF3-6eim8K5OKPBXoXQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media4.ak.yelpcdn.com/static/201012163489049252/img/ico/stars/stars_2.png</rating_img_url>
+          <rating>2</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=ZiTEHXSryu3MlbsvlShyQg</user_url>
+          <url>
+          http://www.yelp.com/biz/ca-momi-napa#hrid:7pEI7M_5QDpsxMwZ2qR3EA</url>
+          <mobile_uri>
+          /biz/ca-momi-napa?full=True#hrid:7pEI7M_5QDpsxMwZ2qR3EA</mobile_uri>
+          <text_excerpt>Pretty good pizza, but unreasonable
+          policies. Here's the story: I was visiting Napa and
+          stayed basically next to the Oxbow Market. I came in
+          early to...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/QxScF3-6eim8K5OKPBXoXQ/ms</user_photo_url>
+          <date>2012-02-13</date>
+          <user_name>Amanda O.</user_name>
+          <id>7pEI7M_5QDpsxMwZ2qR3EA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/D6hBBTKQEZWLkjS3hlS8zA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>dN-r2_MplcIcghhgl13cSA</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/the-puff-truck-san-francisco</mobile_url>
+      <review_count>8</review_count>
+      <zip>94123</zip>
+      <state>CA</state>
+      <latitude>37.7970717</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>2201 Union St</address1>
+      <address2 />
+      <address3 />
+      <phone>4154407833</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</search_url>
+          <name>Desserts</name>
+        </categorie>
+        <categorie>
+          <category_filter>streetvendors</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=streetvendors&amp;find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</search_url>
+          <name>Street Vendors</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/hd33LvYUDyYw7RxbV75zrA/ms</photo_url>
+      <distance>2.00209</distance>
+      <name>The Puff Truck</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Marina%2FCow+Hollow%2C+San+Francisco%2C+CA</url>
+          <name>Marina/Cow Hollow</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/the-puff-truck-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.4355034</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=2201+Union+St%2C+San+Francisco+94123</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/we_DbUMs28oV1Q5Dgn1p5A/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=sgjVACLRT7rujB40AOZfqw</user_url>
+          <url>
+          http://www.yelp.com/biz/the-puff-truck-san-francisco#hrid:IwgktWggAxSRK_zULhlyKQ</url>
+          <mobile_uri>
+          /biz/the-puff-truck-san-francisco?full=True#hrid:IwgktWggAxSRK_zULhlyKQ</mobile_uri>
+          <text_excerpt>I'm usually not a huge fan of sweet. I'd
+          rather have a larger meal than eat a bunch of cake and
+          candy after it. However, I think I could eat one of
+          these...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/we_DbUMs28oV1Q5Dgn1p5A/ms</user_photo_url>
+          <date>2012-02-17</date>
+          <user_name>Matthew L.</user_name>
+          <id>IwgktWggAxSRK_zULhlyKQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/CQAw67X42FiDt-1SbZQlEg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=s4r7RBAdarObxaAIvqHvHg</user_url>
+          <url>
+          http://www.yelp.com/biz/the-puff-truck-san-francisco#hrid:ukHsdHRUzqWidrVcO_Qlcw</url>
+          <mobile_uri>
+          /biz/the-puff-truck-san-francisco?full=True#hrid:ukHsdHRUzqWidrVcO_Qlcw</mobile_uri>
+          <text_excerpt>The vanilla puff with chocolate topping is
+          the perfect, decadent, mid-afternoon pick me
+          up...especially for us poor office drones who only have
+          lunch to...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/CQAw67X42FiDt-1SbZQlEg/ms</user_photo_url>
+          <date>2012-01-25</date>
+          <user_name>s m.</user_name>
+          <id>ukHsdHRUzqWidrVcO_Qlcw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media1.ak.yelpcdn.com/static/201012162337205794/img/ico/stars/stars_small_3.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/PLnCK-2lJJTbe0p0TO0QQw/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media1.ak.yelpcdn.com/static/201012161694360749/img/ico/stars/stars_3.png</rating_img_url>
+          <rating>3</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=GmLpBIfp2_lug_UPkCAFNA</user_url>
+          <url>
+          http://www.yelp.com/biz/the-puff-truck-san-francisco#hrid:e2EB0_9zAsNDgxUACtNPOA</url>
+          <mobile_uri>
+          /biz/the-puff-truck-san-francisco?full=True#hrid:e2EB0_9zAsNDgxUACtNPOA</mobile_uri>
+          <text_excerpt>Not bad. I came here after dinner for
+          dessert and at that hour there wasn't much left. I was
+          able to try the Vanilla and chocolate. The puff was not
+          as...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/PLnCK-2lJJTbe0p0TO0QQw/ms</user_photo_url>
+          <date>2012-01-24</date>
+          <user_name>Ying F.</user_name>
+          <id>e2EB0_9zAsNDgxUACtNPOA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/hd33LvYUDyYw7RxbV75zrA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>8bR5KSOhxX9UY6PDB8iWOQ</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/diandas-italian-american-pastry-san-francisco</mobile_url>
+      <review_count>286</review_count>
+      <zip>94110</zip>
+      <state>CA</state>
+      <latitude>37.750924</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1>2883 Mission St</address1>
+      <address2 />
+      <address3 />
+      <phone>4156475469</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=2883+Mission+St%2C+San+Francisco+94110</search_url>
+          <name>Bakeries</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/k7DuNpylN-DYYcxgj5u0lw/ms</photo_url>
+      <distance>2.677899</distance>
+      <name>Dianda's Italian American Pastry</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Mission%2C+San+Francisco%2C+CA</url>
+          <name>Mission</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/diandas-italian-american-pastry-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-122.418333</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=2883+Mission+St%2C+San+Francisco+94110</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/nmxq59CqziUWQZA6MFu5dg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=8e87PNPHUKWd7EDqAtjGNQ</user_url>
+          <url>
+          http://www.yelp.com/biz/diandas-italian-american-pastry-san-francisco#hrid:TQS_WAQn_K22ml6chIDRaw</url>
+          <mobile_uri>
+          /biz/diandas-italian-american-pastry-san-francisco?full=True#hrid:TQS_WAQn_K22ml6chIDRaw</mobile_uri>
+          <text_excerpt>I have yet to find a better Italian bakery
+          better than Dianda's. I absolutely love their cheesecake,
+          the fresh creme lobster tail pastery and the
+          canoli's....</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/nmxq59CqziUWQZA6MFu5dg/ms</user_photo_url>
+          <date>2012-02-03</date>
+          <user_name>Angelica R.</user_name>
+          <id>TQS_WAQn_K22ml6chIDRaw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media1.ak.yelpcdn.com/static/201012162337205794/img/ico/stars/stars_small_3.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/ZVqmKJIyDhqGtW-vj19h4A/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media1.ak.yelpcdn.com/static/201012161694360749/img/ico/stars/stars_3.png</rating_img_url>
+          <rating>3</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=4qyeVg_3zzkzG3N_wL_M9A</user_url>
+          <url>
+          http://www.yelp.com/biz/diandas-italian-american-pastry-san-francisco#hrid:hoVWIkY2XxqpzuO9JQUIFQ</url>
+          <mobile_uri>
+          /biz/diandas-italian-american-pastry-san-francisco?full=True#hrid:hoVWIkY2XxqpzuO9JQUIFQ</mobile_uri>
+          <text_excerpt>Dianda's italian cookies taste different
+          now. Im positive you changed the recipe. It taste like
+          Mexican cookies now. Dianda's cookies use to taste like
+          NY...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/ZVqmKJIyDhqGtW-vj19h4A/ms</user_photo_url>
+          <date>2012-02-02</date>
+          <user_name>Roland P.</user_name>
+          <id>hoVWIkY2XxqpzuO9JQUIFQ</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/chFaZy_d4_tBR6BdGeYBoA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=EVJxVa5HgNExt4wWdTC-ZA</user_url>
+          <url>
+          http://www.yelp.com/biz/diandas-italian-american-pastry-san-francisco#hrid:sl7Xz8Wt7xxBdpbksUIqnA</url>
+          <mobile_uri>
+          /biz/diandas-italian-american-pastry-san-francisco?full=True#hrid:sl7Xz8Wt7xxBdpbksUIqnA</mobile_uri>
+          <text_excerpt>This place reminds me of bakeries in the
+          Italian Market in Philly, Little Italy in NYC or the
+          North End in Boston. It's the real deal. I've gotten
+          biscotti...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/chFaZy_d4_tBR6BdGeYBoA/ms</user_photo_url>
+          <date>2012-01-17</date>
+          <user_name>Sam P.</user_name>
+          <id>sl7Xz8Wt7xxBdpbksUIqnA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/k7DuNpylN-DYYcxgj5u0lw/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>0TEeX_kuBENR06fkR-Wx6A</id>
+      <is_closed>False</is_closed>
+      <city>Santa Clara</city>
+      <mobile_url>
+      http://m.yelp.com/biz/copenhagen-crown-bakery-and-deli-santa-clara</mobile_url>
+      <review_count>70</review_count>
+      <zip>95050</zip>
+      <state>CA</state>
+      <latitude>37.3522987366</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>2079 El Camino Real</address1>
+      <address2 />
+      <address3 />
+      <phone>4082435443</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=2079+El+Camino+Real%2C+Santa+Clara+95050</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>delis</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=delis&amp;find_desc=&amp;find_loc=2079+El+Camino+Real%2C+Santa+Clara+95050</search_url>
+          <name>Delis</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/h5x0DzOibNrN_cbwYkSHOQ/ms</photo_url>
+      <distance>38.48386</distance>
+      <name>Copenhagen Crown Bakery &amp; Deli</name>
+      <neighborhoods />
+      <url>
+      http://www.yelp.com/biz/copenhagen-crown-bakery-and-deli-santa-clara</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-121.961997986</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=2079+El+Camino+Real%2C+Santa+Clara+95050</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/EXtI_4S87JEOiBjEJZVyNg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=uO3TVZDarAE6CX7wtdqZpQ</user_url>
+          <url>
+          http://www.yelp.com/biz/copenhagen-crown-bakery-and-deli-santa-clara#hrid:OCtfPYawl8Pa4UryuPcaXw</url>
+          <mobile_uri>
+          /biz/copenhagen-crown-bakery-and-deli-santa-clara?full=True#hrid:OCtfPYawl8Pa4UryuPcaXw</mobile_uri>
+          <text_excerpt>I thought why not give this place another
+          chance...after all I am a big, HUGE fan of their red
+          velvet cupcakes/cake. As I stated in my previous review
+          the...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/EXtI_4S87JEOiBjEJZVyNg/ms</user_photo_url>
+          <date>2012-02-01</date>
+          <user_name>Lita L.</user_name>
+          <id>OCtfPYawl8Pa4UryuPcaXw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/OjTL0Vpyyot6b9JZXuRSlg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=ADdBQh0FxmaMy78WoSbkuA</user_url>
+          <url>
+          http://www.yelp.com/biz/copenhagen-crown-bakery-and-deli-santa-clara#hrid:NtNpimDaqQjdKbuzoNSXEw</url>
+          <mobile_uri>
+          /biz/copenhagen-crown-bakery-and-deli-santa-clara?full=True#hrid:NtNpimDaqQjdKbuzoNSXEw</mobile_uri>
+          <text_excerpt>Oh. My. Goodness. I'd been meaning to try
+          Copenhagen Crown Bakery for awhile because it's close to
+          my school, but I hadn't really had the chance
+          until...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/OjTL0Vpyyot6b9JZXuRSlg/ms</user_photo_url>
+          <date>2012-01-27</date>
+          <user_name>Amy L.</user_name>
+          <id>NtNpimDaqQjdKbuzoNSXEw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media2.ak.yelpcdn.com/static/201012162819681786/img/gfx/blank_user_extra_small.gif</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=VuDmaS6gJBP18ZHe7jnRMA</user_url>
+          <url>
+          http://www.yelp.com/biz/copenhagen-crown-bakery-and-deli-santa-clara#hrid:p1Q4-No4sBZbVeKwsqiwTw</url>
+          <mobile_uri>
+          /biz/copenhagen-crown-bakery-and-deli-santa-clara?full=True#hrid:p1Q4-No4sBZbVeKwsqiwTw</mobile_uri>
+          <text_excerpt>The pastries here are delicious! I did
+          notice the slight price increase but still a goer! The
+          serivce and products are truely the best. I always get
+          the...</text_excerpt>
+          <user_photo_url>
+          http://media3.ak.yelpcdn.com/static/201012161186834854/img/gfx/blank_user_small.gif</user_photo_url>
+          <date>2012-01-27</date>
+          <user_name>Johannes L.</user_name>
+          <id>p1Q4-No4sBZbVeKwsqiwTw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/h5x0DzOibNrN_cbwYkSHOQ/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>dFcm29GjogW6gakAnEt0gA</id>
+      <is_closed>False</is_closed>
+      <city>San Mateo</city>
+      <mobile_url>
+      http://m.yelp.com/biz/pacific-puffs-puff-truck-san-mateo</mobile_url>
+      <review_count>8</review_count>
+      <zip />
+      <state>CA</state>
+      <latitude>37.5629917</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1 />
+      <address2 />
+      <address3 />
+      <phone>4154407833</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>foodstands</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=foodstands&amp;find_desc=&amp;find_loc=San+Mateo</search_url>
+          <name>Food Stands</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/static/201012163223336441/img/gfx/blank_biz_medium.gif</photo_url>
+      <distance>16.031776</distance>
+      <name>Pacific Puffs' Puff Truck</name>
+      <neighborhoods />
+      <url>
+      http://www.yelp.com/biz/pacific-puffs-puff-truck-san-mateo</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-122.3255254</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=San+Mateo</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/fL3PHL6nC_Uy5N0Ua2LUfA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=tZ6UTquj55ULeqKjckOsug</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-puff-truck-san-mateo#hrid:BfcgwXhs8KSuNaU5bMVeAg</url>
+          <mobile_uri>
+          /biz/pacific-puffs-puff-truck-san-mateo?full=True#hrid:BfcgwXhs8KSuNaU5bMVeAg</mobile_uri>
+          <text_excerpt>Saw the truck at 5th and Minna for lunch
+          time with about 7 other trucks. Decided hell, why not?
+          They were surprisingly so freaking good! I looked at
+          them...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/fL3PHL6nC_Uy5N0Ua2LUfA/ms</user_photo_url>
+          <date>2012-02-16</date>
+          <user_name>Stine H.</user_name>
+          <id>BfcgwXhs8KSuNaU5bMVeAg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/F3Ma-V_oBvcOoQeYxw9K_w/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=woe_Zshe_BCL2PTKLpEvBg</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-puff-truck-san-mateo#hrid:ZPW8zQa-fqIYiKg8qWTzag</url>
+          <mobile_uri>
+          /biz/pacific-puffs-puff-truck-san-mateo?full=True#hrid:ZPW8zQa-fqIYiKg8qWTzag</mobile_uri>
+          <text_excerpt>Vanilla-good, chocolate- very good, lemon-
+          heavenly. Fillings were light, puffs very.. well..
+          fluffy. I hope to find these guys again. Eye candy
+          serving...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/F3Ma-V_oBvcOoQeYxw9K_w/ms</user_photo_url>
+          <date>2011-12-26</date>
+          <user_name>Kym T.</user_name>
+          <id>ZPW8zQa-fqIYiKg8qWTzag</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/a5hNfKId9ed954ZXjq6wPw/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=UMpXkI_N0PaPprhhiUUZ0w</user_url>
+          <url>
+          http://www.yelp.com/biz/pacific-puffs-puff-truck-san-mateo#hrid:kBw64XIsEZ3Un6Lv_Nt_zw</url>
+          <mobile_uri>
+          /biz/pacific-puffs-puff-truck-san-mateo?full=True#hrid:kBw64XIsEZ3Un6Lv_Nt_zw</mobile_uri>
+          <text_excerpt>We had some of their puffs at OTG San
+          Mateo. The puffs are super yummy. They are not that
+          cheap, but they are definitely the best dessert truck
+          we've ever...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/a5hNfKId9ed954ZXjq6wPw/ms</user_photo_url>
+          <date>2011-10-26</date>
+          <user_name>Durif M.</user_name>
+          <id>kBw64XIsEZ3Un6Lv_Nt_zw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/static/20101216608243041/img/gfx/blank_biz_small.gif</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>VxtDQfBA3ECjTUO7CG1YXQ</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/victoria-pastry-company-san-francisco</mobile_url>
+      <review_count>204</review_count>
+      <zip>94133</zip>
+      <state>CA</state>
+      <latitude>37.7985212</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>1362 Stockton St</address1>
+      <address2 />
+      <address3 />
+      <phone>4157812015</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=1362+Stockton+St%2C+San+Francisco+94133</search_url>
+          <name>Bakeries</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/e7saEuQaEHmjOWc0UN8qKA/ms</photo_url>
+      <distance>0.88850594</distance>
+      <name>Victoria Pastry Company</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=North+Beach%2FTelegraph+Hill%2C+San+Francisco%2C+CA</url>
+          <name>North Beach/Telegraph Hill</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/victoria-pastry-company-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.4087069</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=1362+Stockton+St%2C+San+Francisco+94133</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/XAjhPzp5pXpEXd1Je_RXBA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=cfYPVBSWSz_m1wfet4bH-g</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-company-san-francisco#hrid:oGAguk7fdTqULc3UHjQfSA</url>
+          <mobile_uri>
+          /biz/victoria-pastry-company-san-francisco?full=True#hrid:oGAguk7fdTqULc3UHjQfSA</mobile_uri>
+          <text_excerpt>As a native San Franciscan, I'm ashamed to
+          say that this past weekend was the first time I ever
+          walked into this pastry shop. I frequent Chinatown
+          every...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/XAjhPzp5pXpEXd1Je_RXBA/ms</user_photo_url>
+          <date>2012-02-19</date>
+          <user_name>Nenita E.</user_name>
+          <id>oGAguk7fdTqULc3UHjQfSA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/M6isVksQDJJriKDC78V8Ng/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=8k3aO-mPeyhbR5HUucA5aA</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-company-san-francisco#hrid:tsqCHwZHPBgzwcUhF-8a9Q</url>
+          <mobile_uri>
+          /biz/victoria-pastry-company-san-francisco?full=True#hrid:tsqCHwZHPBgzwcUhF-8a9Q</mobile_uri>
+          <text_excerpt>Victoria Pastry was emptied of most
+          pastries, pies noonish sunday. lots of cookies left
+          though. i was greeted many times but i was trying to see
+          what was...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/M6isVksQDJJriKDC78V8Ng/ms</user_photo_url>
+          <date>2012-01-30</date>
+          <user_name>Victor G.</user_name>
+          <id>tsqCHwZHPBgzwcUhF-8a9Q</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/On_QfsdcqOWkSTtqckbQig/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=5YUfy39pMeDI_ZNuAj2Iig</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-company-san-francisco#hrid:w79GrPe7S2ZUAL1Hn8eeOA</url>
+          <mobile_uri>
+          /biz/victoria-pastry-company-san-francisco?full=True#hrid:w79GrPe7S2ZUAL1Hn8eeOA</mobile_uri>
+          <text_excerpt>The cream puff and princess cake were
+          divine. The princess cake was the one with the light
+          green glaze. We felt like little princesses eating the
+          cake it...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/On_QfsdcqOWkSTtqckbQig/ms</user_photo_url>
+          <date>2012-01-30</date>
+          <user_name>Mocha G.</user_name>
+          <id>w79GrPe7S2ZUAL1Hn8eeOA</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/e7saEuQaEHmjOWc0UN8qKA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>lPkQK2N4g658SR_7BBxeaQ</id>
+      <is_closed>False</is_closed>
+      <city>San Jose</city>
+      <mobile_url>
+      http://m.yelp.com/biz/peters-bakery-san-jose</mobile_url>
+      <review_count>538</review_count>
+      <zip>95127</zip>
+      <state>CA</state>
+      <latitude>37.3657989502</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1>3108 Alum Rock Ave</address1>
+      <address2 />
+      <address3 />
+      <phone>4082583529</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=3108+Alum+Rock+Ave%2C+San+Jose+95127</search_url>
+          <name>Bakeries</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media3.ak.yelpcdn.com/bpthumb/7Hh70tsdBLTGiFBxrFrP_g/ms</photo_url>
+      <distance>42.806164</distance>
+      <name>Peters' Bakery</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/peters-bakery-san-jose</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-121.82800293</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=3108+Alum+Rock+Ave%2C+San+Jose+95127</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/lA4d1D70jnRfv0f05VDAgA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=4KHMBP6px3V00ezVbBm2Dg</user_url>
+          <url>
+          http://www.yelp.com/biz/peters-bakery-san-jose#hrid:4_w5ub6h3w2T2uWD3c61Rw</url>
+          <mobile_uri>
+          /biz/peters-bakery-san-jose?full=True#hrid:4_w5ub6h3w2T2uWD3c61Rw</mobile_uri>
+          <text_excerpt>4 stars go to the Burnt Almond Cake which,
+          in my opinion, is TO FREAKING DIE FOR. What's more,
+          they've started making Burnt Almond Cup Cakes. I've
+          never...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/lA4d1D70jnRfv0f05VDAgA/ms</user_photo_url>
+          <date>2012-02-12</date>
+          <user_name>Lynn D.</user_name>
+          <id>4_w5ub6h3w2T2uWD3c61Rw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/RGuzvCpBSnZeziUy0rH30Q/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=78c_llOEjlJ5lW35bL137w</user_url>
+          <url>
+          http://www.yelp.com/biz/peters-bakery-san-jose#hrid:sO0OxOq-9H0PBxFqrkJ0xg</url>
+          <mobile_uri>
+          /biz/peters-bakery-san-jose?full=True#hrid:sO0OxOq-9H0PBxFqrkJ0xg</mobile_uri>
+          <text_excerpt>Three Words: Burnt Almond Cake....enough
+          said</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/RGuzvCpBSnZeziUy0rH30Q/ms</user_photo_url>
+          <date>2012-02-07</date>
+          <user_name>Cristal C.</user_name>
+          <id>sO0OxOq-9H0PBxFqrkJ0xg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media1.ak.yelpcdn.com/static/201012162337205794/img/ico/stars/stars_small_3.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/pXKoNzDZg-chqE6gnoURWA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media1.ak.yelpcdn.com/static/201012161694360749/img/ico/stars/stars_3.png</rating_img_url>
+          <rating>3</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=Hhc5iKV5CDoFLruTunY7YA</user_url>
+          <url>
+          http://www.yelp.com/biz/peters-bakery-san-jose#hrid:cWpSIdbYTYgqC53hFmLqUw</url>
+          <mobile_uri>
+          /biz/peters-bakery-san-jose?full=True#hrid:cWpSIdbYTYgqC53hFmLqUw</mobile_uri>
+          <text_excerpt>My family has used their cakes for birthday
+          parties, and it was a splurge because Peter's is
+          expensive. And it seems like each year, it keeps getting
+          more...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/pXKoNzDZg-chqE6gnoURWA/ms</user_photo_url>
+          <date>2012-02-07</date>
+          <user_name>Crysal V.</user_name>
+          <id>cWpSIdbYTYgqC53hFmLqUw</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media3.ak.yelpcdn.com/bpthumb/7Hh70tsdBLTGiFBxrFrP_g/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>cXyPUny04rLDtKr9ZdXAdA</id>
+      <is_closed>False</is_closed>
+      <city>San Jose</city>
+      <mobile_url>
+      http://m.yelp.com/biz/christy-donuts-san-jose</mobile_url>
+      <review_count>64</review_count>
+      <zip>95132</zip>
+      <state>CA</state>
+      <latitude>37.3866996765</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1>1150 N Capitol Ave</address1>
+      <address2 />
+      <address3 />
+      <phone>4089231300</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>donuts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=donuts&amp;find_desc=&amp;find_loc=1150+N+Capitol+Ave%2C+San+Jose+95132</search_url>
+          <name>Donuts</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media1.ak.yelpcdn.com/bpthumb/xhXkWgEcj3uDWcPUodwz0g/ms</photo_url>
+      <distance>40.496983</distance>
+      <name>Christy Donuts</name>
+      <neighborhoods />
+      <url>http://www.yelp.com/biz/christy-donuts-san-jose</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-121.861000061</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=1150+N+Capitol+Ave%2C+San+Jose+95132</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media4.ak.yelpcdn.com/static/201012164278297776/img/ico/stars/stars_small_2.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/dIskOWjPwI-VOIy6kiQWZg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media4.ak.yelpcdn.com/static/201012163489049252/img/ico/stars/stars_2.png</rating_img_url>
+          <rating>2</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=-vBbg7fTK3y8W0PtpzlLWQ</user_url>
+          <url>
+          http://www.yelp.com/biz/christy-donuts-san-jose#hrid:uYqvoA-mC-85ua6liwvXGg</url>
+          <mobile_uri>
+          /biz/christy-donuts-san-jose?full=True#hrid:uYqvoA-mC-85ua6liwvXGg</mobile_uri>
+          <text_excerpt>I'm a donut lover, I've been eating them
+          for longer than most of you have been alive. I've eaten
+          so many donuts in my life that when I get blood drawn,
+          I'm...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/dIskOWjPwI-VOIy6kiQWZg/ms</user_photo_url>
+          <date>2012-02-14</date>
+          <user_name>Nick D.</user_name>
+          <id>uYqvoA-mC-85ua6liwvXGg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/2YaRjiOvM_nIcxFsUVPg3A/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=SEcsl5Wac8kv3L4wdEMG0Q</user_url>
+          <url>
+          http://www.yelp.com/biz/christy-donuts-san-jose#hrid:vxPAgYf-16xAk_KQcxOYfg</url>
+          <mobile_uri>
+          /biz/christy-donuts-san-jose?full=True#hrid:vxPAgYf-16xAk_KQcxOYfg</mobile_uri>
+          <text_excerpt>I am a sucker for old-school joints.
+          Walking into the shop you automatically see the wood
+          benches and the amazing doughnuts calling your name.
+          Everything is...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/2YaRjiOvM_nIcxFsUVPg3A/ms</user_photo_url>
+          <date>2012-01-13</date>
+          <user_name>Vanessa B.</user_name>
+          <id>vxPAgYf-16xAk_KQcxOYfg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/u8t76AkDhObVhpzifHXVIg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=bbNMEsUMw6AFD7O5kInNDQ</user_url>
+          <url>
+          http://www.yelp.com/biz/christy-donuts-san-jose#hrid:Xmud38JO1A6VnUErVJohow</url>
+          <mobile_uri>
+          /biz/christy-donuts-san-jose?full=True#hrid:Xmud38JO1A6VnUErVJohow</mobile_uri>
+          <text_excerpt>Having lived in San Jose my entire life,
+          I've probably driven pass this little old donut shop
+          thousands of times now, never having the chance to (or
+          never...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/u8t76AkDhObVhpzifHXVIg/ms</user_photo_url>
+          <date>2011-12-29</date>
+          <user_name>Thai-Son T.</user_name>
+          <id>Xmud38JO1A6VnUErVJohow</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media1.ak.yelpcdn.com/bpthumb/xhXkWgEcj3uDWcPUodwz0g/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>Md2XGqSljwfkRjHfqLQnCw</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/gerhard-michler-fine-european-desserts-san-francisco</mobile_url>
+      <review_count>21</review_count>
+      <zip>94102</zip>
+      <state>CA</state>
+      <latitude>37.7598991394</latitude>
+      <rating_img_url_small>
+      http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+      <address1>950 Illinois St</address1>
+      <address2 />
+      <address3 />
+      <phone>4152551128</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=950+Illinois+St%2C+San+Francisco+94102</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>catering</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=catering&amp;find_desc=&amp;find_loc=950+Illinois+St%2C+San+Francisco+94102</search_url>
+          <name>Caterers</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media3.ak.yelpcdn.com/bpthumb/wZzezSmtHVXGhN2pjdtJWA/ms</photo_url>
+      <distance>2.015247</distance>
+      <name>Gerhard Michler Fine European Desserts</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Potrero+Hill%2C+San+Francisco%2C+CA</url>
+          <name>Potrero Hill</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>
+      http://www.yelp.com/biz/gerhard-michler-fine-european-desserts-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>5.0</avg_rating>
+      <longitude>-122.388000488</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=950+Illinois+St%2C+San+Francisco+94102</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/dpkP08EpF-W-kVt6ei_fkg/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=swt6YSli4EjOSZ_UBNa4bA</user_url>
+          <url>
+          http://www.yelp.com/biz/gerhard-michler-fine-european-desserts-san-francisco#hrid:HEbM9OBLFDPcNM633OJO0g</url>
+          <mobile_uri>
+          /biz/gerhard-michler-fine-european-desserts-san-francisco?full=True#hrid:HEbM9OBLFDPcNM633OJO0g</mobile_uri>
+          <text_excerpt>When I was a kid I was a complete dessert
+          hound. Breakfast? No thanks. Dinner? Nah. Delicious
+          snacks? Meh. Cake? HOLY JESUS, GET IN MY FACE. I've
+          mostly...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/dpkP08EpF-W-kVt6ei_fkg/ms</user_photo_url>
+          <date>2012-01-09</date>
+          <user_name>Corinna K.</user_name>
+          <id>HEbM9OBLFDPcNM633OJO0g</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/zV6X-vx0GfM8EeK1iKejHA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=7-6e12HAy1XIT2pG1pMFhw</user_url>
+          <url>
+          http://www.yelp.com/biz/gerhard-michler-fine-european-desserts-san-francisco#hrid:V_ozUW0_xHe0u5NGs522zw</url>
+          <mobile_uri>
+          /biz/gerhard-michler-fine-european-desserts-san-francisco?full=True#hrid:V_ozUW0_xHe0u5NGs522zw</mobile_uri>
+          <text_excerpt>Secret Treasure in Dogpatch! Oh-so-fine
+          European pastry creations right here... How do you beat
+          that? You don't. Just order, try, and enjoy. If
+          you're...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/zV6X-vx0GfM8EeK1iKejHA/ms</user_photo_url>
+          <date>2012-01-09</date>
+          <user_name>Bob K.</user_name>
+          <id>V_ozUW0_xHe0u5NGs522zw</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/hX-KdHUp928P5wK4ytPnEA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=XlLCypfDFKeU_ycq_uw4yA</user_url>
+          <url>
+          http://www.yelp.com/biz/gerhard-michler-fine-european-desserts-san-francisco#hrid:VHNvxGasZpxwoPZ_ZnevFQ</url>
+          <mobile_uri>
+          /biz/gerhard-michler-fine-european-desserts-san-francisco?full=True#hrid:VHNvxGasZpxwoPZ_ZnevFQ</mobile_uri>
+          <text_excerpt>If you're looking for an amazing wedding
+          cake, don't go anywhere else. Gerhard Michler is the best
+          in the city. Their cakes are truly works of art and
+          a...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/hX-KdHUp928P5wK4ytPnEA/ms</user_photo_url>
+          <date>2011-11-26</date>
+          <user_name>Tomoko H.</user_name>
+          <id>VHNvxGasZpxwoPZ_ZnevFQ</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media3.ak.yelpcdn.com/bpthumb/wZzezSmtHVXGhN2pjdtJWA/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media4.ak.yelpcdn.com/static/201012163106483837/img/ico/stars/stars_4_half.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>swnYm7-gXZ8CBbUyPIzhdA</id>
+      <is_closed>False</is_closed>
+      <city>Greenbrae</city>
+      <mobile_url>
+      http://m.yelp.com/biz/victoria-pastry-co-greenbrae</mobile_url>
+      <review_count>17</review_count>
+      <zip>94901</zip>
+      <state>CA</state>
+      <latitude>37.9770596</latitude>
+      <rating_img_url_small>
+      http://media4.ak.yelpcdn.com/static/201012161127761206/img/ico/stars/stars_small_4_half.png</rating_img_url_small>
+      <address1>292 Bon Air Ctr</address1>
+      <address2 />
+      <address3 />
+      <phone>4154613099</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>bakeries</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=bakeries&amp;find_desc=&amp;find_loc=292+Bon+Air+Ctr%2C+Greenbrae+94901</search_url>
+          <name>Bakeries</name>
+        </categorie>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=292+Bon+Air+Ctr%2C+Greenbrae+94901</search_url>
+          <name>Desserts</name>
+        </categorie>
+        <categorie>
+          <category_filter>coffee</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=coffee&amp;find_desc=&amp;find_loc=292+Bon+Air+Ctr%2C+Greenbrae+94901</search_url>
+          <name>Coffee &amp; Tea</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media4.ak.yelpcdn.com/bpthumb/ir2cAKSqcDGmwB4MZSwaEQ/ms</photo_url>
+      <distance>14.782724</distance>
+      <name>Victoria Pastry Co</name>
+      <neighborhoods />
+      <url>
+      http://www.yelp.com/biz/victoria-pastry-co-greenbrae</url>
+      <country>USA</country>
+      <avg_rating>4.5</avg_rating>
+      <longitude>-122.5259596</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=292+Bon+Air+Ctr%2C+Greenbrae+94901</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/Ss5kPMdnEG77mlhFrTRU4g/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=KW38OXpDlH3Xd1LutwjaQA</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-co-greenbrae#hrid:eVKQA96y-GcmQx_xKaSNRA</url>
+          <mobile_uri>
+          /biz/victoria-pastry-co-greenbrae?full=True#hrid:eVKQA96y-GcmQx_xKaSNRA</mobile_uri>
+          <text_excerpt>I'd gladly live off of a double espresso
+          and an almond bar everday for the rest of my life! Their
+          cakes are still the bomb!</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/Ss5kPMdnEG77mlhFrTRU4g/ms</user_photo_url>
+          <date>2012-02-02</date>
+          <user_name>Rory H.</user_name>
+          <id>eVKQA96y-GcmQx_xKaSNRA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media2.ak.yelpcdn.com/static/201012162819681786/img/gfx/blank_user_extra_small.gif</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=RQ-K43ISrHNkmfL_PJ15Gw</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-co-greenbrae#hrid:AN0sQjW_lFgoKnWhO1TTcA</url>
+          <mobile_uri>
+          /biz/victoria-pastry-co-greenbrae?full=True#hrid:AN0sQjW_lFgoKnWhO1TTcA</mobile_uri>
+          <text_excerpt>I had the greatest experience shopping for
+          a wedding cake I had 2 days to order it they came thur
+          with flying colors. It was a princess cake the best
+          I've...</text_excerpt>
+          <user_photo_url>
+          http://media3.ak.yelpcdn.com/static/201012161186834854/img/gfx/blank_user_small.gif</user_photo_url>
+          <date>2012-01-04</date>
+          <user_name>Ramona F.</user_name>
+          <id>AN0sQjW_lFgoKnWhO1TTcA</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/DtrlBpja2ZKOaNyCbEfbiQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=sazUbfCvVjjrOrnsVqHvJQ</user_url>
+          <url>
+          http://www.yelp.com/biz/victoria-pastry-co-greenbrae#hrid:UZ1DwNfFrbG6WcQy7zAMPQ</url>
+          <mobile_uri>
+          /biz/victoria-pastry-co-greenbrae?full=True#hrid:UZ1DwNfFrbG6WcQy7zAMPQ</mobile_uri>
+          <text_excerpt>Every office birthday is an excuse to buy
+          Victoria Pastry cakes. We usually opt for the Fruit
+          Basket. Fresh fruit and light whipped cream. mmm yummy
+          I...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/DtrlBpja2ZKOaNyCbEfbiQ/ms</user_photo_url>
+          <date>2011-07-30</date>
+          <user_name>Jasmine A.</user_name>
+          <id>UZ1DwNfFrbG6WcQy7zAMPQ</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media4.ak.yelpcdn.com/bpthumb/ir2cAKSqcDGmwB4MZSwaEQ/ss</photo_url_small>
+    </businesse>
+    <businesse>
+      <rating_img_url>
+      http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+      <country_code>US</country_code>
+      <id>83dXgt2nG98JJG2F7ai8AQ</id>
+      <is_closed>False</is_closed>
+      <city>San Francisco</city>
+      <mobile_url>
+      http://m.yelp.com/biz/genki-crepes-san-francisco</mobile_url>
+      <review_count>1429</review_count>
+      <zip>94118</zip>
+      <state>CA</state>
+      <latitude>37.783268</latitude>
+      <rating_img_url_small>
+      http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+      <address1>330 Clement St</address1>
+      <address2 />
+      <address3 />
+      <phone>4153796414</phone>
+      <state_code>CA</state_code>
+      <categories>
+        <categorie>
+          <category_filter>desserts</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=desserts&amp;find_desc=&amp;find_loc=330+Clement+St%2C+San+Francisco+94118</search_url>
+          <name>Desserts</name>
+        </categorie>
+        <categorie>
+          <category_filter>creperies</category_filter>
+          <search_url>
+          http://www.yelp.com/search?cflt=creperies&amp;find_desc=&amp;find_loc=330+Clement+St%2C+San+Francisco+94118</search_url>
+          <name>Creperies</name>
+        </categorie>
+      </categories>
+      <photo_url>
+      http://media3.ak.yelpcdn.com/bpthumb/AQ77wLQ3b4abFAFaaEi3tw/ms</photo_url>
+      <distance>3.3855147</distance>
+      <name>Genki Crepes</name>
+      <neighborhoods>
+        <neighborhood>
+          <url>
+          http://www.yelp.com/search?exclude_start=True&amp;find_desc=&amp;find_loc=Inner+Richmond%2C+San+Francisco%2C+CA</url>
+          <name>Inner Richmond</name>
+        </neighborhood>
+      </neighborhoods>
+      <url>http://www.yelp.com/biz/genki-crepes-san-francisco</url>
+      <country>USA</country>
+      <avg_rating>4.0</avg_rating>
+      <longitude>-122.462835</longitude>
+      <nearby_url>
+      http://www.yelp.com/search?find_desc=&amp;find_loc=330+Clement+St%2C+San+Francisco+94118</nearby_url>
+      <reviews>
+        <review>
+          <rating_img_url_small>
+          http://media3.ak.yelpcdn.com/static/201012161949604803/img/ico/stars/stars_small_5.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/sbrrNrCenv0L0pJHBCZ50Q/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media3.ak.yelpcdn.com/static/201012162578611207/img/ico/stars/stars_5.png</rating_img_url>
+          <rating>5</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=bxQUHiyytmSDWn-DQe9DjA</user_url>
+          <url>
+          http://www.yelp.com/biz/genki-crepes-san-francisco#hrid:8M9AoVuoMJoMdccLZMr0Gg</url>
+          <mobile_uri>
+          /biz/genki-crepes-san-francisco?full=True#hrid:8M9AoVuoMJoMdccLZMr0Gg</mobile_uri>
+          <text_excerpt>Love it, not better place for a late night
+          snack......</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/sbrrNrCenv0L0pJHBCZ50Q/ms</user_photo_url>
+          <date>2012-02-19</date>
+          <user_name>Steve S.</user_name>
+          <id>8M9AoVuoMJoMdccLZMr0Gg</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media2.ak.yelpcdn.com/static/20101216418129184/img/ico/stars/stars_small_4.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/u4SDmV3Tb1CFFIlJmWqXpA/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media2.ak.yelpcdn.com/static/201012164084228337/img/ico/stars/stars_4.png</rating_img_url>
+          <rating>4</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=YUP31CYNNuQe-7KR1bCMiA</user_url>
+          <url>
+          http://www.yelp.com/biz/genki-crepes-san-francisco#hrid:fPHplVJsMSx7Lipo8YG_3A</url>
+          <mobile_uri>
+          /biz/genki-crepes-san-francisco?full=True#hrid:fPHplVJsMSx7Lipo8YG_3A</mobile_uri>
+          <text_excerpt>tons of awsome japanese hair dyes etc, and
+          cute toys , also great for a late night snack after work
+          , tons of things to choose from the menu</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/u4SDmV3Tb1CFFIlJmWqXpA/ms</user_photo_url>
+          <date>2012-02-18</date>
+          <user_name>eric l.</user_name>
+          <id>fPHplVJsMSx7Lipo8YG_3A</id>
+        </review>
+        <review>
+          <rating_img_url_small>
+          http://media1.ak.yelpcdn.com/static/201012162337205794/img/ico/stars/stars_small_3.png</rating_img_url_small>
+          <user_photo_url_small>
+          http://media1.ak.yelpcdn.com/upthumb/QvxmzMqzYQvIzUTyzrLNdQ/ss</user_photo_url_small>
+          <rating_img_url>
+          http://media1.ak.yelpcdn.com/static/201012161694360749/img/ico/stars/stars_3.png</rating_img_url>
+          <rating>3</rating>
+          <user_url>
+          http://www.yelp.com/user_details?userid=WabQbWPtqLK2Oo9x1CYllg</user_url>
+          <url>
+          http://www.yelp.com/biz/genki-crepes-san-francisco#hrid:ijNlZ9Zc9AtJCFZDVpfyRg</url>
+          <mobile_uri>
+          /biz/genki-crepes-san-francisco?full=True#hrid:ijNlZ9Zc9AtJCFZDVpfyRg</mobile_uri>
+          <text_excerpt>I was handed my ice cream crepe and felt
+          like it wasn't as stuffed as my memory served. I looked
+          behind the counter and the scooper had a full scoop
+          still...</text_excerpt>
+          <user_photo_url>
+          http://media1.ak.yelpcdn.com/upthumb/QvxmzMqzYQvIzUTyzrLNdQ/ms</user_photo_url>
+          <date>2012-02-16</date>
+          <user_name>Allen F.</user_name>
+          <id>ijNlZ9Zc9AtJCFZDVpfyRg</id>
+        </review>
+      </reviews>
+      <photo_url_small>
+      http://media3.ak.yelpcdn.com/bpthumb/AQ77wLQ3b4abFAFaaEi3tw/ss</photo_url_small>
+    </businesse>
+  </businesses>
+</yelp>

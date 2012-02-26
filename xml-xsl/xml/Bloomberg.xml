@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BloombergOutput>
+  <BloombergOutput CreatedUtc="2011-08-11T20:40:50.8851936Z">
+    <Instruments>
+      <Instrument Symbol="BLL">
+        <Fields>
+          <Field1 Name="LastPrice">
+            <Value>35.550000</Value>
+          </Field1>
+          <Field2 Name="NetChangeOneDay">
+            <Value>-1.550000</Value>
+          </Field2>
+          <Field3 Name="LastCloseDate">
+            <Value>08/11/2011</Value>
+          </Field3>
+          <Field4 Name="LastClosePrice">
+            <Value>35.550000</Value>
+          </Field4>
+          <Field5 Name="UpdateDate">
+            <Value>08/11/2011</Value>
+          </Field5>
+          <Field6 Name="UpdateTime">
+            <Value>16:15:03</Value>
+          </Field6>
+          <Field7 Name="LongName">
+            <Value>Ball Corp</Value>
+          </Field7>
+          <Field8 Name="Name">
+            <Value>BALL CORP</Value>
+          </Field8>
+          <Field9 Name="PriceSource">
+            <Value>US</Value>
+          </Field9>
+          <Field10 Name="SymbolType">
+            <Value>Common Stock</Value>
+          </Field10>
+        </Fields>
+      </Instrument>
+    </Instruments>
+  </BloombergOutput>
+</BloombergOutput>

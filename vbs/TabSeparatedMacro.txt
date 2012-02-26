@@ -1,0 +1,38 @@
+Sub SubFunction()
+    Application.ScreenUpdating = False
+
+	' VARIABLES
+	' ---------------------------------------------
+    ' The file to store the encoded data
+    fname = ""
+
+	' The cell to start from
+	startingCell = "A2"
+	' ---------------------------------------------
+	
+    'Determine if the same CSV file aready exists.
+    'If it does, DELETE it and create a new one from scratch
+    Set fs = CreateObject("Scripting.FileSystemObject")
+        If FileExists(fname) Then
+            Set fs = CreateObject("Scripting.FileSystemObject")
+            fs.DeleteFile (fname)
+        End If
+
+    Range(startingCell).Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    
+    Workbooks.Add
+    ActiveSheet.Paste
+    Application.DisplayAlerts = False
+    ActiveWorkbook.SaveAs Filename:=fname, FileFormat:=xlUnicodeText, _
+        CreateBackup:=False
+    ActiveWindow.Close
+    Application.DisplayAlerts = True
+    Application.ScreenUpdating = True
+End Sub
+
+Function FileExists(fname) As Boolean
+   If Dir(fname) <> "" Then FileExists = True Else FileExists = False
+End Function

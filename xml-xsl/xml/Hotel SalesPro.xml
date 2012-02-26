@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Events>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[TIPS Training]]>
+</Eventname>
+<Starttime>03-08-2011 13:30:00</Starttime>
+<Endtime>03-08-2011 16:30:00</Endtime>
+<Companyname>
+<![CDATA[TIPS Training]]>
+</Companyname>
+<Roomname>
+<![CDATA[Quartz Boardroom]]>
+</Roomname>
+<Createddate>03-03-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[PSAV Meeting]]>
+</Eventname>
+<Starttime>03-10-2011 10:00:00</Starttime>
+<Endtime>03-10-2011 13:00:00</Endtime>
+<Companyname>
+<![CDATA[PSAV Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Quartz Boardroom]]>
+</Roomname>
+<Createddate>03-03-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ULI - Mayors Forum]]>
+</Eventname>
+<Starttime>03-10-2011 17:30:00</Starttime>
+<Endtime>03-10-2011 19:00:00</Endtime>
+<Companyname>
+<![CDATA[ULI - Mayors Forum]]>
+</Companyname>
+<Roomname>
+<![CDATA[Colorado Reception]]>
+</Roomname>
+<Createddate>12-16-2010 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[BEO Meeting]]>
+</Eventname>
+<Starttime>03-04-2011 14:00:00</Starttime>
+<Endtime>03-04-2011 14:30:00</Endtime>
+<Companyname>
+<![CDATA[BEO Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[BEO Meeting]]>
+</Eventname>
+<Starttime>03-07-2011 14:00:00</Starttime>
+<Endtime>03-07-2011 14:30:00</Endtime>
+<Companyname>
+<![CDATA[BEO Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Executives Meeting]]>
+</Eventname>
+<Starttime>03-08-2011 10:00:00</Starttime>
+<Endtime>03-08-2011 12:00:00</Endtime>
+<Companyname>
+<![CDATA[Executives Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-11-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[CARE Meeting ]]>
+</Eventname>
+<Starttime>03-08-2011 14:00:00</Starttime>
+<Endtime>03-08-2011 15:00:00</Endtime>
+<Companyname>
+<![CDATA[CARE Meeting ]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>02-09-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Resume/Staff Meeting]]>
+</Eventname>
+<Starttime>03-09-2011 14:30:00</Starttime>
+<Endtime>03-09-2011 16:00:00</Endtime>
+<Companyname>
+<![CDATA[Resume/Staff Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[BEO Meeting]]>
+</Eventname>
+<Starttime>03-09-2011 14:00:00</Starttime>
+<Endtime>03-09-2011 14:30:00</Endtime>
+<Companyname>
+<![CDATA[BEO Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[2011 Orientation]]>
+</Eventname>
+<Starttime>03-09-2011 09:00:00</Starttime>
+<Endtime>03-09-2011 12:00:00</Endtime>
+<Companyname>
+<![CDATA[2011 Orientation]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>02-23-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Sales Meeting]]>
+</Eventname>
+<Starttime>03-10-2011 15:30:00</Starttime>
+<Endtime>03-10-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[Sales Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[2011 Orientation]]>
+</Eventname>
+<Starttime>03-10-2011 08:30:00</Starttime>
+<Endtime>03-10-2011 14:00:00</Endtime>
+<Companyname>
+<![CDATA[2011 Orientation]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>03-02-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[BEO Meeting]]>
+</Eventname>
+<Starttime>03-11-2011 14:00:00</Starttime>
+<Endtime>03-11-2011 14:30:00</Endtime>
+<Companyname>
+<![CDATA[BEO Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Sales Boardroom]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ISMSP March Meeting]]>
+</Eventname>
+<Starttime>03-07-2011 08:00:00</Starttime>
+<Endtime>03-07-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[ISMSP March Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Aspen A]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ISMSP March Meeting]]>
+</Eventname>
+<Starttime>03-08-2011 08:00:00</Starttime>
+<Endtime>03-08-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[ISMSP March Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Aspen A]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ISMSP March Meeting]]>
+</Eventname>
+<Starttime>03-09-2011 08:00:00</Starttime>
+<Endtime>03-09-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[ISMSP March Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Aspen A]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ISMSP March Meeting]]>
+</Eventname>
+<Starttime>03-10-2011 08:00:00</Starttime>
+<Endtime>03-10-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[ISMSP March Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Aspen A]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ISMSP March Meeting]]>
+</Eventname>
+<Starttime>03-11-2011 08:00:00</Starttime>
+<Endtime>03-11-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[ISMSP March Meeting]]>
+</Companyname>
+<Roomname>
+<![CDATA[Aspen A]]>
+</Roomname>
+<Createddate>01-31-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Eventname>
+<Starttime>03-10-2011 08:00:00</Starttime>
+<Endtime>03-10-2011 20:00:00</Endtime>
+<Companyname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Companyname>
+<Roomname>
+<![CDATA[Silverton 2 & 3]]>
+</Roomname>
+<Createddate>02-21-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Eventname>
+<Starttime>03-11-2011 08:00:00</Starttime>
+<Endtime>03-11-2011 20:00:00</Endtime>
+<Companyname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Companyname>
+<Roomname>
+<![CDATA[Silverton 2 & 3]]>
+</Roomname>
+<Createddate>02-21-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Eventname>
+<Starttime>03-12-2011 08:00:00</Starttime>
+<Endtime>03-12-2011 17:00:00</Endtime>
+<Companyname>
+<![CDATA[Enlightened Wealth Institute]]>
+</Companyname>
+<Roomname>
+<![CDATA[Silverton 2 & 3]]>
+</Roomname>
+<Createddate>02-21-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[ULI - Mayors Forum]]>
+</Eventname>
+<Starttime>03-10-2011 16:00:00</Starttime>
+<Endtime>03-10-2011 17:30:00</Endtime>
+<Companyname>
+<![CDATA[ULI - Mayors Forum]]>
+</Companyname>
+<Roomname>
+<![CDATA[Crestone Ballroom]]>
+</Roomname>
+<Createddate>12-16-2010 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[CSAE ]]>
+</Eventname>
+<Starttime>03-11-2011 11:45:00</Starttime>
+<Endtime>03-11-2011 13:00:00</Endtime>
+<Companyname>
+<![CDATA[CSAE ]]>
+</Companyname>
+<Roomname>
+<![CDATA[Crestone A]]>
+</Roomname>
+<Createddate>01-25-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+<Event>
+<CustomerID>Events</CustomerID>
+<Eventname>
+<![CDATA[CSAE ]]>
+</Eventname>
+<Starttime>03-11-2011 08:00:00</Starttime>
+<Endtime>03-11-2011 16:30:00</Endtime>
+<Companyname>
+<![CDATA[CSAE ]]>
+</Companyname>
+<Roomname>
+<![CDATA[Crestone B]]>
+</Roomname>
+<Createddate>01-25-2011 00:00:00</Createddate>
+<Groupevent>0</Groupevent>
+</Event>
+</Events>

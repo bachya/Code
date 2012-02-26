@@ -1,0 +1,19 @@
+<ContractInfos>
+  <ContractInfo  ContractNo="12345">
+    <Details LastName="Goodchild">                        
+      <Filedata  FileName="File1"/>
+    </Details>
+  </ContractInfo>
+
+  <ContractInfo  ContractNo="12345">
+    <Details LastName="Goodchild">                        
+      <Filedata  FileName="File2"/>
+    </Details>
+  </ContractInfo>
+
+  <ContractInfo  ContractNo="123456">
+    <Details LastName="Goodchild">                        
+      <Filedata  FileName="File2"/>
+    </Details>
+  </ContractInfo>
+</ContractInfos>

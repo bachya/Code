@@ -1,0 +1,762 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gCal='http://schemas.google.com/gCal/2005' xmlns:gd='http://schemas.google.com/g/2005'>
+	<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full</id>
+	<updated>2011-09-19T21:32:50.000Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+	<title type='text'>Aaron Bach</title>
+	<subtitle type='text'>Aaron Bach</subtitle>
+	<link rel='alternate' type='text/html' href='https://www.google.com/calendar/embed?src=bachya1208@gmail.com'/>
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full'/>
+	<link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/batch'/>
+	<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full?max-results=25'/>
+	<link rel='next' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full?start-index=26&amp;max-results=25'/>
+	<author>
+		<name>Aaron Bach</name>
+		<email>bachya1208@gmail.com</email>
+	</author>
+	<generator version='1.0' uri='http://www.google.com/calendar'>Google Calendar</generator>
+	<openSearch:totalResults>1334</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+	<gCal:timezone value='America/Denver'/>
+	<gCal:timesCleaned value='0'/>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/lp0upnpndnkp0ruqht7ef84kds</id>
+		<published>2011-09-14T21:15:16.000Z</published>
+		<updated>2011-09-14T21:15:16.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Oil Change</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=bHAwdXBucG5kbmtwMHJ1cWh0N2VmODRrZHMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/lp0upnpndnkp0ruqht7ef84kds'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/lp0upnpndnkp0ruqht7ef84kds/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='9955 E Arapahoe Road, Englewood, CO 80112 (Go Subaru Arapahoe)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-29T11:30:00.000-06:00' startTime='2011-09-29T10:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='lp0upnpndnkp0ruqht7ef84kds@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/bjflct96ah2ncf3j7bs5ecstb4</id>
+		<published>2011-09-12T17:12:09.000Z</published>
+		<updated>2011-09-12T17:12:09.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>MNF w/ Patrick</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=YmpmbGN0OTZhaDJuY2YzajdiczVlY3N0YjQgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/bjflct96ah2ncf3j7bs5ecstb4'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/bjflct96ah2ncf3j7bs5ecstb4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='266B South Downing Street, Denver, CO 80209 (Wash Park Sports Alley)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-12T23:00:00.000-06:00' startTime='2011-09-12T20:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='bjflct96ah2ncf3j7bs5ecstb4@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_8krj2h9h6gp44h1k8d0j8cpl6ksk4h268cp3cgpp68qj2h1k84r30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0</id>
+		<published>2011-09-12T17:02:32.000Z</published>
+		<updated>2011-09-12T17:02:53.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Dinner Date</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=XzhrcmoyaDloNmdwNDRoMWs4ZDBqOGNwbDZrc2s0aDI2OGNwM2NncHA2OHFqMmgxazg0cjMwYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzAgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_8krj2h9h6gp44h1k8d0j8cpl6ksk4h268cp3cgpp68qj2h1k84r30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_8krj2h9h6gp44h1k8d0j8cpl6ksk4h268cp3cgpp68qj2h1k84r30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='2780 East Second Avenue, Denver, CO 80206 (Hapa)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-16T19:30:00.000-06:00' startTime='2011-09-16T18:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='E71E142BD4CA43559BDFC26C9251D4A600000000000000000000000000000000'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/i6onk4v20ngcctva3rtnvkqte0</id>
+		<published>2011-09-10T19:28:11.000Z</published>
+		<updated>2011-09-10T19:59:09.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Massage</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=aTZvbms0djIwbmdjY3R2YTNydG52a3F0ZTAgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/i6onk4v20ngcctva3rtnvkqte0'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/i6onk4v20ngcctva3rtnvkqte0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-29T18:15:00.000-06:00' startTime='2011-09-29T17:15:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='2'/>
+		<gCal:uid value='i6onk4v20ngcctva3rtnvkqte0@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/9kghtd4ukpg5h7osd2peu451oc</id>
+		<published>2011-09-01T02:59:38.000Z</published>
+		<updated>2011-09-01T02:59:38.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Dermatologist Appointment </title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=OWtnaHRkNHVrcGc1aDdvc2QycGV1NDUxb2MgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/9kghtd4ukpg5h7osd2peu451oc'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/9kghtd4ukpg5h7osd2peu451oc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='5555 East Arapahoe Road, Centennial, CO 80122 (Kaiser)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-29T10:30:00.000-06:00' startTime='2011-09-29T09:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='9kghtd4ukpg5h7osd2peu451oc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/rvnctp35i7bhsvhkp73gj7uccg</id>
+		<published>2011-08-20T19:38:33.000Z</published>
+		<updated>2011-08-31T20:14:54.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Massage</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=cnZuY3RwMzVpN2Joc3Zoa3A3M2dqN3VjY2cgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/rvnctp35i7bhsvhkp73gj7uccg'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/rvnctp35i7bhsvhkp73gj7uccg/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString='7375 S. Peroria St., Englewood, CO 80112'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-08-31T18:30:00.000-06:00' startTime='2011-08-31T17:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='rvnctp35i7bhsvhkp73gj7uccg@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/6d4cjuntuoen9vg828dbl8uo5k</id>
+		<published>2011-08-18T15:22:37.000Z</published>
+		<updated>2011-08-30T14:59:26.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Meeting w/ Twibell</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=NmQ0Y2p1bnR1b2VuOXZnODI4ZGJsOHVvNWsgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/6d4cjuntuoen9vg828dbl8uo5k'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/6d4cjuntuoen9vg828dbl8uo5k/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='9800 Mount Pyramid Court, Suite 302, Englewood, Colorado 80112 (Custom Portfolio Group LLC)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-09-02T11:00:00.000-06:00' startTime='2011-09-02T10:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='2'/>
+		<gCal:uid value='6d4cjuntuoen9vg828dbl8uo5k@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_6kojgdpg60sj6ghi60p38dpp64s3ce21892j4ghl64o46da16osj0c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0</id>
+		<published>2011-08-06T14:30:17.000Z</published>
+		<updated>2011-08-25T18:00:32.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>ESPN Fantasy Football Draft</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=XzZrb2pnZHBnNjBzajZnaGk2MHAzOGRwcDY0czNjZTIxODkyajRnaGw2NG80NmRhMTZvc2owYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzAgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_6kojgdpg60sj6ghi60p38dpp64s3ce21892j4ghl64o46da16osj0c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_6kojgdpg60sj6ghi60p38dpp64s3ce21892j4ghl64o46da16osj0c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-08-28T20:30:00.000-06:00' startTime='2011-08-28T19:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='2'/>
+		<gCal:uid value='51870093B2024791868ABE2B510C5A6900000000000000000000000000000000'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/k7foo5r1un5el6ouid961algfs</id>
+		<published>2011-08-21T19:14:13.000Z</published>
+		<updated>2011-08-21T19:15:22.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Applied Trust 10th Anniversary</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=azdmb281cjF1bjVlbDZvdWlkOTYxYWxnZnMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/k7foo5r1un5el6ouid961algfs'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/k7foo5r1un5el6ouid961algfs/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString='2032 14th Street, Boulder, CO 80302 (Boulder Theater)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-09-10T22:00:00.000-06:00' startTime='2011-09-10T18:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='k7foo5r1un5el6ouid961algfs@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/mg90s3n051usa12qv7j8u2b2lc</id>
+		<published>2011-08-20T19:39:05.000Z</published>
+		<updated>2011-08-20T19:39:37.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Massage</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=bWc5MHMzbjA1MXVzYTEycXY3ajh1MmIybGMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/mg90s3n051usa12qv7j8u2b2lc'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/mg90s3n051usa12qv7j8u2b2lc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-09-10T13:30:00.000-06:00' startTime='2011-09-10T12:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='2'/>
+		<gCal:uid value='mg90s3n051usa12qv7j8u2b2lc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/uab9gokohn7tcf6498gmbum7ds</id>
+		<published>2011-08-17T16:17:10.000Z</published>
+		<updated>2011-08-17T16:17:10.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Dinner at Seilers' House</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=dWFiOWdva29objd0Y2Y2NDk4Z21idW03ZHMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/uab9gokohn7tcf6498gmbum7ds'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/uab9gokohn7tcf6498gmbum7ds/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-08-17T21:30:00.000-06:00' startTime='2011-08-17T18:45:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='uab9gokohn7tcf6498gmbum7ds@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/f5300iadr5iit15bq655f3gv4k</id>
+		<published>2011-08-17T16:16:14.000Z</published>
+		<updated>2011-08-17T16:16:14.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>In Colorado Springs</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=ZjUzMDBpYWRyNWlpdDE1YnE2NTVmM2d2NGsgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/f5300iadr5iit15bq655f3gv4k'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/f5300iadr5iit15bq655f3gv4k/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-09-06' startTime='2011-09-03'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.transparent'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='f5300iadr5iit15bq655f3gv4k@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/7ugvnd24u9aahi5jrkvgkchc4c</id>
+		<published>2011-07-07T20:31:33.000Z</published>
+		<updated>2011-08-03T17:29:16.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Dentist Appointment</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=N3Vndm5kMjR1OWFhaGk1anJrdmdrY2hjNGMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/7ugvnd24u9aahi5jrkvgkchc4c'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/7ugvnd24u9aahi5jrkvgkchc4c/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='3970 Buchtel Boulevard, Suite 104, Denver, CO 80210 (University Family Dental)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-08-04T19:00:00.000-06:00' startTime='2011-08-04T18:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='7ugvnd24u9aahi5jrkvgkchc4c@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/g2s1d5r0jsd8au1cpum9r19sh4</id>
+		<published>2011-08-02T21:08:30.000Z</published>
+		<updated>2011-08-02T21:08:30.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Implementation Party</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=ZzJzMWQ1cjBqc2Q4YXUxY3B1bTlyMTlzaDQgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/g2s1d5r0jsd8au1cpum9r19sh4'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/g2s1d5r0jsd8au1cpum9r19sh4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='16597 W. 1st Ave Golden, CO 80401'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-08-13T22:00:00.000-06:00' startTime='2011-08-13T18:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='g2s1d5r0jsd8au1cpum9r19sh4@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/gnfmukbff39vljh9cvqr3khas0</id>
+		<published>2011-07-23T23:47:20.000Z</published>
+		<updated>2011-07-23T23:47:20.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Massage</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=Z25mbXVrYmZmMzl2bGpoOWN2cXIza2hhczAgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/gnfmukbff39vljh9cvqr3khas0'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/gnfmukbff39vljh9cvqr3khas0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString='7375 S. Peroria St., Englewood, CO 80112'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-08-20T13:30:00.000-06:00' startTime='2011-08-20T12:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='gnfmukbff39vljh9cvqr3khas0@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8ko32gq470p3aghj6grk6gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g84rk4c1k8gojgh2174p3egpk64s3agpm6t23ccpk8kpjid1p6kog</id>
+		<published>2011-07-21T20:33:24.000Z</published>
+		<updated>2011-07-21T20:33:31.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Get Cut Copy Tickets at Ogden</title>
+		<content type='text'></content>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4a28zMmdxNDcwcDNhZ2hqNmdyazZncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnODRyazRjMWs4Z29qZ2gyMTc0cDNlZ3BrNjRzM2FncG02dDIzY2NwazhrcGppZDFwNmtvZyBiYWNoeWExMjA4QG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8ko32gq470p3aghj6grk6gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g84rk4c1k8gojgh2174p3egpk64s3agpm6t23ccpk8kpjid1p6kog'/>
+		<author>
+			<name>blang@acttel.com</name>
+			<email>blang@acttel.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8ko32gq470p3aghj6grk6gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g84rk4c1k8gojgh2174p3egpk64s3agpm6t23ccpk8kpjid1p6kog/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.attendee' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.invited'/>
+		</gd:who>
+		<gd:who email='blang@acttel.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='blang@acttel.com'/>
+		<gd:when endTime='2011-07-23T14:00:00.000-06:00' startTime='2011-07-23T10:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='false'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:privateCopy value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='040000008200E00074C5B7101A82E00800000000E01CD825B347CC01000000000000000010000000A7B04D18DA927C4185C67D634E394951'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6oo3icq360s4ah256gp46gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8h1kce9j6t0jgcpo6coj0c9k6d0jega36koj6h9n8or34d9j6520</id>
+		<published>2011-07-15T17:01:00.000Z</published>
+		<updated>2011-07-15T17:39:45.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>FW: How Sweet it is! Erickson Sex Party</title>
+		<content type='text'>I have RSVP'd for you but made a note that you are coming if you are back from travel:-)
+
+-----Original Appointment-----
+From: candice.erickson@comcast.net [mailto:candice.erickson@comcast.net]
+Sent: Friday, July 15, 2011 11:02 AM
+To: candice.erickson@comcast.net
+Subject: How Sweet it is! Erickson Sex Party
+When: Friday, July 22, 2011 6:30 PM-10:00 PM (GMT-07:00) Mountain Time (US &amp; Canada).
+Where: Our House 13778 Josephine Ct. Thornton CO 80602
+
+
+For details, click here: http://new.evite.com/#view_invite:eid=0230AARBSZI3CIVUEEPAVHQXUCKDGE&amp;gid=0230AAPMT7NZ5QB5CEPAVYQVODEDQA
+		</content>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2b28zaWNxMzYwczRhaDI1NmdwNDZncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGgxa2NlOWo2dDBqZ2NwbzZjb2owYzlrNmQwamVnYTM2a29qNmg5bjhvcjM0ZDlqNjUyMCBiYWNoeWExMjA4QG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6oo3icq360s4ah256gp46gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8h1kce9j6t0jgcpo6coj0c9k6d0jega36koj6h9n8or34d9j6520'/>
+		<author>
+			<name>candice.erickson@comcast.net</name>
+			<email>candice.erickson@comcast.net</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6oo3icq360s4ah256gp46gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8h1kce9j6t0jgcpo6coj0c9k6d0jega36koj6h9n8or34d9j6520/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=' Our House 13778 Josephine Ct. Thornton CO 80602'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.attendee' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		</gd:who>
+		<gd:who email='candice.erickson@comcast.net' rel='http://schemas.google.com/g/2005#event.organizer' valueString='candice.erickson@comcast.net'/>
+		<gd:when endTime='2011-07-22T22:00:00.000-06:00' startTime='2011-07-22T18:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='false'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:privateCopy value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='040000008200E00074C5B7101A82E008000000006093C08EDE42CC01000000000000000010000000DCF937A838310143A7AC513E7F62531D'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_71332ga56oqk8chn8coj8dq68914cc9h8or3ahhp8crkacpk6ko30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0</id>
+		<published>2011-07-10T19:51:46.000Z</published>
+		<updated>2011-07-10T19:51:46.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Breakfast Club</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=XzcxMzMyZ2E1Nm9xazhjaG44Y29qOGRxNjg5MTRjYzloOG9yM2FoaHA4Y3JrYWNwazZrbzMwYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMGMxZzYwbzMwYzAgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_71332ga56oqk8chn8coj8dq68914cc9h8or3ahhp8crkacpk6ko30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/_71332ga56oqk8chn8coj8dq68914cc9h8or3ahhp8crkacpk6ko30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c1g60o30c0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='600 East 13th Avenue Denver‎ CO‎ 80203 (Jelly Cafe)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-07-23T12:30:00.000-06:00' startTime='2011-07-23T11:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='8F1AE65D27C147FBBF11F65F9C7E345000000000000000000000000000000000'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/tjgh0mr86dbbfl35bu2uffqadc</id>
+		<published>2011-07-08T17:29:50.000Z</published>
+		<updated>2011-07-10T19:44:36.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Touching the Void</title>
+		<content type='text'>Thinking a two-fer with Lincoln and Democrat. Game on?</content>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=dGpnaDBtcjg2ZGJiZmwzNWJ1MnVmZnFhZGMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/tjgh0mr86dbbfl35bu2uffqadc'/>
+		<author>
+			<name>Blake J. Bowyer</name>
+			<email>blakebowyer@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/tjgh0mr86dbbfl35bu2uffqadc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='Unnamed 14er'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.attendee' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		</gd:who>
+		<gd:who email='blakebowyer@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Blake J. Bowyer'/>
+		<gd:when endTime='2011-07-24T16:00:00.000-06:00' startTime='2011-07-24T04:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='tjgh0mr86dbbfl35bu2uffqadc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/reersthhf6l9cebhgufb9e0a1o</id>
+		<published>2011-06-27T20:33:32.000Z</published>
+		<updated>2011-06-27T20:34:04.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Meeting w/ Brett Woodward</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=cmVlcnN0aGhmNmw5Y2ViaGd1ZmI5ZTBhMW8gYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/reersthhf6l9cebhgufb9e0a1o'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/reersthhf6l9cebhgufb9e0a1o/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='9401 E Panorama Cir #1000, Englewood, CO 80112'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-06-27T16:00:00.000-06:00' startTime='2011-06-27T15:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='reersthhf6l9cebhgufb9e0a1o@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1i6hvt5jff10rh6dt772a1nu2s</id>
+		<published>2011-06-27T20:33:45.000Z</published>
+		<updated>2011-06-27T20:33:45.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Dinner w/ Luke</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=MWk2aHZ0NWpmZjEwcmg2ZHQ3NzJhMW51MnMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1i6hvt5jff10rh6dt772a1nu2s'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1i6hvt5jff10rh6dt772a1nu2s/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString='9555 E Arapahoe Rd # 4, Greenwood Vlg, CO 80112-3641 (Pho Saigon)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-06-27T21:00:00.000-06:00' startTime='2011-06-27T18:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='1i6hvt5jff10rh6dt772a1nu2s@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1knl2rqlcaqdvotbmmup8g7o8c</id>
+		<published>2011-06-14T20:45:40.000Z</published>
+		<updated>2011-06-14T20:45:40.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Car Service Appointment (leaving car)</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=MWtubDJycWxjYXFkdm90Ym1tdXA4ZzdvOGMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1knl2rqlcaqdvotbmmup8g7o8c'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/1knl2rqlcaqdvotbmmup8g7o8c/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-06-28T09:00:00.000-06:00' startTime='2011-06-28T07:00:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='1knl2rqlcaqdvotbmmup8g7o8c@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/a2juo0uo3df6k3q49bj28b4vi4</id>
+		<published>2011-05-28T22:13:49.000Z</published>
+		<updated>2011-05-28T22:13:50.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Lunch w/ Ranks</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=YTJqdW8wdW8zZGY2azNxNDliajI4YjR2aTQgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/a2juo0uo3df6k3q49bj28b4vi4'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/a2juo0uo3df6k3q49bj28b4vi4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString='Grand Lux Cafe'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-05-29T14:15:00.000-06:00' startTime='2011-05-29T12:45:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='a2juo0uo3df6k3q49bj28b4vi4@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/jnvtkh0jo6mgolf6gronpifm8c</id>
+		<published>2011-05-11T04:28:50.000Z</published>
+		<updated>2011-05-19T01:03:11.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Rockies Game</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=am52dGtoMGpvNm1nb2xmNmdyb25waWZtOGMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/jnvtkh0jo6mgolf6gronpifm8c'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/jnvtkh0jo6mgolf6gronpifm8c/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='bachya1208@gmail.com'/>
+		<gd:when endTime='2011-05-13T22:00:00.000-06:00' startTime='2011-05-13T18:40:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='jnvtkh0jo6mgolf6gronpifm8c@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/5r1tu33gblfubvqdpt9og5hfhs</id>
+		<published>2011-04-15T13:08:50.000Z</published>
+		<updated>2011-05-19T01:03:11.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Jury Duty</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='https://www.google.com/calendar/event?eid=NXIxdHUzM2dibGZ1YnZxZHB0OW9nNWhmaHMgYmFjaHlhMTIwOEBt' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/5r1tu33gblfubvqdpt9og5hfhs'/>
+		<author>
+			<name>Aaron Bach</name>
+			<email>bachya1208@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='https://www.google.com/calendar/feeds/bachya1208%40gmail.com/public/full/5r1tu33gblfubvqdpt9og5hfhs/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.tentative'/>
+		<gd:where valueString='520 West Colfax Avenue, Room 100, Denver, CO 80204 (Lindsey-Flanigan Courthouse)'/>
+		<gd:who email='bachya1208@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='Aaron Bach'>
+			<gd:attendeeStatus value='http://schemas.google.com/g/2005#event.accepted'/>
+		</gd:who>
+		<gd:when endTime='2011-05-10T12:00:00.000-06:00' startTime='2011-05-10T08:30:00.000-06:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='5r1tu33gblfubvqdpt9og5hfhs@google.com'/>
+	</entry>
+</feed>

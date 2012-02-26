@@ -1,0 +1,127 @@
+Public Sub ChangeFileAs()
+    Dim objOL As Outlook.Application
+    Dim objNS As Outlook.NameSpace
+    Dim objContact As Outlook.ContactItem
+    Dim objItems As Outlook.Items
+    Dim objContactsFolder As Outlook.MAPIFolder
+    Dim obj As Object
+    Dim strFirstName As String
+    Dim strLastName As String
+    Dim strFileAs As String
+
+    On Error Resume Next
+
+    Set objOL = CreateObject("Outlook.Application")
+    Set objNS = objOL.GetNamespace("MAPI")
+    Set objContactsFolder = objNS.GetDefaultFolder(olFolderContacts)
+    Set objItems = objContactsFolder.Items
+
+    For Each obj In objItems
+        'Test for contact and not distribution list
+        If obj.Class = olContact Then
+            Set objContact = obj
+
+            With objContact
+            ' Uncomment the  strFileAs line for the desired format
+
+                'Lastname, Firstname (Company) format
+                ' strFileAs = .FullNameAndCompany
+                
+                'Firstname Lastname format
+                strFileAs = .FullName
+               
+                'Lastname, Firstname format
+                ' strFileAs = .LastNameAndFirstName
+               
+                'Company name only
+                ' strFileAs = .CompanyName
+               
+                'Companyname (Lastname, Firstname)
+                ' strFileAs = .CompanyAndFullName
+                
+               .FileAs = strFileAs
+
+                .Save
+            End With
+        End If
+
+        Err.Clear
+    Next
+
+    Set objOL = Nothing
+    Set objNS = Nothing
+    Set obj = Nothing
+    Set objContact = Nothing
+    Set objItems = Nothing
+    Set objContactsFolder = Nothing
+End Sub
+
+Public Sub ChangeEmailDisplayName()
+    Dim objOL As Outlook.Application
+    Dim objNS As Outlook.NameSpace
+    Dim objContact As Outlook.ContactItem
+    Dim objItems As Outlook.Items
+    Dim objContactsFolder As Outlook.MAPIFolder
+    Dim obj As Object
+    Dim strFirstName As String
+    Dim strLastName As String
+    Dim strFileAs As String
+
+    On Error Resume Next
+
+    Set objOL = CreateObject("Outlook.Application")
+    Set objNS = objOL.GetNamespace("MAPI")
+    Set objContactsFolder = objNS.GetDefaultFolder(olFolderContacts)
+    Set objItems = objContactsFolder.Items
+
+    For Each obj In objItems
+        'Test for contact and not distribution list
+        If obj.Class = olContact Then
+            Set objContact = obj
+
+            With objContact
+            ' Uncomment the  strFileAs line for the desired format
+            ' Add the email address to any string using
+            ' the following code:
+            ' & " (" & .Email1Address & ")"
+                
+                'Firstname Lastname (email address) format
+                If .CompanyName = "Four Winds Interactive" Then
+                    strFileAs = .FullName
+                Else
+                    strFileAs = .FullName & " (" & .Email1Address & ")"
+                End If
+                
+               
+                'Lastname, Firstname format
+                ' strFileAs = .LastNameAndFirstName
+               
+                'Company name (email address) format
+                ' strFileAs = .CompanyName & " (" & .Email1Address & ")"
+                
+                'Comapany Firstname Lastname (email address) format
+                'the display name will have a leading space if
+                'the contact doesn't have a company name
+                'strFileAs = .CompanyName & " " & .FullName & " (" & .Email1Address & ")"
+                
+                'File As format
+                'Does not support Company (Fullname) format.
+                'Only Company name is used in the display name
+                'strFileAs = .FileAs
+                
+               .Email1DisplayName = strFileAs
+
+                .Save
+            End With
+        End If
+
+        Err.Clear
+    Next
+
+    Set objOL = Nothing
+    Set objNS = Nothing
+    Set obj = Nothing
+    Set objContact = Nothing
+    Set objItems = Nothing
+    Set objContactsFolder = Nothing
+End Sub

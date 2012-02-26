@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetEventsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StatusCode>OK</StatusCode>
+  <StatusId>FWI0000</StatusId>
+  <StatusDescription>Success</StatusDescription>
+  <StatusException />
+  <StatusCookie />
+  <Events>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1130</EventKey>
+      <EventName>Club Lounge Menus</EventName>
+      <EventPostAs>Club Lounge Menus</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T06:30:00</StartDateTime>
+      <EndDateTime>2011-12-20T09:30:00</EndDateTime>
+      <RoomKey>M-AQH8JF</RoomKey>
+      <RoomName>Ren Club Lounge</RoomName>
+      <MeetingKey>F1-5MHE-3377</MeetingKey>
+      <MeetingName>Continental Breakfast</MeetingName>
+      <MeetingPostAs>Continental Breakfast</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1130</EventKey>
+      <EventName>Club Lounge Menus</EventName>
+      <EventPostAs>Club Lounge Menus</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T17:30:00</StartDateTime>
+      <EndDateTime>2011-12-20T20:00:00</EndDateTime>
+      <RoomKey>M-AQH8JF</RoomKey>
+      <RoomName>Ren Club Lounge</RoomName>
+      <MeetingKey>F1-5MHE-3378</MeetingKey>
+      <MeetingName>Reception</MeetingName>
+      <MeetingPostAs>Reception</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1130</EventKey>
+      <EventName>Club Lounge Menus</EventName>
+      <EventPostAs>Club Lounge Menus</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T19:30:00</StartDateTime>
+      <EndDateTime>2011-12-20T22:00:00</EndDateTime>
+      <RoomKey>M-AQH8JF</RoomKey>
+      <RoomName>Ren Club Lounge</RoomName>
+      <MeetingKey>F1-5MHE-3379</MeetingKey>
+      <MeetingName>Reception</MeetingName>
+      <MeetingPostAs>Dessert</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1711</EventKey>
+      <EventName>In-House Meetings</EventName>
+      <EventPostAs>In-House Meetings</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T09:30:00</StartDateTime>
+      <EndDateTime>2011-12-20T10:30:00</EndDateTime>
+      <RoomKey>M-AQH8KR</RoomKey>
+      <RoomName>Training Room</RoomName>
+      <MeetingKey>F1-5MGW-3122</MeetingKey>
+      <MeetingName>Meeting</MeetingName>
+      <MeetingPostAs>BEO Meeting</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1711</EventKey>
+      <EventName>In-House Meetings</EventName>
+      <EventPostAs>In-House Meetings</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T13:00:00</StartDateTime>
+      <EndDateTime>2011-12-20T14:00:00</EndDateTime>
+      <RoomKey>M-AQH8KR</RoomKey>
+      <RoomName>Training Room</RoomName>
+      <MeetingKey>F1-5MGW-3123</MeetingKey>
+      <MeetingName>Meeting</MeetingName>
+      <MeetingPostAs>Catering Projections</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1711</EventKey>
+      <EventName>In-House Meetings</EventName>
+      <EventPostAs>In-House Meetings</EventPostAs>
+      <GroupKey>M-12T-4293</GroupKey>
+      <GroupName>Renaissance Washington DC</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T14:00:00</StartDateTime>
+      <EndDateTime>2011-12-20T15:00:00</EndDateTime>
+      <RoomKey>M-AQH8KR</RoomKey>
+      <RoomName>Training Room</RoomName>
+      <MeetingKey>F1-5MGW-3124</MeetingKey>
+      <MeetingName>Meeting</MeetingName>
+      <MeetingPostAs>Exec Meeting</MeetingPostAs>
+      <AgreedAttendance>1</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+    <Event>
+      <PropertyKey>WASRB</PropertyKey>
+      <PropertyName>Renaissance Washington, DC Downtown
+      Hotel</PropertyName>
+      <EventKey>F1-5LMN-1729</EventKey>
+      <EventName>WASRB In House</EventName>
+      <EventPostAs>***IRD TO HANDLE***/ Dupont Exec
+      Retreat</EventPostAs>
+      <GroupKey>F1-5LJE-417</GroupKey>
+      <GroupName>WASRB In House Account</GroupName>
+      <GroupLogoUrl />
+      <StartDateTime>2011-12-20T14:00:00</StartDateTime>
+      <EndDateTime>2011-12-20T17:00:00</EndDateTime>
+      <RoomKey>M-AQH8IB</RoomKey>
+      <RoomName>Penn Quarter</RoomName>
+      <MeetingKey>M-D3BX4T</MeetingKey>
+      <MeetingName>Lunch</MeetingName>
+      <MeetingPostAs>Front Office Holiday Potluck</MeetingPostAs>
+      <AgreedAttendance>32</AgreedAttendance>
+      <IsPostable>false</IsPostable>
+      <IsExhibit>false</IsExhibit>
+      <SecondaryEventPostAs />
+      <SecondaryRoomName />
+      <SecondaryMeetingName />
+      <SecondaryMeetingPostAs />
+    </Event>
+  </Events>
+</GetEventsResponse>

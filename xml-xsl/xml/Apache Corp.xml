@@ -1,0 +1,56 @@
+<output>
+    <var name="RESULT">
+      <recordset>
+        <field name="COMPANYNAME">
+          <string>Four Winds Interactive</string>
+        </field>
+        <field name="LONGNAME">
+          <string>Four Winds Interactive</string>
+        </field>
+        <field name="SHORTNAME">
+          <string>FWi</string>
+        </field>
+        <field name="LASTPRICE">
+          <string>42.09</string>
+        </field>
+        <field name="TICKER">
+          <string>FWI</string>
+        </field>
+        <field name="VOLUME">
+          <string>109980746</string>
+        </field>
+        <field name="YEARHIGH">
+          <string>42.09</string>
+        </field>
+        <field name="YEARLOW">
+          <string>21.20</string>
+        </field>
+      </recordset>
+      <recordset>
+        <field name="COMPANYNAME">
+          <string>Four Winds Interactive</string>
+        </field>
+        <field name="LONGNAME">
+          <string>Four Winds Interactive</string>
+        </field>
+        <field name="SHORTNAME">
+          <string>FWi</string>
+        </field>
+        <field name="LASTPRICE">
+          <string>42.09</string>
+        </field>
+        <field name="TICKER">
+          <string>FWI</string>
+        </field>
+        <field name="VOLUME">
+          <string>109980746</string>
+        </field>
+        <field name="YEARHIGH">
+          <string>42.09</string>
+        </field>
+        <field name="YEARLOW">
+          <string>21.20</string>
+        </field>
+      </recordset>
+    </var>
+</output>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:msxml="urn:schemas-microsoft-com:xslt" version="2.0">
+  <channel>
+    <title>Vail Resort Snow Report</title>
+    <link>http://www.vail.com/Mountain/Current-Conditions/Snow-and-Weather-Report.aspx</link>
+    <description>Vail Resort Snow Report</description>
+    <language>en-us</language>
+    <item>
+      <title>Vail Resort Snow Report - 0 inches new  - 2/17/2012</title>
+      <link>http://www.vail.com/Mountain/Current-Conditions/Snow-and-Weather-Report.aspx</link>
+      <description>New Snow in last 24 hours: 0 inches&lt;br/&gt;New Snow in last 48 hours: 1 inch&lt;br/&gt;New Snow in last 7 days: 19 inches&lt;br/&gt;Snow Conditions: Packed Powder&lt;br/&gt;Today's Forecast: &lt;br/&gt;Snow Base&lt;br/&gt;Mid-Mountain: 41 inches&lt;br/&gt;Lifts Open: 31 of 31 - Runs Open: 189 of 193</description>
+      <guid>http://www.vail.com/Mountain/Current-Conditions/Snow-and-Weather-Report.aspx</guid>
+    </item>
+  </channel>
+</rss>

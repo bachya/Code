@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HotelDescriptiveContents>
+	<HotelDescriptiveContent HotelCode="WASFC" HotelName="Fairfield Inn &amp; Suites Washington, DC/Downtown">
+		<Position Latitude="38.899809" Longitude="-77.018962" />
+		<Descriptions>
+			<Description Name="Hotel Alert">
+				<Text>All rates at this hotel include complimentary in-room high speed Internet access</Text>
+			</Description>
+			<Description Name="Local Area Highlight 1">
+				<Text>The Smithsonian Institution - World's largest museum and research complex, housing 19 museums</Text>
+				<URL>http://www.si.edu/</URL>
+			</Description>
+			<Description Name="Local Area Highlight 2">
+				<Text>Walter E Washington Convention Center - located 6 blocks from the hotel</Text>
+				<URL>http://www.dcconvention.com/</URL>
+			</Description>
+			<Description Name="Local Area Highlight 3">
+				<Text>The Verizon Center - sports and event arena located 2 blocks from the hotel</Text>
+				<URL>http://www.verizoncenter.com/</URL>
+			</Description>
+			<Description Name="Local Area Highlight 4">
+				<Text>The National Mall - the heart of the Nation's Capital - lined with monumnets, memorials &amp; museums</Text>
+				<URL>http://www.nps.gov/nacc/index.htm</URL>
+			</Description>
+			<Description Name="Local Area Highlight 5">
+				<Text>Government Agencies - D.C. is the seat of U.S. government with federal agencies residing here</Text>
+				<URL>http://www.usa.gov/Agencies.shtml</URL>
+			</Description>
+			<Description Name="Local Area Highlight 6">
+				<Text>Arts &amp; Entertainment - D.C.'s  entertainment options include theaters, sports venues, nightlife</Text>
+				<URL>http://www.destinationdc.org/</URL>
+			</Description>
+			<Description Name="Business/Group Highlight 1">
+				<Text>Complimentary in-room high-speed &amp; Wi-Fi internet access and Wi-Fi in public spaces.</Text>
+			</Description>
+			<Description Name="Business/Group Highlight 2">
+				<Text>Professional and knowledgeable sales staff ready to assist with your group/business needs</Text>
+			</Description>
+			<Description Name="Business/Group Highlight 3">
+				<Text>24 hour complimentary access to the business center</Text>
+			</Description>
+			<Description Name="Property Description Long">
+				<Text>Located in the heart of the Nation's Capital, the Fairfield Inn &amp; Suites Washington, DC/Downtown is a completely renovated property boasting 198 elegantly appointed guest rooms and suites. Our hotel is just steps away from the Verizon Center and Judiciary Square, a 6 block walk from the Walter E. Washington Convention Center and 2 blocks from the Gallery Place/Chinatown metro station servicing the yellow, red and green lines. Nestled in Chinatown - one of Washington, DC's most vibrant neighborhoods - the Fairfield Inn &amp; Suites is also conveniently close to museums, national landmarks and attractions such as: The White House, Smithsonian Institution, the National Mall, Washington Monument, U.S. Capitol and Lincoln Memorial. All this without sacrificing stylish comfort and a great value (complimentary breakfast can be enjoyed each morning as well as internet access during your stay). We invite you to come and experience the only Fairfield Inn &amp; Suites by Marriott located in the Washington, DC city center.</Text>
+			</Description>
+			<Description Name="Sales Message">
+				<Text>The Fairfield Inn &amp; Suites Washington, DC/Downtown is in heart of the Nation's Capital.  With easy access from Reagan National, Dulles and BWI airports. Near Gallery Place Metro, Verizon Center, the National Mall, DC Courthouses and government offices.</Text>
+			</Description>
+		</Descriptions>
+		<Services>
+			<Service Code="15" ExistsCode="1" ProximityCode="3">
+				<RelativePosition Distance="6.5"/>
+				<Contact>
+					<Phones>
+						<Phone AreaCityCode="800" PhoneNumber="654-3001"/>
+					</Phones>
+					<CompanyName>Hertz</CompanyName>
+				</Contact>
+			</Service>
+			<Service Code="15" ExistsCode="1" ProximityCode="3">
+				<RelativePosition Distance="6.5"/>
+				<Contact>
+					<Phones>
+						<Phone AreaCityCode="800" PhoneNumber="261-7331"/>
+					</Phones>
+					<CompanyName>Enterprise</CompanyName>
+				</Contact>
+			</Service>
+			<Service Code="15" ExistsCode="1" ProximityCode="3">
+				<RelativePosition Distance="6.5"/>
+				<Contact>
+					<Phones>
+						<Phone AreaCityCode="800" PhoneNumber="214-6094"/>
+					</Phones>
+					<CompanyName>Budget</CompanyName>
+				</Contact>
+			</Service>
+			<Service Code="15" ExistsCode="1" ProximityCode="3">
+				<RelativePosition Distance="6"/>
+				<Contact>
+					<Phones>
+						<Phone AreaCityCode="800" PhoneNumber="331-1212"/>
+					</Phones>
+					<CompanyName>Avis</CompanyName>
+				</Contact>
+			</Service>
+		</Services>
+		<Restaurants>
+			<Restaurant ID="5213762" ProximityCode="1" RestaurantName="The Irish Channel">
+				<RestaurantDescription Name="Restaurant Open Year Around">
+					<Text>Yes</Text>
+				</RestaurantDescription>
+				<RestaurantDescription Name="Restaurant Short Description">
+					<Text>Mix of Classic Pub food and excellent &amp; friendly service</Text>
+				</RestaurantDescription>
+				<RelativePosition>
+					<Transportations>
+						<Transportation>
+							<Descriptions>
+								<Description Name="Restaurant Location">
+									<Text>Onsite</Text>
+								</Description>
+							</Descriptions>
+						</Transportation>
+					</Transportations>
+				</RelativePosition>
+				<OperationSchedules>
+					<OperationSchedule>
+						<OperationTimes>
+							<OperationTime End="02:00:00" Fri="true" Mon="true" Sat="true" Start="11:00:00" Sun="true" Thur="true" Tue="true" Weds="true"/>
+						</OperationTimes>
+					</OperationSchedule>
+				</OperationSchedules>
+				<CuisineCodes>
+					<CuisineCode Code="60" CodeDetail="Pub" ExistsCode="1"/>
+				</CuisineCodes>
+				<ContactInfos>
+					<ContactInfo>
+						<Addresses>
+							<Address UseType="2"/>
+						</Addresses>
+						<Phones>
+							<Phone AreaCityCode="202" PhoneNumber="216-0046"/>
+						</Phones>
+					</ContactInfo>
+				</ContactInfos>
+			</Restaurant>
+		</Restaurants>
+	</HotelDescriptiveContent>
+</HotelDescriptiveContents>
