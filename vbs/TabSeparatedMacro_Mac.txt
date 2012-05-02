@@ -1,9 +1,10 @@
-Sub EncodeFunction()
+Sub EncodeAttractions()
     Application.ScreenUpdating = False
 
     ' VARIABLES
     ' ---------------------------------------------
     ' The file to store the encoded data
+    tmp_fname = ""
     fname = ""
 
     ' The cell to start from
@@ -26,11 +27,23 @@ Sub EncodeFunction()
     Workbooks.Add
     ActiveSheet.Paste
     Application.DisplayAlerts = False
-    ActiveWorkbook.SaveAs Filename:=fname, FileFormat:=xlUnicodeText, _
+    ActiveWorkbook.SaveAs Filename:=tmp_fname, FileFormat:=xlTextMac, _
         CreateBackup:=False
     ActiveWindow.Close
     Application.DisplayAlerts = True
     Application.ScreenUpdating = True
+    
+    Dim fsT, tFileToOpen, tFileToSave As String
+    
+    Set fsT = CreateObject("ADODB.Stream"): 'Create Stream object
+    fsT.Type = 2: 'Specify stream type – we want To save text/string data.
+    fsT.Charset = "utf-8": 'Specify charset For the source text data.
+         
+    fsT.Open: 'Open the stream
+    fsT.LoadFromFile tmp_fname: 'And write the file to the object stream
+         
+    fsT.SaveToFile fname, 2: 'Save the data to the named path
+    fs.DeleteFile (tmp_fname)
 End Sub
 
 Function FileExists(fname) As Boolean
