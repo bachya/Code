@@ -6,7 +6,9 @@ exclude-result-prefixes="f gd" version="1.0">
   <xsl:output omit-xml-declaration="no" indent="yes" />
   <xsl:strip-space elements="*" />
   <xsl:template match="/">
-    <xsl:apply-templates select="/*/f:entry" />
+    <Events>
+      <xsl:apply-templates select="/*/f:entry" />
+    </Events>
   </xsl:template>
   <xsl:template match="f:entry[not(gd:recurrence)]">
     <xsl:variable name="startDateTime"
