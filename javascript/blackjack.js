@@ -21,12 +21,15 @@ function Card(suit, number) {
 
     this.getValue = function() {
         var card = _number % 13;
-        if (card == 0 || card == 11 || card == 12)
-        return 10;
-        else if (card == 1)
-        return 11;
-        else
-        return card;
+        if (card == 0 || card == 11 || card == 12) {
+          return 10;
+        }
+        else if (card == 1) {
+          return 11;
+        }
+        else {
+          return card;
+        }
     };
 }
 
@@ -54,11 +57,12 @@ function Deck() {
 
     this.hasCard = function(card) {
         for (var i = 0; i < _cards.length; i++) {
-            if (card.getId() == _cards[i].getId())
-            return i;
+            if (card.getId() == _cards[i].getId()) {
+              return i;
+            }
         }
 
-        return - 1;
+        return -1;
     }
     
     this.numberOfCardsLeft = function() {
@@ -142,8 +146,9 @@ function Hand() {
         var numOfAces = 0;
         for (var i = 0; i < _cards.length; i++) {
             // Count how many aces we have
-            if (_cards[i].getValue() == 11)
-            numOfAces++;
+            if (_cards[i].getValue() == 11) {
+              numOfAces++;
+            }
 
             // Count up our score; by default, treat
             // aces as 11
@@ -175,21 +180,26 @@ function declareWinner(userHand, dealerHand) {
     var dealerScore = dealerHand.score();
 
     if (userScore > 21) {
-        if (dealerScore > 21)
+        if (dealerScore > 21) {
           return "You tied (bust)!";
-        else
+        }
+        else {
           return "You lose (bust)!";
+        }
     }
     else {
         if (dealerScore > 21)
           return "You win (dealer bust)!";
         else {
-            if (userScore == dealerScore)
-            return "You tied!";
-            else if (userScore > dealerScore)
-            return "You win!";
-            else
-            return "You lose!";
+            if (userScore == dealerScore) {
+              return "You tied!";
+            }
+            else if (userScore > dealerScore) {
+              return "You win!";
+            }
+            else {
+              return "You lose!";
+            }
         }
     }
 }
@@ -209,12 +219,14 @@ function playAsUser() {
 
     do {
         continuePlaying = confirm("HAND: " + h.printHand() + "; SCORE: " + h.score() + "; 'OK' to hit, 'CANCEL' to stay");
-        if (h.score() > 21)
+        if (h.score() > 21) {
           break;
-        if (continuePlaying)
+        }
+          
+        if (continuePlaying) {
           h.hitMe();
-    }
-    while (continuePlaying)
+        }
+    } while (continuePlaying)
 
     return h;
 }
