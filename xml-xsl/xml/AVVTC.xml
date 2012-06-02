@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="AVVTC.rdl" xsi:schemaLocation="AVVTC.rdl http://ssrs.portal.logcom.usmc.mil/ReportServer?https%3a%2f%2fportal.logcom.usmc.mil%2fsites%2fcsddev%2fReport+Testing%2fAVVTC.rdl&amp;rs%3ACommand=Render&amp;rs%3AFormat=XML&amp;rs%3ASessionID=zktt0pja2otfyo55llfkbyfg&amp;rc%3ASchema=True" Name="AVVTC.rdl">
+  <Tablix1>
+    <Details_Collection>
+      <Details ows_Title="D Groves f/Steve Shook" ows_EventDate="2012-04-25 09:00:00" ows_EndDate="2012-04-25 11:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-04-25 11:30:00" ows_EndDate="2012-04-25 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="D Groves f/Steve Shook" ows_EventDate="2012-04-25 13:00:00" ows_EndDate="2012-04-25 16:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-04-26 11:30:00" ows_EndDate="2012-04-26 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Steve Shook" ows_EventDate="2012-04-26 15:00:00" ows_EndDate="2012-04-26 16:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-04-27 11:30:00" ows_EndDate="2012-04-27 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Sarah Ingram" ows_EventDate="2012-04-30 08:00:00" ows_EndDate="2012-05-04 17:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-04-30 11:30:00" ows_EndDate="2012-04-30 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-01 11:30:00" ows_EndDate="2012-05-01 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-02 11:30:00" ows_EndDate="2012-05-02 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-03 11:30:00" ows_EndDate="2012-05-03 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-04 11:30:00" ows_EndDate="2012-05-04 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-07 11:30:00" ows_EndDate="2012-05-07 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="CSD All Hands Staff Meeting" ows_EventDate="2012-05-08 09:30:00" ows_EndDate="2012-05-08 11:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-08 11:30:00" ows_EndDate="2012-05-08 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Pat Dangerfield" ows_EventDate="2012-05-09 08:00:00" ows_EndDate="2012-05-09 13:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-09 11:30:00" ows_EndDate="2012-05-09 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Jacqueline Simmons" ows_EventDate="2012-05-10 09:00:00" ows_EndDate="2012-05-10 11:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-10 11:30:00" ows_EndDate="2012-05-10 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="ZAN WALDON" ows_EventDate="2012-05-10 13:00:00" ows_EndDate="2012-05-10 16:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-11 11:30:00" ows_EndDate="2012-05-11 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-14 11:30:00" ows_EndDate="2012-05-14 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-15 11:30:00" ows_EndDate="2012-05-15 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Dianne C. Pitts on Behalf of LSMC" ows_EventDate="2012-05-16 08:45:00" ows_EndDate="2012-05-16 10:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-16 11:30:00" ows_EndDate="2012-05-16 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-17 11:30:00" ows_EndDate="2012-05-17 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Marietta Lane" ows_EventDate="2012-05-17 13:00:00" ows_EndDate="2012-05-17 15:45:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-18 11:30:00" ows_EndDate="2012-05-18 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-21 11:30:00" ows_EndDate="2012-05-21 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="Sarah Ingram" ows_EventDate="2012-05-22 08:30:00" ows_EndDate="2012-05-22 09:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-22 11:30:00" ows_EndDate="2012-05-22 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="GENE COLLINS" ows_EventDate="2012-05-22 15:00:00" ows_EndDate="2012-05-24 13:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-23 11:30:00" ows_EndDate="2012-05-23 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-24 11:30:00" ows_EndDate="2012-05-24 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-25 11:30:00" ows_EndDate="2012-05-25 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="** TESTING **" ows_EventDate="2012-05-26 10:00:00" ows_EndDate="2012-05-26 10:30:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-28 11:30:00" ows_EndDate="2012-05-28 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-29 11:30:00" ows_EndDate="2012-05-29 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-30 11:30:00" ows_EndDate="2012-05-30 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-05-31 11:30:00" ows_EndDate="2012-05-31 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-06-01 11:30:00" ows_EndDate="2012-06-01 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-06-04 11:30:00" ows_EndDate="2012-06-04 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-06-05 11:30:00" ows_EndDate="2012-06-05 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+      <Details ows_Title="LUNCH" ows_EventDate="2012-06-06 11:30:00" ows_EndDate="2012-06-06 13:00:00" ows_Conference_Room="Multi-Purpose Room 3700, 1st Floor"/>
+    </Details_Collection>
+  </Tablix1>
+  <Tablix3>
+    <Details1_Collection>
+      <Details1 ows_Title1="Expeditionary Maintenance Capability Meeting" ows_EventDate1="2012-04-25 09:30:00" ows_EndDate1="2012-04-25 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="DLA Meeting " ows_EventDate1="2012-04-25 13:00:00" ows_EndDate1="2012-04-25 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Expeditionary Maintenance Working Group" ows_EventDate1="2012-04-25 14:00:00" ows_EndDate1="2012-04-25 16:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Inventory Managers Hot Wash Mtg" ows_EventDate1="2012-04-26 09:00:00" ows_EndDate1="2012-04-26 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Provisioning Project Closure Working Group" ows_EventDate1="2012-04-26 13:00:00" ows_EndDate1="2012-04-26 15:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="MMC Staff Meeting" ows_EventDate1="2012-04-26 15:00:00" ows_EndDate1="2012-04-26 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Key Supplier Conference" ows_EventDate1="2012-04-27 07:00:00" ows_EndDate1="2012-04-27 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="KSD Marine Liasons" ows_EventDate1="2012-04-27 14:00:00" ows_EndDate1="2012-04-27 16:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="E &amp; C In-Brief (HQMC)" ows_EventDate1="2012-04-30 08:00:00" ows_EndDate1="2012-04-30 10:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="E &amp; C Part II Brief (MSgt Walker)" ows_EventDate1="2012-04-30 10:30:00" ows_EndDate1="2012-04-30 12:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="EMF" ows_EventDate1="2012-04-30 13:30:00" ows_EndDate1="2012-04-30 15:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="SMU Telecon" ows_EventDate1="2012-05-01 09:00:00" ows_EndDate1="2012-05-01 10:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Returns Management" ows_EventDate1="2012-05-01 10:00:00" ows_EndDate1="2012-05-01 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="AAS Javelin IIP and Program Issues-Transition" ows_EventDate1="2012-05-01 12:30:00" ows_EndDate1="2012-05-01 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC WSMT/IM Training" ows_EventDate1="2012-05-01 14:00:00" ows_EndDate1="2012-05-01 16:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="MSST Discussion on TAMCN Business Rules" ows_EventDate1="2012-05-02 10:30:00" ows_EndDate1="2012-05-02 11:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="MCDSS Meeting" ows_EventDate1="2012-05-02 14:30:00" ows_EndDate1="2012-05-02 15:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Procurement Lead Time IPT" ows_EventDate1="2012-05-03 09:00:00" ows_EndDate1="2012-05-03 12:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="EMF" ows_EventDate1="2012-05-03 13:30:00" ows_EndDate1="2012-05-03 15:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC Production Meeting Walk Thru" ows_EventDate1="2012-05-03 15:30:00" ows_EndDate1="2012-05-03 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="EMF" ows_EventDate1="2012-05-04 09:00:00" ows_EndDate1="2012-05-04 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Brief" ows_EventDate1="2012-05-04 13:00:00" ows_EndDate1="2012-05-04 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="JLC19 / 1277 Process" ows_EventDate1="2012-05-07 09:00:00" ows_EndDate1="2012-05-07 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Weekly OEF" ows_EventDate1="2012-05-08 09:00:00" ows_EndDate1="2012-05-08 10:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="CSD TDM/CM Meeting" ows_EventDate1="2012-05-08 13:00:00" ows_EndDate1="2012-05-08 15:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="MSST" ows_EventDate1="2012-05-09 09:00:00" ows_EndDate1="2012-05-09 10:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Training" ows_EventDate1="2012-05-09 12:30:00" ows_EndDate1="2012-05-09 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="contracts meeting" ows_EventDate1="2012-05-10 08:00:00" ows_EndDate1="2012-05-10 10:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Discuss What-If: Scenario Delta Reports  " ows_EventDate1="2012-05-10 10:30:00" ows_EndDate1="2012-05-10 11:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Provisioning Projects Working Group Meeting" ows_EventDate1="2012-05-10 13:00:00" ows_EndDate1="2012-05-10 14:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC Production Meeting" ows_EventDate1="2012-05-10 15:00:00" ows_EndDate1="2012-05-10 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="MSST Requirements Review" ows_EventDate1="2012-05-11 09:30:00" ows_EndDate1="2012-05-11 11:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="AV EQUIPMENT TESTING" ows_EventDate1="2012-05-11 13:30:00" ows_EndDate1="2012-05-11 15:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Equipment Sourcing Process (IM Validation Mtg)" ows_EventDate1="2012-05-14 07:30:00" ows_EndDate1="2012-05-14 12:45:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="AO tasker standup meeting" ows_EventDate1="2012-05-14 13:00:00" ows_EndDate1="2012-05-14 14:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Equipment Sourcing Process (IM Validation Mtg)" ows_EventDate1="2012-05-15 07:30:00" ows_EndDate1="2012-05-15 12:45:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="ELMP ESG" ows_EventDate1="2012-05-15 13:00:00" ows_EndDate1="2012-05-15 15:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Equipment Sourcing Process (IM Validation Mtg)" ows_EventDate1="2012-05-16 07:30:00" ows_EndDate1="2012-05-16 12:45:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="contracts training" ows_EventDate1="2012-05-16 13:30:00" ows_EndDate1="2012-05-16 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="AAV Sustainment Review with LogCom" ows_EventDate1="2012-05-17 08:30:00" ows_EndDate1="2012-05-17 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Provisioning Project Closure Working Group" ows_EventDate1="2012-05-17 13:00:00" ows_EndDate1="2012-05-17 14:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC Production Meeting" ows_EventDate1="2012-05-17 15:00:00" ows_EndDate1="2012-05-17 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Monthly SECREP WIPT Telecon" ows_EventDate1="2012-05-17 17:00:00" ows_EndDate1="2012-05-17 17:10:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="C4/CSP Meeting Re:  DPAS Infrastructure" ows_EventDate1="2012-05-21 14:30:00" ows_EndDate1="2012-05-21 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="OEF Discussion" ows_EventDate1="2012-05-22 09:00:00" ows_EndDate1="2012-05-22 10:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="CSD Staff Meeting" ows_EventDate1="2012-05-22 10:30:00" ows_EndDate1="2012-05-22 11:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Expeditionary Maint Capability Mtg" ows_EventDate1="2012-05-22 13:00:00" ows_EndDate1="2012-05-22 15:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSSM/WSMT OEF TRAINING" ows_EventDate1="2012-05-23 09:00:00" ows_EndDate1="2012-05-23 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Return Management Process mapping" ows_EventDate1="2012-05-23 13:00:00" ows_EndDate1="2012-05-23 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="OEF CONTRACTOR PMR" ows_EventDate1="2012-05-23 14:30:00" ows_EndDate1="2012-05-23 15:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="Expeditionary Maint Capability Mtg" ows_EventDate1="2012-05-24 09:00:00" ows_EndDate1="2012-05-24 11:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="ELMP Executive Review" ows_EventDate1="2012-05-24 13:00:00" ows_EndDate1="2012-05-24 14:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC Production Meeting" ows_EventDate1="2012-05-24 14:00:00" ows_EndDate1="2012-05-24 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="CE/SE Division Staff Meeting" ows_EventDate1="2012-05-29 09:00:00" ows_EndDate1="2012-05-29 10:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="FOLLOW ON MEETING WITH CONTRACTS, WSMC AND MMC" ows_EventDate1="2012-05-31 09:00:00" ows_EndDate1="2012-05-31 11:00:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+      <Details1 ows_Title1="WSMC Production Meeting" ows_EventDate1="2012-05-31 14:00:00" ows_EndDate1="2012-05-31 16:30:00" ows_Conference_Room1="Main Conference 3700, 2nd Floor"/>
+    </Details1_Collection>
+  </Tablix3>
+  <Tablix4>
+    <Details2_Collection>
+      <Details2 ows_Title2="SMAG Budget Planning" ows_EventDate2="2012-04-25 10:15:00" ows_EndDate2="2012-04-25 11:15:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="RIP Enterprise Conference Call" ows_EventDate2="2012-04-25 16:00:00" ows_EndDate2="2012-04-25 18:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Contracting Meeting" ows_EventDate2="2012-04-26 09:00:00" ows_EndDate2="2012-04-26 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="WSMT Training Mtg (EAPD)" ows_EventDate2="2012-04-26 09:30:00" ows_EndDate2="2012-04-27 08:45:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Expeditionary Maint Capabilities Meeting" ows_EventDate2="2012-04-26 13:00:00" ows_EndDate2="2012-04-26 14:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="VTC w/Mr. Jeff Soots located @Kaneohe Bay Hawaii" ows_EventDate2="2012-04-26 15:00:00" ows_EndDate2="2012-04-26 16:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MSST Meeting" ows_EventDate2="2012-04-27 14:30:00" ows_EndDate2="2012-04-27 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-04-30 08:00:00" ows_EndDate2="2012-04-30 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Lift Lug Tie Down Contact Team MEeting" ows_EventDate2="2012-04-30 11:00:00" ows_EndDate2="2012-04-30 12:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MEETING BTWN MMC AND CONTRACTS" ows_EventDate2="2012-05-01 09:00:00" ows_EndDate2="2012-05-01 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MMC Strategic Management Working Group" ows_EventDate2="2012-05-01 13:00:00" ows_EndDate2="2012-05-01 16:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="ITSB SharePoint Account Creation" ows_EventDate2="2012-05-02 08:30:00" ows_EndDate2="2012-05-02 09:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Headquarter and Supporting Activities (HASA) OPT " ows_EventDate2="2012-05-02 13:00:00" ows_EndDate2="2012-05-02 16:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="WSMC Production Meeting" ows_EventDate2="2012-05-03 09:00:00" ows_EndDate2="2012-05-03 12:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MMC Staff Meeting" ows_EventDate2="2012-05-03 15:00:00" ows_EndDate2="2012-05-03 17:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="E&amp;C Team Outbrief to GS 15's" ows_EventDate2="2012-05-04 09:00:00" ows_EndDate2="2012-05-04 10:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Center Ops All Hands" ows_EventDate2="2012-05-04 11:00:00" ows_EndDate2="2012-05-04 11:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-07 09:00:00" ows_EndDate2="2012-05-07 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-07 13:00:00" ows_EndDate2="2012-05-07 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-08 09:00:00" ows_EndDate2="2012-05-08 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-08 13:00:00" ows_EndDate2="2012-05-08 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EAPD Staff Mtg" ows_EventDate2="2012-05-09 08:30:00" ows_EndDate2="2012-05-09 09:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-09 13:00:00" ows_EndDate2="2012-05-09 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="DLR VTC DLA Land &amp; Maritime Columbus Oh" ows_EventDate2="2012-05-10 09:30:00" ows_EndDate2="2012-05-10 11:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-10 13:00:00" ows_EndDate2="2012-05-10 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MMC CG Monthly Pre-Brief" ows_EventDate2="2012-05-11 09:30:00" ows_EndDate2="2012-05-11 10:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="MMC Strategic Planning" ows_EventDate2="2012-05-11 13:00:00" ows_EndDate2="2012-05-11 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-14 13:00:00" ows_EndDate2="2012-05-14 15:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="SMU Conference Call" ows_EventDate2="2012-05-15 09:00:00" ows_EndDate2="2012-05-15 10:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="WSMC Team Org Brief" ows_EventDate2="2012-05-15 13:00:00" ows_EndDate2="2012-05-15 14:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="EMF" ows_EventDate2="2012-05-16 09:00:00" ows_EndDate2="2012-05-16 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="FOLLOW ON FOR COMMERCIAL WKLD WITH CONTRACTS, MMC AND WSMC" ows_EventDate2="2012-05-17 09:00:00" ows_EndDate2="2012-05-17 11:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Procurement Lead Time IPT" ows_EventDate2="2012-05-17 14:15:00" ows_EndDate2="2012-05-17 16:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="WSMC Portal Discussion" ows_EventDate2="2012-05-18 13:00:00" ows_EndDate2="2012-05-18 15:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="LSR SCREENING REPORT" ows_EventDate2="2012-05-21 09:00:00" ows_EndDate2="2012-05-21 11:30:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Expeditionary Maint Capability Mtg" ows_EventDate2="2012-05-21 13:00:00" ows_EndDate2="2012-05-21 15:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="AAV Sustainment Meeting" ows_EventDate2="2012-05-22 08:00:00" ows_EndDate2="2012-05-23 16:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="RADARS VTC conference with Syscom" ows_EventDate2="2012-05-24 13:00:00" ows_EndDate2="2012-05-24 15:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Staff Meeting" ows_EventDate2="2012-05-24 15:00:00" ows_EndDate2="2012-05-24 17:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="OEF Discussion" ows_EventDate2="2012-05-29 09:00:00" ows_EndDate2="2012-05-29 10:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="RADARS VTC with SYSCOM" ows_EventDate2="2012-05-30 13:30:00" ows_EndDate2="2012-05-30 15:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+      <Details2 ows_Title2="Afghan Call" ows_EventDate2="2012-06-05 09:00:00" ows_EndDate2="2012-06-05 10:00:00" ows_Conference_Room2="Staff Conference 3700, 2nd Floor"/>
+    </Details2_Collection>
+  </Tablix4>
+  <Tablix5>
+    <Details3_Collection>
+      <Details3 ows_Title3="RMD PANEL INTERVIEW" ows_EventDate3="2012-04-25 08:00:00" ows_EndDate3="2012-04-25 12:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Entrance Brief for HMMWV Repair Parts" ows_EventDate3="2012-04-25 13:00:00" ows_EndDate3="2012-04-25 14:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="MSST Conference" ows_EventDate3="2012-04-26 09:00:00" ows_EndDate3="2012-04-26 09:45:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="SAS/MDR" ows_EventDate3="2012-04-26 14:00:00" ows_EndDate3="2012-04-26 17:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Internal Control Questions Meeting" ows_EventDate3="2012-04-30 10:00:00" ows_EndDate3="2012-04-30 11:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="FACTS Meeting" ows_EventDate3="2012-05-01 08:00:00" ows_EndDate3="2012-05-02 17:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="EMF" ows_EventDate3="2012-05-03 09:00:00" ows_EndDate3="2012-05-03 11:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Marine Corps Force Development System MCO OPT" ows_EventDate3="2012-05-03 13:30:00" ows_EndDate3="2012-05-03 17:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Business Development Branch meeting" ows_EventDate3="2012-05-07 08:00:00" ows_EndDate3="2012-05-07 10:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="HASA OPT Tasker Coordination Meeting" ows_EventDate3="2012-05-07 14:00:00" ows_EndDate3="2012-05-07 15:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="PDSS Roles &amp; Responsibilities" ows_EventDate3="2012-05-08 13:00:00" ows_EndDate3="2012-05-08 14:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="P &amp; R RMD Director's Staff Meeting" ows_EventDate3="2012-05-09 09:00:00" ows_EndDate3="2012-05-09 10:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="A TAMCN Mtg" ows_EventDate3="2012-05-09 13:00:00" ows_EndDate3="2012-05-09 14:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="RMD Meeting" ows_EventDate3="2012-05-09 14:00:00" ows_EndDate3="2012-05-09 15:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="MCPRS CRB" ows_EventDate3="2012-05-10 09:00:00" ows_EndDate3="2012-05-10 10:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="DON Budget" ows_EventDate3="2012-05-10 10:30:00" ows_EndDate3="2012-05-10 12:30:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="PDREP-SDR TRAINING" ows_EventDate3="2012-05-10 13:00:00" ows_EndDate3="2012-05-10 16:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="ELMP IT STRATEGY MEETING" ows_EventDate3="2012-05-11 13:00:00" ows_EndDate3="2012-05-11 14:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="BIC Physical Inventory Review" ows_EventDate3="2012-05-14 15:00:00" ows_EndDate3="2012-05-14 16:30:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="DMAG Meeting" ows_EventDate3="2012-05-15 11:30:00" ows_EndDate3="2012-05-15 12:30:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="MMC Strategic Planning" ows_EventDate3="2012-05-15 13:00:00" ows_EndDate3="2012-05-15 15:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="MRP Process Overview" ows_EventDate3="2012-05-16 13:00:00" ows_EndDate3="2012-05-16 15:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="EMF" ows_EventDate3="2012-05-17 09:00:00" ows_EndDate3="2012-05-17 11:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Marine Corps Force Development System MCO OPT" ows_EventDate3="2012-05-17 13:30:00" ows_EndDate3="2012-05-17 16:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="MICAPS and Provisioning CRB" ows_EventDate3="2012-05-18 08:30:00" ows_EndDate3="2012-05-18 10:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="OEF Equipment Tracker Meeting" ows_EventDate3="2012-05-18 14:30:00" ows_EndDate3="2012-05-18 15:30:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Draft SOW Mtg" ows_EventDate3="2012-05-21 13:00:00" ows_EndDate3="2012-05-21 15:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="TMS Navy Financial Management Office Site Visit" ows_EventDate3="2012-05-22 07:30:00" ows_EndDate3="2012-05-24 17:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="P &amp; R RMD Director's Staff Meeting" ows_EventDate3="2012-05-30 09:00:00" ows_EndDate3="2012-05-30 10:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Marine Corps Force Development System MCO OPT" ows_EventDate3="2012-05-31 13:30:00" ows_EndDate3="2012-05-31 16:00:00" ows_Conference_Room3="Anchor"/>
+      <Details3 ows_Title3="Meeting with UOC" ows_EventDate3="2012-06-05 10:00:00" ows_EndDate3="2012-06-05 11:00:00" ows_Conference_Room3="Anchor"/>
+    </Details3_Collection>
+  </Tablix5>
+  <Tablix6>
+    <Details4_Collection>
+      <Details4 ows_Title4="ELMP IPR" ows_EventDate4="2012-04-25 13:30:00" ows_EndDate4="2012-04-25 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Key Suppier Day" ows_EventDate4="2012-04-26 08:00:00" ows_EndDate4="2012-04-26 09:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Ground Equipment Management Tool Brief" ows_EventDate4="2012-04-26 13:30:00" ows_EndDate4="2012-04-26 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Command Suite update to CG" ows_EventDate4="2012-04-26 15:00:00" ows_EndDate4="2012-04-26 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Marine Corps ball commitee meeting" ows_EventDate4="2012-04-27 13:00:00" ows_EndDate4="2012-04-27 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-04-30 09:30:00" ows_EndDate4="2012-04-30 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="IT Prioritization Focus Group" ows_EventDate4="2012-05-01 10:00:00" ows_EndDate4="2012-05-01 11:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Monthly Contracts Update to the CG" ows_EventDate4="2012-05-01 13:30:00" ows_EndDate4="2012-05-01 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="EMF" ows_EventDate4="2012-05-02 09:00:00" ows_EndDate4="2012-05-02 11:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="SMMC CMD BRF (PRAC RUN)" ows_EventDate4="2012-05-02 13:00:00" ows_EndDate4="2012-05-02 14:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="SgtMaj Marine Corps CMD BRF." ows_EventDate4="2012-05-03 09:00:00" ows_EndDate4="2012-05-03 10:15:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Unit Personal and Family Readiness Program" ows_EventDate4="2012-05-03 13:30:00" ows_EndDate4="2012-05-03 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Command Team Training" ows_EventDate4="2012-05-03 15:00:00" ows_EndDate4="2012-05-03 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Land &amp; Maritime Meeting" ows_EventDate4="2012-05-04 08:00:00" ows_EndDate4="2012-05-04 09:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-05-07 09:30:00" ows_EndDate4="2012-05-07 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="LCC Update to the CG" ows_EventDate4="2012-05-07 14:00:00" ows_EndDate4="2012-05-07 15:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="DPAS Start of Work Conference" ows_EventDate4="2012-05-08 08:00:00" ows_EndDate4="2012-05-08 11:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="DON Budget Murder Board " ows_EventDate4="2012-05-10 13:00:00" ows_EndDate4="2012-05-10 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-05-14 09:30:00" ows_EndDate4="2012-05-14 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="MDMC IPR" ows_EventDate4="2012-05-14 13:45:00" ows_EndDate4="2012-05-14 15:15:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="DStress Leadership brief" ows_EventDate4="2012-05-15 08:00:00" ows_EndDate4="2012-05-15 09:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Executive Safety Council" ows_EventDate4="2012-05-15 13:30:00" ows_EndDate4="2012-05-15 15:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="DMAG Budget Approval" ows_EventDate4="2012-05-15 15:30:00" ows_EndDate4="2012-05-15 16:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Lois Jackson Interview" ows_EventDate4="2012-05-16 08:45:00" ows_EndDate4="2012-05-16 11:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="MMC Update to the CG" ows_EventDate4="2012-05-16 13:30:00" ows_EndDate4="2012-05-16 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="WBS Standardization Working Group Meeting" ows_EventDate4="2012-05-17 09:30:00" ows_EndDate4="2012-05-17 11:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Discussion of Command Taskers" ows_EventDate4="2012-05-17 13:00:00" ows_EndDate4="2012-05-17 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Monthly P&amp;R Update to the CG" ows_EventDate4="2012-05-17 13:30:00" ows_EndDate4="2012-05-17 14:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="MMC Staff Meeting" ows_EventDate4="2012-05-17 15:00:00" ows_EndDate4="2012-05-17 17:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="MCA Meeting" ows_EventDate4="2012-05-18 09:00:00" ows_EndDate4="2012-05-18 10:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-05-21 09:30:00" ows_EndDate4="2012-05-21 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="FSD Manpower - SIPOC &amp; RACI Charts" ows_EventDate4="2012-05-22 10:00:00" ows_EndDate4="2012-05-22 12:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Meeting on GAO Audit on Drardown of Forces and Equipment in Afghanistan" ows_EventDate4="2012-05-23 13:00:00" ows_EndDate4="2012-05-23 15:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-05-28 09:30:00" ows_EndDate4="2012-05-28 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="ELMP IPR" ows_EventDate4="2012-05-29 13:30:00" ows_EndDate4="2012-05-29 16:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Monthly WSMC Update to the CG" ows_EventDate4="2012-05-30 14:00:00" ows_EndDate4="2012-05-30 15:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Promotion Ceremony for Capt Romoser" ows_EventDate4="2012-06-01 11:00:00" ows_EndDate4="2012-06-01 12:00:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="CG Staff Meeting &amp; VTC" ows_EventDate4="2012-06-04 09:30:00" ows_EndDate4="2012-06-04 10:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Enterprise Ground Equipment Maint IPR" ows_EventDate4="2012-06-04 13:30:00" ows_EndDate4="2012-06-04 16:30:00" ows_Conference_Room4="Command"/>
+      <Details4 ows_Title4="Monthly Contracts Update to the CG" ows_EventDate4="2012-06-05 13:30:00" ows_EndDate4="2012-06-05 14:30:00" ows_Conference_Room4="Command"/>
+    </Details4_Collection>
+  </Tablix6>
+  <Tablix7>
+    <Details5_Collection>
+      <Details5 ows_Title5="training" ows_EventDate5="2012-04-25 07:00:00" ows_EndDate5="2012-04-25 08:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="P &amp; R RMD Director's Staff Meeting" ows_EventDate5="2012-04-25 09:00:00" ows_EndDate5="2012-04-25 10:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="Staff Meeting" ows_EventDate5="2012-04-25 13:00:00" ows_EndDate5="2012-04-25 14:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="ERD COMMITTEE MEETING" ows_EventDate5="2012-04-25 15:00:00" ows_EndDate5="2012-04-25 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="COR AWARENESS TRAINING" ows_EventDate5="2012-04-26 08:00:00" ows_EndDate5="2012-04-26 12:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="SMMC Visit Confirmation Brief" ows_EventDate5="2012-04-26 13:00:00" ows_EndDate5="2012-04-26 14:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="AO Stand-Up" ows_EventDate5="2012-04-30 13:30:00" ows_EndDate5="2012-04-30 14:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="EMF" ows_EventDate5="2012-05-01 09:00:00" ows_EndDate5="2012-05-01 15:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="ERD Committee Meeting" ows_EventDate5="2012-05-02 15:00:00" ows_EndDate5="2012-05-02 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="LSS GB Class Prep" ows_EventDate5="2012-05-03 09:00:00" ows_EndDate5="2012-05-03 11:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="DMISA AAS Discussion" ows_EventDate5="2012-05-03 13:00:00" ows_EndDate5="2012-05-03 15:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="WSMC ESG Call Meeting" ows_EventDate5="2012-05-07 10:45:00" ows_EndDate5="2012-05-07 12:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="AO standup for Taskers " ows_EventDate5="2012-05-07 13:00:00" ows_EndDate5="2012-05-07 14:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="WSMC ESG Meeting" ows_EventDate5="2012-05-07 15:00:00" ows_EndDate5="2012-05-07 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="PDREP Training" ows_EventDate5="2012-05-08 13:00:00" ows_EndDate5="2012-05-08 17:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="PDREP TRAINING" ows_EventDate5="2012-05-09 07:00:00" ows_EndDate5="2012-05-09 15:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="ERD Weekly Meeting" ows_EventDate5="2012-05-09 15:00:00" ows_EndDate5="2012-05-09 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="PDREP TRAINING" ows_EventDate5="2012-05-10 07:00:00" ows_EndDate5="2012-05-10 12:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="ELMP DRM" ows_EventDate5="2012-05-10 13:00:00" ows_EndDate5="2012-05-10 15:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="237th Marine Corps Birthday Ball Committee Meeting" ows_EventDate5="2012-05-14 13:00:00" ows_EndDate5="2012-05-14 15:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="CSP Discussion" ows_EventDate5="2012-05-15 13:30:00" ows_EndDate5="2012-05-15 14:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="P &amp; R RMD Director's Staff Meeting" ows_EventDate5="2012-05-16 09:00:00" ows_EndDate5="2012-05-16 10:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="MDC Reassignment Meeting" ows_EventDate5="2012-05-16 13:00:00" ows_EndDate5="2012-05-16 14:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="CSD Pre-Production Meeting" ows_EventDate5="2012-05-16 14:30:00" ows_EndDate5="2012-05-16 15:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="LIS Program Meeting" ows_EventDate5="2012-05-17 08:30:00" ows_EndDate5="2012-05-17 10:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="Position Description Development" ows_EventDate5="2012-05-17 10:30:00" ows_EndDate5="2012-05-17 11:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="Raytheon Program Performance Meeting" ows_EventDate5="2012-05-17 13:30:00" ows_EndDate5="2012-05-17 17:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="Conduct Interviews for OpsDir, GS-0346-14" ows_EventDate5="2012-05-21 08:00:00" ows_EndDate5="2012-05-22 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="P &amp; R RMD Director's Staff Meeting" ows_EventDate5="2012-05-23 09:00:00" ows_EndDate5="2012-05-23 10:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="LCC Safety Meeting" ows_EventDate5="2012-05-23 10:30:00" ows_EndDate5="2012-05-23 11:30:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="WBS Standardization Working Group Meeting" ows_EventDate5="2012-05-23 13:00:00" ows_EndDate5="2012-05-23 15:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="MCPRS/SCS INTERFACE DISCUSSION" ows_EventDate5="2012-05-24 09:00:00" ows_EndDate5="2012-05-24 10:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+      <Details5 ows_Title5="Employee Recognition Day Meeting" ows_EventDate5="2012-05-30 15:00:00" ows_EndDate5="2012-05-30 16:00:00" ows_Conference_Room5="3700 3rd Floor Staff"/>
+    </Details5_Collection>
+  </Tablix7>
+  <Tablix8>
+    <Details6_Collection>
+      <Details6 ows_Title6="Set Release Schedule" ows_EventDate6="2012-04-25 09:00:00" ows_EndDate6="2012-04-25 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="C4 BMCB Meeting" ows_EventDate6="2012-04-25 10:00:00" ows_EndDate6="2012-04-25 11:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Meeting with Katmai reps" ows_EventDate6="2012-04-25 14:30:00" ows_EndDate6="2012-04-25 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Jackie Mitchell" ows_EventDate6="2012-04-26 08:30:00" ows_EndDate6="2012-04-26 09:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Warranty Supply Instruction for Optics" ows_EventDate6="2012-04-26 10:30:00" ows_EndDate6="2012-04-26 12:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CSD Director's meeting" ows_EventDate6="2012-04-26 13:30:00" ows_EndDate6="2012-04-26 14:15:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CG Cop/ET/ETDC Team Meeting" ows_EventDate6="2012-04-26 14:30:00" ows_EndDate6="2012-04-26 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Warranty Supply Instruction Meeting Optics" ows_EventDate6="2012-04-30 10:00:00" ows_EndDate6="2012-04-30 12:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="WSMC Staff Meeting" ows_EventDate6="2012-04-30 15:00:00" ows_EndDate6="2012-04-30 16:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="WSMC Production Meeting ROC Drill" ows_EventDate6="2012-05-01 09:00:00" ows_EndDate6="2012-05-01 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CG Cop/ET/ETDC Team Meeting" ows_EventDate6="2012-05-01 13:00:00" ows_EndDate6="2012-05-01 14:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="LSMC Staff Meeting" ows_EventDate6="2012-05-01 15:00:00" ows_EndDate6="2012-05-01 16:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="EMF" ows_EventDate6="2012-05-02 08:30:00" ows_EndDate6="2012-05-02 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="VTC Test" ows_EventDate6="2012-05-02 11:00:00" ows_EndDate6="2012-05-02 12:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="SDI Post Sustainment Discussions" ows_EventDate6="2012-05-02 14:30:00" ows_EndDate6="2012-05-02 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="LSB Staff Meeting" ows_EventDate6="2012-05-03 08:30:00" ows_EndDate6="2012-05-03 09:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MRAP SharePoint Development" ows_EventDate6="2012-05-03 10:00:00" ows_EndDate6="2012-05-03 11:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="WSMC Production Meeting Walk Thru" ows_EventDate6="2012-05-03 13:30:00" ows_EndDate6="2012-05-03 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="PrimeTech Reset Staff Meeting" ows_EventDate6="2012-05-04 10:00:00" ows_EndDate6="2012-05-04 13:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="C4IS2 Staff Meeting" ows_EventDate6="2012-05-07 09:00:00" ows_EndDate6="2012-05-07 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="C4 Staff Call" ows_EventDate6="2012-05-07 13:30:00" ows_EndDate6="2012-05-07 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CMS Follow on contract meeting" ows_EventDate6="2012-05-08 09:00:00" ows_EndDate6="2012-05-08 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="WSMC SharePoint Redesign" ows_EventDate6="2012-05-08 10:30:00" ows_EndDate6="2012-05-08 11:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MMC Strategic Planning session" ows_EventDate6="2012-05-08 13:00:00" ows_EndDate6="2012-05-08 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Jackie Mitchell" ows_EventDate6="2012-05-09 08:30:00" ows_EndDate6="2012-05-09 09:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MMC Strategic Planning" ows_EventDate6="2012-05-09 13:00:00" ows_EndDate6="2012-05-09 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="EMF" ows_EventDate6="2012-05-10 09:00:00" ows_EndDate6="2012-05-10 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="III MEF Matters" ows_EventDate6="2012-05-10 11:00:00" ows_EndDate6="2012-05-10 12:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MMC LER/Leave Admin Trg" ows_EventDate6="2012-05-10 12:30:00" ows_EndDate6="2012-05-10 16:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="EMF" ows_EventDate6="2012-05-11 09:00:00" ows_EndDate6="2012-05-11 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CSM/SSSS trng" ows_EventDate6="2012-05-11 15:00:00" ows_EndDate6="2012-05-11 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="RECOMP DATA REVIEW" ows_EventDate6="2012-05-14 09:00:00" ows_EndDate6="2012-05-14 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MMC Strategic Planning" ows_EventDate6="2012-05-14 14:30:00" ows_EndDate6="2012-05-14 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="WRRIT and WDTT Reengineering Discussions" ows_EventDate6="2012-05-15 10:00:00" ows_EndDate6="2012-05-15 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="LSMC Process Control" ows_EventDate6="2012-05-15 11:00:00" ows_EndDate6="2012-05-15 13:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="SSD Monthly Staff Mtg" ows_EventDate6="2012-05-15 13:30:00" ows_EndDate6="2012-05-15 15:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="LOGCOM Academy Mission Overview Course Binder Assembly" ows_EventDate6="2012-05-16 08:00:00" ows_EndDate6="2012-05-18 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MRAP WSSM WSMT Status Update" ows_EventDate6="2012-05-21 08:30:00" ows_EndDate6="2012-05-21 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CSM Pre Brief" ows_EventDate6="2012-05-21 13:30:00" ows_EndDate6="2012-05-21 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="JLC 17 / 1277 PROCESS" ows_EventDate6="2012-05-22 09:00:00" ows_EndDate6="2012-05-22 15:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CE/SE Division Staff Meeting" ows_EventDate6="2012-05-22 15:00:00" ows_EndDate6="2012-05-22 16:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Div Dir's CG Brf Rvw" ows_EventDate6="2012-05-23 10:00:00" ows_EndDate6="2012-05-23 12:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="MOSS PMR to C4 Leadership" ows_EventDate6="2012-05-23 13:30:00" ows_EndDate6="2012-05-23 15:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="Key Supplier Day " ows_EventDate6="2012-05-24 13:00:00" ows_EndDate6="2012-05-24 15:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="CSM/SSS Trng" ows_EventDate6="2012-05-25 10:00:00" ows_EndDate6="2012-05-25 11:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="LSB Internal Software Release Meeting" ows_EventDate6="2012-05-30 09:00:00" ows_EndDate6="2012-05-30 10:00:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+      <Details6 ows_Title6="C4 Command Pre-Brief" ows_EventDate6="2012-06-05 09:30:00" ows_EndDate6="2012-06-05 11:30:00" ows_Conference_Room6="Staff Conference 3700, 1st Floor"/>
+    </Details6_Collection>
+  </Tablix8>
+  <Tablix9>
+    <Details7_Collection>
+      <Details7 ows_Title7="MSST Conference" ows_EventDate7="2012-04-25 09:00:00" ows_EndDate7="2012-04-25 10:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Monthly LSMC/P&amp;R Mtg" ows_EventDate7="2012-04-25 10:30:00" ows_EndDate7="2012-04-25 11:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSP &amp; C4IS2 RESOURCE MEETINGS" ows_EventDate7="2012-04-25 13:00:00" ows_EndDate7="2012-04-25 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="WSMC Orientation" ows_EventDate7="2012-04-26 08:00:00" ows_EndDate7="2012-04-27 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="VPP Assessor Training" ows_EventDate7="2012-04-30 08:00:00" ows_EndDate7="2012-04-30 17:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="VPP Assessor Training" ows_EventDate7="2012-05-01 08:00:00" ows_EndDate7="2012-05-01 17:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="VPP Assessor Course" ows_EventDate7="2012-05-02 08:00:00" ows_EndDate7="2012-05-02 12:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="WSMC " ows_EventDate7="2012-05-02 13:00:00" ows_EndDate7="2012-05-02 16:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="WICP INTRODUCTION MEETING" ows_EventDate7="2012-05-03 09:00:00" ows_EndDate7="2012-05-03 09:45:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC Web Pages on Pubs Server" ows_EventDate7="2012-05-03 13:00:00" ows_EndDate7="2012-05-03 14:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="NIMSC-5 IPT" ows_EventDate7="2012-05-03 14:00:00" ows_EndDate7="2012-05-03 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="SMOD ALL HANDS MEETING" ows_EventDate7="2012-05-07 13:00:00" ows_EndDate7="2012-05-07 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC Weekly Staff Meeting" ows_EventDate7="2012-05-07 15:00:00" ows_EndDate7="2012-05-07 16:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CE/SE Division Staff Meeting" ows_EventDate7="2012-05-08 09:00:00" ows_EndDate7="2012-05-08 10:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CG Cop/ET/ETDC Team Meeting" ows_EventDate7="2012-05-08 10:00:00" ows_EndDate7="2012-05-08 11:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CMS Contract follow meeting" ows_EventDate7="2012-05-08 11:00:00" ows_EndDate7="2012-05-08 12:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="WSMC Intro w/Marines" ows_EventDate7="2012-05-08 13:00:00" ows_EndDate7="2012-05-08 14:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Enterprise RIP GCSS Conf Call" ows_EventDate7="2012-05-09 16:00:00" ows_EndDate7="2012-05-09 18:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSP Interviews" ows_EventDate7="2012-05-10 08:30:00" ows_EndDate7="2012-05-10 11:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="DCO for E&amp;C for Center Log and Finance Personnel" ows_EventDate7="2012-05-10 13:00:00" ows_EndDate7="2012-05-10 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="MMC Staff Meeting" ows_EventDate7="2012-05-10 15:00:00" ows_EndDate7="2012-05-10 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="L-3 Teleconference" ows_EventDate7="2012-05-14 13:00:00" ows_EndDate7="2012-05-14 14:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC Staff Meeting" ows_EventDate7="2012-05-14 14:45:00" ows_EndDate7="2012-05-14 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Safety Rep Meeting" ows_EventDate7="2012-05-15 09:00:00" ows_EndDate7="2012-05-15 10:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSD Staff Meeting" ows_EventDate7="2012-05-15 10:00:00" ows_EndDate7="2012-05-15 11:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="EMF" ows_EventDate7="2012-05-15 13:00:00" ows_EndDate7="2012-05-15 15:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Marine Website training" ows_EventDate7="2012-05-16 09:00:00" ows_EndDate7="2012-05-16 11:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSB Brf to SSD Chf" ows_EventDate7="2012-05-16 14:00:00" ows_EndDate7="2012-05-16 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="MSST Mgmt View" ows_EventDate7="2012-05-16 15:00:00" ows_EndDate7="2012-05-16 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Meeting" ows_EventDate7="2012-05-17 09:30:00" ows_EndDate7="2012-05-17 11:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Meeting" ows_EventDate7="2012-05-17 11:00:00" ows_EndDate7="2012-05-17 13:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="START Overview" ows_EventDate7="2012-05-17 13:00:00" ows_EndDate7="2012-05-17 14:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Monthly SECREP WIPT Telecon" ows_EventDate7="2012-05-17 14:30:00" ows_EndDate7="2012-05-17 16:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSM Weekly Trng" ows_EventDate7="2012-05-18 14:00:00" ows_EndDate7="2012-05-18 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSP Contract Meeting" ows_EventDate7="2012-05-21 09:00:00" ows_EndDate7="2012-05-21 10:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSD WSSM Brief" ows_EventDate7="2012-05-21 14:00:00" ows_EndDate7="2012-05-21 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC Staff Meeting" ows_EventDate7="2012-05-21 15:00:00" ows_EndDate7="2012-05-21 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC MEETING" ows_EventDate7="2012-05-22 08:00:00" ows_EndDate7="2012-05-22 09:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="JHA Meeting" ows_EventDate7="2012-05-22 09:00:00" ows_EndDate7="2012-05-22 10:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSM Brief" ows_EventDate7="2012-05-22 11:00:00" ows_EndDate7="2012-05-22 13:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="WSMC Center Monthly Report Meeting" ows_EventDate7="2012-05-22 15:00:00" ows_EndDate7="2012-05-22 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="CSP &amp; C4IS2 RESOURCE STATUS MTGS" ows_EventDate7="2012-05-23 09:00:00" ows_EndDate7="2012-05-23 11:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="JEAP RESOURCE STATUS MEETING" ows_EventDate7="2012-05-23 14:00:00" ows_EndDate7="2012-05-23 15:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Enterprise RIP GCSS Conf Call" ows_EventDate7="2012-05-23 16:00:00" ows_EndDate7="2012-05-23 18:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC RESOURCE STATUS MEETINGS" ows_EventDate7="2012-05-24 13:00:00" ows_EndDate7="2012-05-24 16:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Logistics Services Management Ctr Staff Meeting" ows_EventDate7="2012-05-28 14:50:00" ows_EndDate7="2012-05-28 16:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="LSMC Pre-Brief for Update to CG" ows_EventDate7="2012-06-05 09:00:00" ows_EndDate7="2012-06-05 10:30:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+      <Details7 ows_Title7="Enterprise RIP Conf Call" ows_EventDate7="2012-06-06 16:00:00" ows_EndDate7="2012-06-06 18:00:00" ows_Conference_Room7="McClintock 3700, 1st Floor"/>
+    </Details7_Collection>
+  </Tablix9>
+</Report>
