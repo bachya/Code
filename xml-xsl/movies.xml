@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cinemas type="TRADICIONAL" name="C. Plaza Morelia">
+  <cinema number="1" seats="225">
+    <movies>
+      <movie id="1">
+        <name>Angeles y Demonios  Sub</name>
+        <rating>B15</rating>
+        <poster>la-version-de-mi-vida-poster.jpg</poster>
+        <icons>
+          <icon tipo="SUBTITULADA" />
+        </icons>
+        <times>
+          <hour available="213" sold="12">16:00</hour>
+          <hour available="162" sold="59">18:50</hour>
+          <hour available="171" sold="54">21:40</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="2" seats="108">
+    <movies>
+      <movie id="2">
+        <name>Los Niños de China</name>
+        <rating>B15</rating>
+        <poster>losninosdechina.jpg</poster>
+        <icons>
+          <icon tipo="SUBTITULADA" />
+        </icons>
+        <times>
+          <hour available="89" sold="19">14:30</hour>
+          <hour available="86" sold="22">17:05</hour>
+          <hour available="42" sold="64">19:30</hour>
+          <hour available="76" sold="32">22:00</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="3" seats="108">
+    <movies>
+      <movie id="3">
+        <name>7 Soles</name>
+        <rating>B15</rating>
+        <poster>7soles.jpg</poster>
+        <icons>
+          <icon tipo="OTRO ENFOQUE" />
+        </icons>
+        <times>
+          <hour available="103" sold="5">15:25</hour>
+          <hour available="104" sold="4">17:10</hour>
+          <hour available="95" sold="13">18:55</hour>
+          <hour available="95" sold="13">20:40</hour>
+          <hour available="103" sold="5">22:25</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="4" seats="187">
+    <movies>
+      <movie id="4">
+        <name>Angeles y Demonios  Sub</name>
+        <rating>B15</rating>
+        <poster>ANGELESYDEMONIOS.JPG</poster>
+        <icons>
+          <icon tipo="SUBTITULADA" />
+        </icons>
+        <times>
+          <hour available="181" sold="6">14:40</hour>
+          <hour available="141" sold="42">17:30</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="5" seats="106">
+    <movies>
+      <movie id="6">
+        <name>Como Atrapar a un Millonario</name>
+        <rating>A</rating>
+        <poster>comoatraparaunmillonario.jpg</poster>
+        <icons />
+        <times>
+          <hour available="85" sold="21">14:35</hour>
+          <hour available="79" sold="27">16:35</hour>
+          <hour available="52" sold="54">18:30</hour>
+          <hour available="36" sold="66">20:25</hour>
+          <hour available="79" sold="27">22:20</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="6" seats="108">
+    <movies>
+      <movie id="10">
+        <name>Praiso Travel</name>
+        <rating>A</rating>
+        <poster>paraisotravel.jpg</poster>
+        <icons />
+        <times>
+          <hour available="89" sold="19">15:15</hour>
+          <hour available="92" sold="16">17:45</hour>
+          <hour available="76" sold="32">20:05</hour>
+          <hour available="103" sold="5">22:30</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="7" seats="375">
+    <movies>
+      <movie id="12">
+        <name>La Tierra  (Digital)</name>
+        <rating>A</rating>
+        <poster>Latierra.jpg</poster>
+        <icons>
+          <icon tipo="DIGITAL" />
+        </icons>
+        <times>
+          <hour available="372" sold="3">14:45</hour>
+          <hour available="366" sold="7">17:00</hour>
+          <hour available="345" sold="30">19:15</hour>
+          <hour available="346" sold="29">21:30</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="8" seats="343">
+    <movies>
+      <movie id="1">
+        <name>X Men Origenes: Wolverine  Sub</name>
+        <rating>B</rating>
+        <poster>wolverine.jpg</poster>
+        <icons />
+        <times>
+          <hour available="322" sold="19">13:10</hour>
+          <hour available="337" sold="6">15:30</hour>
+          <hour available="323" sold="20">17:50</hour>
+          <hour available="273" sold="70">20:10</hour>
+          <hour available="324" sold="19">22:30</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="9" seats="228">
+    <movies>
+      <movie id="16">
+        <name>X Men Origenes: Wolverine  Sub</name>
+        <rating>B</rating>
+        <poster>wolverine.jpg</poster>
+        <icons />
+        <times>
+          <hour available="211" sold="17">14:20</hour>
+          <hour available="208" sold="20">16:40</hour>
+          <hour available="182" sold="46">19:00</hour>
+          <hour available="178" sold="50">21:20</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="10" seats="146">
+    <movies>
+      <movie id="20">
+        <name>Igor Dob</name>
+        <rating>AA</rating>
+        <poster>IGOR.jpg</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="142" sold="4">14:05</hour>
+          <hour available="117" sold="29">18:00</hour>
+        </times>
+      </movie>
+      <movie id="12">
+        <name>La Montaña Embrujada  Dob</name>
+        <rating>A</rating>
+        <poster>LAMONTAÑAEMBRUJADA.jpg</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="131" sold="15">15:50</hour>
+          <hour available="105" sold="41">20:00</hour>
+          <hour available="138" sold="8">22:10</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="11" seats="195">
+    <movies>
+      <movie id="35">
+        <name>Angeles y Demonios  Dob</name>
+        <rating>B15</rating>
+        <poster>ANGELESYDEMONIOS.JPG</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="144" sold="51">14:00</hour>
+          <hour available="170" sold="25">16:50</hour>
+          <hour available="139" sold="56">19:40</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="12" seats="195">
+    <movies>
+      <movie id="16">
+        <name>Angeles y Demonios  Dob</name>
+        <rating>B15</rating>
+        <poster>ANGELESYDEMONIOS.JPG</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="177" sold="18">15:20</hour>
+          <hour available="150" sold="45">18:10</hour>
+          <hour available="125" sold="70">21:00</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="13" seats="196">
+    <movies>
+      <movie id="18">
+        <name>Hannah Montana: La Película</name>
+        <rating>A</rating>
+        <poster>HANNAHMONTANA.JPG</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="192" sold="4">13:55</hour>
+          <hour available="178" sold="18">16:15</hour>
+        </times>
+      </movie>
+      <movie id="19">
+        <name>Los Fantasmas de mis Ex</name>
+        <rating>B</rating>
+        <poster>FANTASMAS.jpg</poster>
+        <icons>
+          <icon tipo="SUBTITULADA" />
+        </icons>
+        <times>
+          <hour available="153" sold="43">18:35</hour>
+          <hour available="152" sold="43">20:55</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="14" seats="196">
+    <movies>
+      <movie id="20">
+        <name>Hannah Montana: La Película</name>
+        <rating>A</rating>
+        <poster>HANNAHMONTANA.JPG</poster>
+        <icons>
+          <icon tipo="DOBLADA" />
+        </icons>
+        <times>
+          <hour available="188" sold="8">15:05</hour>
+          <hour available="167" sold="29">17:25</hour>
+          <hour available="176" sold="20">19:45</hour>
+          <hour available="192" sold="4">22:05</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="15" seats="195">
+    <movies>
+      <movie id="21">
+        <name>X Men Origenes: Wolverine  Dob</name>
+        <rating>B</rating>
+        <poster>wolverine.jpg</poster>
+        <icons />
+        <times>
+          <hour available="169" sold="24">14:55</hour>
+          <hour available="145" sold="50">17:15</hour>
+          <hour available="153" sold="42">19:35</hour>
+          <hour available="165" sold="30">21:55</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+  <cinema number="16" seats="195">
+    <movies>
+      <movie id="22">
+        <name>X Men Origenes: Wolverine  Dob</name>
+        <rating>B</rating>
+        <poster>wolverine.jpg</poster>
+        <icons />
+        <times>
+          <hour available="183" sold="12">13:45</hour>
+          <hour available="175" sold="20">16:05</hour>
+          <hour available="140" sold="55">18:25</hour>
+          <hour available="132" sold="63">20:45</hour>
+        </times>
+      </movie>
+    </movies>
+  </cinema>
+</cinemas>

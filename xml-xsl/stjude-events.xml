@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" version="2.0">
+  <channel xmlns:cfi="http://www.microsoft.com/schemas/rss/core/2005/internal" cfi:lastdownloaderror="None">
+    <title cf:type="text">Digital Signage (Secured Area): DigitalSignage</title>
+    <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/AllItems.aspx</link>
+    <description cf:type="text">RSS feed for the DigitalSignage list.</description>
+    <lastBuildDate>Fri, 03 May 2013 18:21:18 GMT</lastBuildDate>
+    <atom:updated>2013-05-03T18:21:18Z</atom:updated>
+    <generator>Microsoft SharePoint Foundation RSS Generator</generator>
+    <ttl>60</ttl>
+    <language>en-US</language>
+    <image>
+      <url>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/images/siteIcon.png</url>
+      <title>Digital Signage (Secured Area): DigitalSignage</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/AllItems.aspx</link>
+    </image>
+    <item>
+      <title xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="text">Seminars</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=1</link>
+      <description xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="html">&lt;div&gt;&lt;b&gt;Title1:&lt;/b&gt; metabolism and deverlopment: Establishing Novel Strategies to Confront neuroblastoma&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Sub-title:&lt;/b&gt; Promotion seminar: Kevin Freeman, Ph.D&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Filename:&lt;/b&gt; promotion-freeman-4-30-2013.jpg&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled Start Date :&lt;/b&gt; 4/20/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Date:&lt;/b&gt; 4/24/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Time:&lt;/b&gt; 1:00 PM&lt;/div&gt; 
+</description>
+      <author>Cleveland, Calandra</author>
+      <atom:author xmlns:atom="http://www.w3.org/2005/Atom">
+        <atom:name>Cleveland, Calandra</atom:name>
+      </atom:author>
+      <pubDate>Fri, 03 May 2013 17:57:15 GMT</pubDate>
+      <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:published>
+      <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:updated>
+      <guid isPermaLink="true">http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=1</guid>
+      <cfi:id>4</cfi:id>
+      <cfi:effectiveId>2743451343</cfi:effectiveId>
+      <cfi:read>true</cfi:read>
+      <cfi:downloadurl>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/listfeed.aspx?List=%7B47F24131%2DB107%2D42B2%2DB999%2D78956A8560F0%7D&amp;Source=http%3A%2F%2Fcollaboratedev%2Estjude%2Eorg%2Fsites%2FProjectCenter%2FSJ%2FIS%2Fei%2Fdigitalsignage%2FPDS%2FLists%2FDigitalSignage%2FAllItems%2Easpx</cfi:downloadurl>
+      <cfi:lastdownloadtime>2013-05-03T18:16:22.448Z</cfi:lastdownloadtime>
+    </item>
+    <item>
+      <title xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="text">Danny Thomas Lecture</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=2</link>
+      <description xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="html">&lt;div&gt;&lt;b&gt;Title1:&lt;/b&gt; Danny Thomas Lecture Series: 22nd Annual Alan Granoff Lectureship&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Sub-title:&lt;/b&gt; Tumor immunotherapy:lessons from human papillomavirus infeection&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Filename:&lt;/b&gt; dtls-frazer-4-12-2013.jpg&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled Start Date :&lt;/b&gt; 4/9/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Date:&lt;/b&gt; 4/12/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Time:&lt;/b&gt; 5:00 PM&lt;/div&gt; 
+</description>
+      <author>Cleveland, Calandra</author>
+      <atom:author xmlns:atom="http://www.w3.org/2005/Atom">
+        <atom:name>Cleveland, Calandra</atom:name>
+      </atom:author>
+      <pubDate>Fri, 03 May 2013 17:57:15 GMT</pubDate>
+      <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:published>
+      <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:updated>
+      <guid isPermaLink="true">http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=2</guid>
+      <cfi:id>3</cfi:id>
+      <cfi:effectiveId>232694851</cfi:effectiveId>
+      <cfi:read>true</cfi:read>
+      <cfi:downloadurl>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/listfeed.aspx?List=%7B47F24131%2DB107%2D42B2%2DB999%2D78956A8560F0%7D&amp;Source=http%3A%2F%2Fcollaboratedev%2Estjude%2Eorg%2Fsites%2FProjectCenter%2FSJ%2FIS%2Fei%2Fdigitalsignage%2FPDS%2FLists%2FDigitalSignage%2FAllItems%2Easpx</cfi:downloadurl>
+      <cfi:lastdownloadtime>2013-05-03T18:16:22.448Z</cfi:lastdownloadtime>
+    </item>
+    <item>
+      <title xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="text">Seminars</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=3</link>
+      <description xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="html">&lt;div&gt;&lt;b&gt;Title1:&lt;/b&gt; A Chemist's Foray into Translational Research- From Stem Cells to an Expanded Genetic Code&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Filename:&lt;/b&gt; roundtable-discussion-4-26-2013.jpg&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled Start Date :&lt;/b&gt; 4/22/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Date:&lt;/b&gt; 4/26/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Time:&lt;/b&gt; 2:30 PM&lt;/div&gt; 
+</description>
+      <author>Cleveland, Calandra</author>
+      <atom:author xmlns:atom="http://www.w3.org/2005/Atom">
+        <atom:name>Cleveland, Calandra</atom:name>
+      </atom:author>
+      <pubDate>Fri, 03 May 2013 17:57:15 GMT</pubDate>
+      <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:published>
+      <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:updated>
+      <guid isPermaLink="true">http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=3</guid>
+      <cfi:id>2</cfi:id>
+      <cfi:effectiveId>2331417545</cfi:effectiveId>
+      <cfi:read>true</cfi:read>
+      <cfi:downloadurl>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/listfeed.aspx?List=%7B47F24131%2DB107%2D42B2%2DB999%2D78956A8560F0%7D&amp;Source=http%3A%2F%2Fcollaboratedev%2Estjude%2Eorg%2Fsites%2FProjectCenter%2FSJ%2FIS%2Fei%2Fdigitalsignage%2FPDS%2FLists%2FDigitalSignage%2FAllItems%2Easpx</cfi:downloadurl>
+      <cfi:lastdownloadtime>2013-05-03T18:16:22.448Z</cfi:lastdownloadtime>
+    </item>
+    <item>
+      <title xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="text">Seminars</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=4</link>
+      <description xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="html">&lt;div&gt;&lt;b&gt;Title1:&lt;/b&gt; Comprehensive Cancer Center Seminar Series&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Sub-title:&lt;/b&gt; Shared Resources Showcase&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Filename:&lt;/b&gt; ccc-seminar-4-10-2013.jpg&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled Start Date :&lt;/b&gt; 4/9/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Date:&lt;/b&gt; 4/12/2013&lt;/div&gt; 
+</description>
+      <author>Cleveland, Calandra</author>
+      <atom:author xmlns:atom="http://www.w3.org/2005/Atom">
+        <atom:name>Cleveland, Calandra</atom:name>
+      </atom:author>
+      <pubDate>Fri, 03 May 2013 17:57:15 GMT</pubDate>
+      <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:published>
+      <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:updated>
+      <guid isPermaLink="true">http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=4</guid>
+      <cfi:id>1</cfi:id>
+      <cfi:effectiveId>2009278352</cfi:effectiveId>
+      <cfi:read>true</cfi:read>
+      <cfi:downloadurl>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/listfeed.aspx?List=%7B47F24131%2DB107%2D42B2%2DB999%2D78956A8560F0%7D&amp;Source=http%3A%2F%2Fcollaboratedev%2Estjude%2Eorg%2Fsites%2FProjectCenter%2FSJ%2FIS%2Fei%2Fdigitalsignage%2FPDS%2FLists%2FDigitalSignage%2FAllItems%2Easpx</cfi:downloadurl>
+      <cfi:lastdownloadtime>2013-05-03T18:16:22.448Z</cfi:lastdownloadtime>
+    </item>
+    <item>
+      <title xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="text">Seminars</title>
+      <link>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=5</link>
+      <description xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" cf:type="html">&lt;div&gt;&lt;b&gt;Title1:&lt;/b&gt; Comprehensive Cancer Center Seminar Series&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Sub-title:&lt;/b&gt; Genomic Profiling of Pediatric Cutaneous melanoma: Off to a Good Start&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Filename:&lt;/b&gt; ccc-seminar-4-17-2013.jpg&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled Start Date :&lt;/b&gt; 4/22/2013&lt;/div&gt; 
+&lt;div&gt;&lt;b&gt;Display Scheduled End Date:&lt;/b&gt; 4/26/2013&lt;/div&gt; 
+</description>
+      <author>Cleveland, Calandra</author>
+      <atom:author xmlns:atom="http://www.w3.org/2005/Atom">
+        <atom:name>Cleveland, Calandra</atom:name>
+      </atom:author>
+      <pubDate>Fri, 03 May 2013 17:57:15 GMT</pubDate>
+      <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:published>
+      <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2013-05-03T17:57:15Z</atom:updated>
+      <guid isPermaLink="true">http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/Lists/DigitalSignage/DispForm.aspx?ID=5</guid>
+      <cfi:id>0</cfi:id>
+      <cfi:effectiveId>2655019564</cfi:effectiveId>
+      <cfi:read>true</cfi:read>
+      <cfi:downloadurl>http://collaboratedev.stjude.org/sites/ProjectCenter/SJ/IS/ei/digitalsignage/PDS/_layouts/listfeed.aspx?List=%7B47F24131%2DB107%2D42B2%2DB999%2D78956A8560F0%7D&amp;Source=http%3A%2F%2Fcollaboratedev%2Estjude%2Eorg%2Fsites%2FProjectCenter%2FSJ%2FIS%2Fei%2Fdigitalsignage%2FPDS%2FLists%2FDigitalSignage%2FAllItems%2Easpx</cfi:downloadurl>
+      <cfi:lastdownloadtime>2013-05-03T18:16:22.448Z</cfi:lastdownloadtime>
+    </item>
+  </channel>
+</rss>
