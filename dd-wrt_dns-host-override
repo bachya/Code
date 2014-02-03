@@ -1,0 +1,19 @@
+# For the Media Center, use WAN DNS (i.e., Comcast).
+# #############################################################
+iptables -t nat -A PREROUTING -i br0 -s media-center.phil.lan -p tcp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+iptables -t nat -A PREROUTING -i br0 -s media-center.phil.lan -p udp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+ 
+# For the PS3, use WAN DNS (i.e., Comcast).
+# #############################################################
+iptables -t nat -A PREROUTING -i br0 -s ps3.phil.lan -p tcp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+iptables -t nat -A PREROUTING -i br0 -s ps3.phil.lan -p udp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+ 
+# For the Samsung TV, use WAN DNS (i.e., Comcast).
+# #############################################################
+iptables -t nat -A PREROUTING -i br0 -s samsung-tv.phil.lan -p tcp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+iptables -t nat -A PREROUTING -i br0 -s samsung-tv.phil.lan -p udp --dport 53 -j DNAT --to $(nvram get wan_get_dns | awk -F' ' '{print $1}')
+ 
+# For every other client, use LAN DNS.
+# #############################################################
+iptables -t nat -A PREROUTING -i br0 -p udp --dport 53 -j DNAT --to $(nvram get lan_ipaddr)
+iptables -t nat -A PREROUTING -i br0 -p tcp --dport 53 -j DNAT --to $(nvram get lan_ipaddr)
